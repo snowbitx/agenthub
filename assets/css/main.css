@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-background: #09090b;
+  --color-surface: #0c0c0f;
+  --color-card: #101014;
+  --color-card-hover: #16161c;
+  --color-border: #232329;
+  --color-border-strong: #34343c;
+  --color-foreground: #ececed;
+  --color-muted: #9d9da7;
+  --color-faint: #62626c;
+  --color-primary: #42d392;
+  --color-primary-strong: #2bb673;
+  --color-primary-soft: rgba(66, 211, 146, 0.12);
+  --color-accent: #647aff;
+  --color-accent-soft: rgba(100, 122, 255, 0.13);
+  --color-warn: #f5a524;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(66, 211, 146, 0.25);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a32;
+  border-radius: 8px;
+  border: 2px solid var(--color-background);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 75% 65% at 50% 0%, black 45%, transparent 100%);
+}
+
+.glow-primary {
+  background: radial-gradient(closest-side, rgba(66, 211, 146, 0.16), transparent);
+}
+
+.glow-accent {
+  background: radial-gradient(closest-side, rgba(100, 122, 255, 0.15), transparent);
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, #ececed 15%, #42d392 55%, #647aff 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes float-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.float-in {
+  animation: float-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.pulse-dot {
+  animation: pulse-dot 2.2s ease-in-out infinite;
+}

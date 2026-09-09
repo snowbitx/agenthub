@@ -1,0 +1,65 @@
+{
+  "https://github.com/anthropics/skills": {
+    "stars": 175317,
+    "forks": 20755,
+    "issues": 1218,
+    "createdAt": "2025-09-22T15:53:31Z",
+    "pushedAt": "2026-09-03T16:37:14Z",
+    "description": "Public repository for Agent Skills",
+    "lastSyncedAt": "2026-09-09T08:40:58.876Z"
+  },
+  "https://github.com/travisvn/awesome-claude-skills": {
+    "stars": 15007,
+    "forks": 1947,
+    "issues": 805,
+    "createdAt": "2025-10-16T20:42:39Z",
+    "pushedAt": "2026-04-28T19:30:24Z",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+    "lastSyncedAt": "2026-09-09T08:40:59.593Z"
+  },
+  "https://github.com/anthropics/claude-cookbooks": {
+    "stars": 52576,
+    "forks": 6298,
+    "issues": 324,
+    "createdAt": "2023-08-15T20:23:51Z",
+    "pushedAt": "2026-09-03T22:18:29Z",
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "lastSyncedAt": "2026-09-09T08:41:00.097Z"
+  },
+  "https://github.com/obra/superpowers": {
+    "stars": 283601,
+    "forks": 25390,
+    "issues": 343,
+    "createdAt": "2025-10-09T19:45:18Z",
+    "pushedAt": "2026-09-08T21:39:23Z",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "lastSyncedAt": "2026-09-09T08:41:00.546Z"
+  },
+  "https://github.com/K-Dense-AI/claude-scientific-skills": {
+    "stars": 43989,
+    "forks": 3994,
+    "issues": 31,
+    "createdAt": "2025-10-19T20:54:15Z",
+    "pushedAt": "2026-09-07T09:35:27Z",
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "lastSyncedAt": "2026-09-09T08:41:05.446Z"
+  },
+  "https://github.com/anthropics/claude-code": {
+    "stars": 144508,
+    "forks": 23069,
+    "issues": 12610,
+    "createdAt": "2025-02-22T17:41:21Z",
+    "pushedAt": "2026-09-08T23:55:14Z",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "lastSyncedAt": "2026-09-09T08:41:01.328Z"
+  },
+  "https://github.com/davila7/claude-code-templates": {
+    "stars": 30567,
+    "forks": 3453,
+    "issues": 240,
+    "createdAt": "2025-07-04T01:26:26Z",
+    "pushedAt": "2026-09-09T03:10:21Z",
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "lastSyncedAt": "2026-09-09T08:41:01.776Z"
+  }
+}
