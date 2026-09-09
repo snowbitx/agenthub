@@ -19,8 +19,8 @@ export default defineNuxtConfig({
       titleTemplate: (t) => (t ? `${t} · SkillsHub` : 'SkillsHub — Discover the Agent Skills Ecosystem'),
     },
   },
-  nitro: {
-    preset: 'node-server',
+  typescript: {
+    strict: true,
+    tsConfig: { compilerOptions: { resolveJsonModule: true } },
   },
-  typescript: { strict: true },
 })

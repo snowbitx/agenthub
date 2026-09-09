@@ -1,27 +1,12 @@
-import { readFileSync, existsSync } from 'node:fs'
-import { dirname, join, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { projects as seedProjects } from '../../data/projects'
 import { categories } from '../../data/categories'
+import metricsJson from '../../data/metrics.json'
 import type { Project } from '../../shared/schema'
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..')
-const METRICS_FILE = join(ROOT, 'data', 'metrics.json')
-
-let metricsCache: Record<string, any> | null = null
-
-function loadMetrics(): Record<string, any> {
-  if (metricsCache) return metricsCache
-  try {
-    metricsCache = JSON.parse(readFileSync(METRICS_FILE, 'utf8'))
-  } catch {
-    metricsCache = {}
-  }
-  return metricsCache!
-}
+/** GitHub 指标在构建期内联进 server bundle,运行时零文件系统依赖(serverless 友好) */
+const metrics = metricsJson as Record<string, any>
 
 export function getAllProjects(): Project[] {
-  const metrics = loadMetrics()
   return seedProjects.map((p) => {
     const m = metrics[p.repo] ?? {}
     return {
@@ -42,7 +27,6 @@ export function getProjectBySlug(slug: string): Project | undefined {
 
 export function getStats() {
   const all = getAllProjects()
-  const metrics = loadMetrics()
   const uniqueRepos = new Set(all.map((p) => p.repo))
   const totalStars = [...uniqueRepos].reduce((sum, repo) => sum + (metrics[repo]?.stars ?? 0), 0)
   const lastSyncedAt = all
