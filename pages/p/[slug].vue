@@ -13,11 +13,23 @@ if (error.value || !project.value) {
 const cat = computed(() => categoryMap[project.value!.category])
 const health = computed(() => healthLabel(project.value!.pushedAt))
 const isCollection = computed(() => project.value!.kind === 'collection')
+const isAgent = computed(() => project.value!.kind === 'agent')
 
-const installCmd = computed(() =>
-  project.value!.sourcePath
-    ? `npx skills add ${project.value!.repo.replace('https://github.com/', '')}/${project.value!.sourcePath}`
-    : `npx skills add ${project.value!.repo.replace('https://github.com/', '')}`,
+const installCmd = computed(() => {
+  const path = project.value!.repo.replace('https://github.com/', '')
+  if (isAgent.value) {
+    return project.value!.npm ? `npm install ${project.value!.npm}` : `pip install ${path.split('/')[1]}`
+  }
+  return project.value!.sourcePath ? `npx skills add ${path}/${project.value!.sourcePath}` : `npx skills add ${path}`
+})
+
+const installLabel = computed(() =>
+  isAgent.value ? '快速安装' : '安装方式',
+)
+const installHint = computed(() =>
+  isAgent.value
+    ? '按项目 README 选择对应语言生态安装;下方命令适用于标注了 npm 包的项目。'
+    : 'Skill 即一个包含 SKILL.md 的文件夹:模型读取其元数据后按需加载指令与脚本。你也可以直接把仓库克隆到 ~/.claude/skills/ 目录使用。',
 )
 
 const copied = ref(false)
@@ -62,12 +74,12 @@ useSeoMeta({
           <div class="flex items-start gap-4">
             <span
               class="grid size-12 shrink-0 place-items-center rounded-xl text-2xl"
-              :class="isCollection ? 'bg-accent-soft' : 'bg-primary-soft border border-primary/20'"
-            >{{ isCollection ? '📦' : '⚡' }}</span>
+              :class="isCollection ? 'bg-accent-soft' : isAgent ? 'bg-[#f5a524]/10' : 'bg-primary-soft border border-primary/20'"
+            >{{ isCollection ? '📦' : isAgent ? '🤖' : '⚡' }}</span>
             <div class="min-w-0 flex-1">
               <div class="flex flex-wrap items-center gap-2">
                 <h1 class="text-xl sm:text-2xl font-bold tracking-tight font-mono break-all">{{ project.name }}</h1>
-                <span class="rounded-md bg-white/[0.04] border border-border px-1.5 py-0.5 text-[10.5px] text-muted">{{ isCollection ? '技能合集' : '技能' }}</span>
+                <span class="rounded-md bg-white/[0.04] border border-border px-1.5 py-0.5 text-[10.5px] text-muted">{{ isCollection ? '技能合集' : isAgent ? 'Agent 框架' : '技能' }}</span>
                 <span v-if="project.featured" class="rounded-md bg-warn/10 border border-warn/30 px-1.5 py-0.5 text-[10.5px] text-warn">精选</span>
               </div>
               <p class="mt-1 text-[12.5px] text-faint font-mono">by {{ project.author }}</p>
@@ -80,10 +92,10 @@ useSeoMeta({
         </header>
 
         <section class="mt-5 rounded-2xl border border-border bg-card p-6 sm:p-7">
-          <h2 class="text-[15px] font-semibold">安装方式</h2>
-          <p class="mt-1.5 text-[13px] text-muted">在 Claude Code 或支持 Agent Skills 的运行时中执行:</p>
+          <h2 class="text-[15px] font-semibold">{{ installLabel }}</h2>
+          <p class="mt-1.5 text-[13px] text-muted">在终端中执行:</p>
           <div class="mt-3 flex items-stretch overflow-hidden rounded-lg border border-border bg-surface font-mono text-[12.5px]">
-            <code class="flex-1 overflow-x-auto px-3.5 py-2.5 text-primary whitespace-nowrap">$ {{ installCmd }}</code>
+            <code class="min-w-0 flex-1 overflow-x-auto px-3.5 py-2.5 text-primary whitespace-nowrap">$ {{ installCmd }}</code>
             <button
               class="shrink-0 border-l border-border px-3 text-[11.5px] text-muted transition-colors hover:bg-white/[0.05] hover:text-foreground"
               @click="copyCmd"
@@ -91,13 +103,10 @@ useSeoMeta({
               {{ copied ? '✓ 已复制' : '复制' }}
             </button>
           </div>
-          <p class="mt-3 text-[12px] leading-relaxed text-faint">
-            Skill 即一个包含 SKILL.md 的文件夹:模型读取其元数据后按需加载指令与脚本。你也可以直接把仓库克隆到
-            <code class="font-mono">~/.claude/skills/</code> 目录使用。
-          </p>
+          <p class="mt-3 text-[12px] leading-relaxed text-faint">{{ installHint }}</p>
         </section>
 
-        <section class="mt-5 rounded-2xl border border-border bg-card p-6 sm:p-7">
+        <section v-if="!isAgent" class="mt-5 rounded-2xl border border-border bg-card p-6 sm:p-7">
           <h2 class="text-[15px] font-semibold">收录信息</h2>
           <dl class="mt-4 grid gap-x-8 gap-y-3 sm:grid-cols-2 text-[13px]">
             <div class="flex justify-between gap-3 sm:justify-start">

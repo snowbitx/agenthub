@@ -1,65 +1,218 @@
 {
   "https://github.com/anthropics/skills": {
-    "stars": 175317,
-    "forks": 20755,
+    "stars": 175354,
+    "forks": 20759,
     "issues": 1218,
     "createdAt": "2025-09-22T15:53:31Z",
     "pushedAt": "2026-09-03T16:37:14Z",
     "description": "Public repository for Agent Skills",
-    "lastSyncedAt": "2026-09-09T08:40:58.876Z"
+    "lastSyncedAt": "2026-09-09T11:57:10.505Z"
   },
   "https://github.com/travisvn/awesome-claude-skills": {
-    "stars": 15007,
+    "stars": 15008,
     "forks": 1947,
     "issues": 805,
     "createdAt": "2025-10-16T20:42:39Z",
     "pushedAt": "2026-04-28T19:30:24Z",
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
-    "lastSyncedAt": "2026-09-09T08:40:59.593Z"
+    "lastSyncedAt": "2026-09-09T11:57:10.838Z"
   },
   "https://github.com/anthropics/claude-cookbooks": {
-    "stars": 52576,
-    "forks": 6298,
+    "stars": 52582,
+    "forks": 6300,
     "issues": 324,
     "createdAt": "2023-08-15T20:23:51Z",
     "pushedAt": "2026-09-03T22:18:29Z",
     "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "lastSyncedAt": "2026-09-09T08:41:00.097Z"
+    "lastSyncedAt": "2026-09-09T11:57:11.373Z"
   },
   "https://github.com/obra/superpowers": {
-    "stars": 283601,
-    "forks": 25390,
-    "issues": 343,
+    "stars": 283701,
+    "forks": 25392,
+    "issues": 344,
     "createdAt": "2025-10-09T19:45:18Z",
     "pushedAt": "2026-09-08T21:39:23Z",
     "description": "An agentic skills framework & software development methodology that works.",
-    "lastSyncedAt": "2026-09-09T08:41:00.546Z"
-  },
-  "https://github.com/K-Dense-AI/claude-scientific-skills": {
-    "stars": 43989,
-    "forks": 3994,
-    "issues": 31,
-    "createdAt": "2025-10-19T20:54:15Z",
-    "pushedAt": "2026-09-07T09:35:27Z",
-    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-    "lastSyncedAt": "2026-09-09T08:41:05.446Z"
+    "lastSyncedAt": "2026-09-09T11:57:11.986Z"
   },
   "https://github.com/anthropics/claude-code": {
-    "stars": 144508,
-    "forks": 23069,
-    "issues": 12610,
+    "stars": 144517,
+    "forks": 23067,
+    "issues": 12512,
     "createdAt": "2025-02-22T17:41:21Z",
     "pushedAt": "2026-09-08T23:55:14Z",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "lastSyncedAt": "2026-09-09T08:41:01.328Z"
+    "lastSyncedAt": "2026-09-09T11:57:12.389Z"
   },
   "https://github.com/davila7/claude-code-templates": {
-    "stars": 30567,
-    "forks": 3453,
+    "stars": 30572,
+    "forks": 3455,
     "issues": 240,
     "createdAt": "2025-07-04T01:26:26Z",
     "pushedAt": "2026-09-09T03:10:21Z",
     "description": "CLI tool for configuring and monitoring Claude Code",
-    "lastSyncedAt": "2026-09-09T08:41:01.776Z"
+    "lastSyncedAt": "2026-09-09T11:57:12.864Z"
+  },
+  "https://github.com/K-Dense-AI/claude-scientific-skills": {
+    "stars": 44025,
+    "forks": 3996,
+    "issues": 31,
+    "createdAt": "2025-10-19T20:54:15Z",
+    "pushedAt": "2026-09-07T09:35:27Z",
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "lastSyncedAt": "2026-09-09T11:57:13.837Z"
+  },
+  "https://github.com/langchain-ai/langchain": {
+    "stars": 145999,
+    "forks": 24386,
+    "issues": 465,
+    "createdAt": "2022-10-17T02:58:36Z",
+    "pushedAt": "2026-09-09T08:30:27Z",
+    "description": "The agent engineering platform.",
+    "lastSyncedAt": "2026-09-09T11:57:14.180Z"
+  },
+  "https://github.com/langchain-ai/langgraph": {
+    "stars": 41314,
+    "forks": 6979,
+    "issues": 769,
+    "createdAt": "2023-08-09T18:33:12Z",
+    "pushedAt": "2026-09-09T07:22:45Z",
+    "description": "Build resilient agents.",
+    "lastSyncedAt": "2026-09-09T11:57:14.503Z"
+  },
+  "https://github.com/microsoft/autogen": {
+    "stars": 60891,
+    "forks": 9200,
+    "issues": 1064,
+    "createdAt": "2023-08-18T11:43:45Z",
+    "pushedAt": "2026-04-15T11:59:09Z",
+    "description": "A programming framework for agentic AI",
+    "lastSyncedAt": "2026-09-09T11:57:14.864Z"
+  },
+  "https://github.com/crewAIInc/crewAI": {
+    "stars": 58279,
+    "forks": 8388,
+    "issues": 747,
+    "createdAt": "2023-10-27T03:26:59Z",
+    "pushedAt": "2026-09-09T11:15:25Z",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "lastSyncedAt": "2026-09-09T11:57:15.238Z"
+  },
+  "https://github.com/openai/openai-agents-python": {
+    "stars": 29295,
+    "forks": 4681,
+    "issues": 36,
+    "createdAt": "2025-03-11T03:42:36Z",
+    "pushedAt": "2026-09-09T09:44:47Z",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "lastSyncedAt": "2026-09-09T11:57:15.671Z"
+  },
+  "https://github.com/vercel/ai": {
+    "stars": 26657,
+    "forks": 5094,
+    "issues": 1524,
+    "createdAt": "2023-05-23T15:04:08Z",
+    "pushedAt": "2026-09-09T00:26:13Z",
+    "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+    "lastSyncedAt": "2026-09-09T11:57:16.286Z"
+  },
+  "https://github.com/mastra-ai/mastra": {
+    "stars": 27837,
+    "forks": 2745,
+    "issues": 545,
+    "createdAt": "2024-08-06T20:44:31Z",
+    "pushedAt": "2026-09-09T11:51:17Z",
+    "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+    "lastSyncedAt": "2026-09-09T11:57:17.051Z"
+  },
+  "https://github.com/pydantic/pydantic-ai": {
+    "stars": 19826,
+    "forks": 2676,
+    "issues": 843,
+    "createdAt": "2024-06-21T15:55:04Z",
+    "pushedAt": "2026-09-09T09:50:06Z",
+    "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+    "lastSyncedAt": "2026-09-09T11:57:17.384Z"
+  },
+  "https://github.com/google/adk-python": {
+    "stars": 21461,
+    "forks": 3975,
+    "issues": 522,
+    "createdAt": "2025-04-01T20:44:40Z",
+    "pushedAt": "2026-09-09T05:56:13Z",
+    "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "lastSyncedAt": "2026-09-09T11:57:17.751Z"
+  },
+  "https://github.com/strands-agents/sdk-python": {
+    "stars": 7182,
+    "forks": 1118,
+    "issues": 726,
+    "createdAt": "2025-05-14T19:59:51Z",
+    "pushedAt": "2026-09-09T08:00:10Z",
+    "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+    "lastSyncedAt": "2026-09-09T11:57:19.053Z"
+  },
+  "https://github.com/openinterpreter/open-interpreter": {
+    "stars": 68271,
+    "forks": 5883,
+    "issues": 0,
+    "createdAt": "2023-07-14T07:10:44Z",
+    "pushedAt": "2026-09-09T04:59:04Z",
+    "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
+    "lastSyncedAt": "2026-09-09T11:57:19.715Z"
+  },
+  "https://github.com/browser-use/browser-use": {
+    "stars": 113871,
+    "forks": 12510,
+    "issues": 416,
+    "createdAt": "2024-10-31T16:00:56Z",
+    "pushedAt": "2026-09-07T19:55:36Z",
+    "description": "Agents that use the browser.",
+    "lastSyncedAt": "2026-09-09T11:57:20.045Z"
+  },
+  "https://github.com/simstudioai/sim": {
+    "stars": 29583,
+    "forks": 3810,
+    "issues": 322,
+    "createdAt": "2025-01-05T22:47:49Z",
+    "pushedAt": "2026-09-09T06:55:21Z",
+    "description": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+    "lastSyncedAt": "2026-09-09T11:57:20.585Z"
+  },
+  "https://github.com/openclaw/openclaw": {
+    "stars": 389273,
+    "forks": 81805,
+    "issues": 6487,
+    "createdAt": "2025-11-24T10:16:47Z",
+    "pushedAt": "2026-09-09T11:56:27Z",
+    "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+    "lastSyncedAt": "2026-09-09T11:57:20.967Z"
+  },
+  "https://github.com/anthropics/claude-code-sdk-python": {
+    "stars": 8065,
+    "forks": 1266,
+    "issues": 449,
+    "createdAt": "2025-06-11T21:33:43Z",
+    "pushedAt": "2026-09-08T23:56:10Z",
+    "description": null,
+    "lastSyncedAt": "2026-09-09T11:57:21.613Z"
+  },
+  "https://github.com/sst/opencode": {
+    "stars": 206059,
+    "forks": 26914,
+    "issues": 5703,
+    "createdAt": "2025-04-30T20:08:00Z",
+    "pushedAt": "2026-09-09T11:50:04Z",
+    "description": "The open source coding agent.",
+    "lastSyncedAt": "2026-09-09T11:57:22.451Z"
+  },
+  "https://github.com/google-gemini/gemini-cli": {
+    "stars": 106876,
+    "forks": 14542,
+    "issues": 824,
+    "createdAt": "2025-04-17T17:04:31Z",
+    "pushedAt": "2026-09-09T01:26:07Z",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "lastSyncedAt": "2026-09-09T11:57:22.804Z"
   }
 }

@@ -12,15 +12,15 @@
 
       <h1 class="float-in mt-6 text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.08]" style="animation-delay: 60ms">
         Discover the
-        <span class="text-gradient">Agent Skills</span>
+        <span class="text-gradient">Agent Ecosystem</span>
         <br class="hidden sm:block" />
-        Ecosystem
+        Skills · Frameworks · Tools
       </h1>
 
       <p class="float-in mx-auto mt-5 max-w-2xl text-[15px] sm:text-base leading-relaxed text-muted" style="animation-delay: 120ms">
-        一个开放、社区驱动的 Agent Skills 目录。
-        收录官方与社区最好的技能包,帮助你在碎片化的生态里
-        快速找到让 Agent 真正干活的能力模块。
+        一个开放、社区驱动的 Agent 生态目录。
+        收录官方与社区最好的 Skills 与 Agent 框架,帮助你在碎片化的生态里
+        快速找到真正干活的能力模块与智能体。
       </p>
 
       <div class="float-in mt-8 flex flex-wrap items-center justify-center gap-3" style="animation-delay: 180ms">
@@ -28,7 +28,7 @@
           to="/browse"
           class="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-[14px] font-semibold text-background transition-all hover:bg-primary-strong hover:shadow-[0_0_24px_rgba(66,211,146,0.35)]"
         >
-          浏览全部技能
+          浏览全部项目
           <svg viewBox="0 0 16 16" class="size-4" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </NuxtLink>
         <NuxtLink
@@ -53,7 +53,7 @@
 const { data: stats } = await useFetch('/api/stats', { default: () => ({}) })
 
 const statItems = computed(() => [
-  { label: '收录技能', value: String(stats.value.totalProjects ?? '—') },
+  { label: '收录项目', value: String(stats.value.totalProjects ?? '—') },
   { label: '覆盖仓库', value: String(stats.value.totalRepos ?? '—') },
   { label: '分类', value: String(stats.value.totalCategories ?? '—') },
   { label: '生态 Stars', value: formatStars(stats.value.totalStars) },

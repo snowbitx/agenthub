@@ -7,9 +7,9 @@
       <div class="flex items-center gap-2.5 min-w-0">
         <span
           class="grid size-9 shrink-0 place-items-center rounded-lg text-base"
-          :class="project.kind === 'collection' ? 'bg-accent-soft' : 'bg-primary-soft'"
+          :class="project.kind === 'collection' ? 'bg-accent-soft' : project.kind === 'agent' ? 'bg-[#f5a524]/10' : 'bg-primary-soft'"
         >
-          {{ project.kind === 'collection' ? '📦' : '⚡' }}
+          {{ project.kind === 'collection' ? '📦' : project.kind === 'agent' ? '🤖' : '⚡' }}
         </span>
         <div class="min-w-0">
           <h3 class="truncate text-[14px] font-semibold text-foreground group-hover:text-primary transition-colors font-mono">

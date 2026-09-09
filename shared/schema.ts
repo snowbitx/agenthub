@@ -6,8 +6,9 @@ export type CategoryId =
   | 'creative'
   | 'integrations'
   | 'templates'
+  | 'agents'
 
-export type ProjectKind = 'skill' | 'collection'
+export type ProjectKind = 'skill' | 'collection' | 'agent'
 
 export interface ProjectMeta {
   slug: string

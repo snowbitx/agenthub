@@ -15,7 +15,7 @@
 <script setup lang="ts">
 useHead({
   meta: [
-    { name: 'description', content: 'SkillsHub — 发现、学习并使用最好的 Agent Skills。聚合 Anthropic 官方与社区技能,自动同步 GitHub star 与活跃度。' },
+    { name: 'description', content: 'SkillsHub — 发现、学习并使用最好的 Agent Skills 与 Agent 框架。聚合官方与社区项目,自动同步 GitHub star 与活跃度。' },
     { name: 'theme-color', content: '#09090b' },
   ],
   htmlAttrs: { lang: 'zh-CN' },

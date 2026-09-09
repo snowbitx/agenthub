@@ -28,7 +28,7 @@ export function filterProjects(
   if (category && categoryMap[category]) {
     result = result.filter((p) => p.category === category)
   }
-  if (kind === 'skill' || kind === 'collection') {
+  if (['skill', 'collection', 'agent'].includes(kind ?? '')) {
     result = result.filter((p) => p.kind === kind)
   }
   if (q) {

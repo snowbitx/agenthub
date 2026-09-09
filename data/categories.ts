@@ -38,6 +38,12 @@ export const categories: Category[] = [
     icon: '🔌',
   },
   {
+    id: 'agents',
+    label: 'Agent 框架',
+    description: '主流 Agent 框架、SDK 与自主智能体产品',
+    icon: '🤖',
+  },
+  {
     id: 'templates',
     label: '模板与资源集',
     description: '脚手架、配置模板与 awesome 精选合集',

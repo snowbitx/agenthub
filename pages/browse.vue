@@ -69,7 +69,7 @@ useHead({ title: () => (activeCategory.value ? categoryMap[activeCategory.value]
           <span v-if="activeCategory" class="mr-2">{{ categoryMap[activeCategory].icon }}</span>{{ header }}
         </h1>
         <p class="mt-1.5 text-[13.5px] text-muted">
-          {{ activeCategory ? categoryMap[activeCategory].description : '按分类、关键词与排序条件筛选整个技能目录' }}
+          {{ activeCategory ? categoryMap[activeCategory].description : '按分类、类型与排序条件筛选 Skills 与 Agent 框架' }}
         </p>
       </div>
       <div class="flex flex-wrap items-center gap-2.5">
@@ -111,7 +111,7 @@ useHead({ title: () => (activeCategory.value ? categoryMap[activeCategory.value]
       </NuxtLink>
       <span class="mx-1 hidden sm:block h-4 w-px bg-border" />
       <button
-        v-for="k in [{ v: '', l: '全部类型' }, { v: 'skill', l: '⚡ 技能' }, { v: 'collection', l: '📦 合集' }]"
+        v-for="k in [{ v: '', l: '全部类型' }, { v: 'agent', l: '🤖 Agent' }, { v: 'skill', l: '⚡ 技能' }, { v: 'collection', l: '📦 合集' }]"
         :key="k.v"
         class="rounded-full border px-3 py-1.5 text-[12.5px] transition-colors"
         :class="kind === k.v ? 'border-accent/40 bg-accent-soft text-[#8fa2ff]' : 'border-border bg-card text-muted hover:text-foreground'"
