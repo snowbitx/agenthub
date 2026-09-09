@@ -57,7 +57,7 @@ useSeoMeta({
     </div>
 
     <div class="mt-5 grid gap-6 lg:grid-cols-[1fr_320px]">
-      <div>
+      <div class="min-w-0">
         <header class="rounded-2xl border border-border bg-card p-6 sm:p-7">
           <div class="flex items-start gap-4">
             <span
@@ -66,7 +66,7 @@ useSeoMeta({
             >{{ isCollection ? '📦' : '⚡' }}</span>
             <div class="min-w-0 flex-1">
               <div class="flex flex-wrap items-center gap-2">
-                <h1 class="text-xl sm:text-2xl font-bold tracking-tight font-mono">{{ project.name }}</h1>
+                <h1 class="text-xl sm:text-2xl font-bold tracking-tight font-mono break-all">{{ project.name }}</h1>
                 <span class="rounded-md bg-white/[0.04] border border-border px-1.5 py-0.5 text-[10.5px] text-muted">{{ isCollection ? '技能合集' : '技能' }}</span>
                 <span v-if="project.featured" class="rounded-md bg-warn/10 border border-warn/30 px-1.5 py-0.5 text-[10.5px] text-warn">精选</span>
               </div>
@@ -100,27 +100,27 @@ useSeoMeta({
         <section class="mt-5 rounded-2xl border border-border bg-card p-6 sm:p-7">
           <h2 class="text-[15px] font-semibold">收录信息</h2>
           <dl class="mt-4 grid gap-x-8 gap-y-3 sm:grid-cols-2 text-[13px]">
-            <div class="flex justify-between sm:justify-start sm:gap-3">
-              <dt class="text-faint">来源仓库</dt>
-              <dd><a :href="project.repo" target="_blank" rel="noopener" class="font-mono text-[12.5px] text-primary hover:underline">{{ project.repo.replace('https://github.com/', '') }}</a></dd>
+            <div class="flex justify-between gap-3 sm:justify-start">
+              <dt class="text-faint shrink-0">来源仓库</dt>
+              <dd class="min-w-0 break-all text-right sm:text-left"><a :href="project.repo" target="_blank" rel="noopener" class="font-mono text-[12.5px] text-primary hover:underline">{{ project.repo.replace('https://github.com/', '') }}</a></dd>
             </div>
-            <div class="flex justify-between sm:justify-start sm:gap-3">
-              <dt class="text-faint">仓库内路径</dt>
-              <dd class="font-mono text-[12.5px]">{{ project.sourcePath ?? '/' }}</dd>
+            <div class="flex justify-between gap-3 sm:justify-start">
+              <dt class="text-faint shrink-0">仓库内路径</dt>
+              <dd class="min-w-0 font-mono text-[12.5px] break-all text-right sm:text-left">{{ project.sourcePath ?? '/' }}</dd>
             </div>
-            <div class="flex justify-between sm:justify-start sm:gap-3">
-              <dt class="text-faint">收录时间</dt>
+            <div class="flex justify-between gap-3 sm:justify-start">
+              <dt class="text-faint shrink-0">收录时间</dt>
               <dd>{{ formatDate(project.addedAt) }}</dd>
             </div>
-            <div class="flex justify-between sm:justify-start sm:gap-3">
-              <dt class="text-faint">最近同步</dt>
+            <div class="flex justify-between gap-3 sm:justify-start">
+              <dt class="text-faint shrink-0">最近同步</dt>
               <dd>{{ relativeDays(project.lastSyncedAt) }}</dd>
             </div>
           </dl>
         </section>
       </div>
 
-      <aside class="space-y-4 lg:sticky lg:top-20 lg:self-start">
+      <aside class="min-w-0 space-y-4 lg:sticky lg:top-20 lg:self-start">
         <div class="rounded-2xl border border-border bg-card p-5">
           <div class="grid grid-cols-2 gap-3 text-center">
             <div class="rounded-xl bg-surface border border-border/60 p-3.5">
