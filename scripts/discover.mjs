@@ -33,6 +33,14 @@ const QUERIES = [
   'browser+agent+llm', 'computer+use+agent', 'web+automation+ai+agent',
   // workflow/orchestration platforms
   'ai+agent+workflow+platform', 'agent+orchestration', 'llm+agent+builder',
+  // 第二轮:补充生态位
+  'mcp+server+collection', 'model+context+protocol+toolkit',
+  'rag+framework+llm', 'agent+memory+llm',
+  'agent+evaluation+observability', 'llm+observability+tracing',
+  'voice+agent+ai', 'speech+agent+realtime',
+  'ai+agent+国内+开源', '智能体+框架',
+  'claude+code+plugins', 'codex+agent+openai',
+  'agent+security+pentest', 'research+agent+deep',
 ]
 
 async function main() {

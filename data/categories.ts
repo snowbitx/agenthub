@@ -2,6 +2,12 @@ import type { Category } from '../shared/schema'
 
 export const categories: Category[] = [
   {
+    id: 'agents',
+    label: 'Agent 框架',
+    description: '主流 Agent 框架、SDK 与自主智能体产品',
+    icon: '🤖',
+  },
+  {
     id: 'official',
     label: '官方 Skills',
     description: 'Anthropic 官方与示例 Skills:文档、Office 与构建器',
@@ -36,12 +42,6 @@ export const categories: Category[] = [
     label: '集成',
     description: '连接外部服务:MCP server 与 API 集成',
     icon: '🔌',
-  },
-  {
-    id: 'agents',
-    label: 'Agent 框架',
-    description: '主流 Agent 框架、SDK 与自主智能体产品',
-    icon: '🤖',
   },
   {
     id: 'templates',
