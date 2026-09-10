@@ -13,6 +13,8 @@
 </template>
 
 <script setup lang="ts">
+import { THEME_INIT_SCRIPT } from '~/composables/useTheme'
+
 const config = useRuntimeConfig()
 const siteUrl = config.public.siteUrl
 
@@ -22,9 +24,9 @@ useHead({
     { name: 'theme-color', content: '#09090b' },
     { name: 'keywords', content: 'AI Agent, Agent 框架, Agent Skills, Claude Skills, coding agent, browser agent, LangChain, MCP, 智能体, Agent 目录' },
   ],
-  link: [{ rel: 'canonical', href: siteUrl }],
-  htmlAttrs: { lang: 'zh-CN' },
   script: [
+    // 阻塞式内联脚本,在水合前把主题 class 写到 <html>,避免亮色用户刷新闪暗色
+    { innerHTML: THEME_INIT_SCRIPT },
     {
       type: 'application/ld+json',
       innerHTML: JSON.stringify({
@@ -37,6 +39,8 @@ useHead({
       }),
     },
   ],
+  link: [{ rel: 'canonical', href: siteUrl }],
+  htmlAttrs: { lang: 'zh-CN' },
 })
 
 useSeoMeta({

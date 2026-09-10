@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-40 border-b border-border/70 bg-background/80 backdrop-blur-md">
+  <header class="site-header sticky top-0 z-40 border-b border-border/70">
     <div class="mx-auto max-w-6xl px-4 sm:px-6">
       <div class="flex h-14 items-center justify-between gap-4">
         <NuxtLink to="/" class="flex items-center gap-2.5 shrink-0 group">
@@ -26,6 +26,7 @@
           >
             <span class="text-primary">+</span> 提交 Skill
           </NuxtLink>
+          <ThemeToggle />
           <a
             href="https://github.com/anthropics/skills"
             target="_blank"

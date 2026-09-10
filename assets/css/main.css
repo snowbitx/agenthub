@@ -4,6 +4,7 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
+  /* 语义色:默认(暗色)值,亮色主题在 html.light 下整体覆盖 */
   --color-background: #09090b;
   --color-surface: #0c0c0f;
   --color-card: #101014;
@@ -13,12 +14,30 @@
   --color-foreground: #ececed;
   --color-muted: #9d9da7;
   --color-faint: #62626c;
-  --color-primary: #42d392;
-  --color-primary-strong: #2bb673;
-  --color-primary-soft: rgba(66, 211, 146, 0.12);
+  --color-primary: #2bb673;
+  --color-primary-strong: #1d9c60;
+  --color-primary-soft: rgba(43, 182, 115, 0.12);
   --color-accent: #647aff;
   --color-accent-soft: rgba(100, 122, 255, 0.13);
-  --color-warn: #f5a524;
+  --color-warn: #d98a06;
+}
+
+html.light {
+  --color-background: #fafafa;
+  --color-surface: #ffffff;
+  --color-card: #ffffff;
+  --color-card-hover: #f4f4f5;
+  --color-border: #e4e4e7;
+  --color-border-strong: #d4d4d8;
+  --color-foreground: #18181b;
+  --color-muted: #52525b;
+  --color-faint: #a1a1aa;
+  --color-primary: #16a34a;
+  --color-primary-strong: #15803d;
+  --color-primary-soft: rgba(22, 163, 74, 0.1);
+  --color-accent: #4f46e5;
+  --color-accent-soft: rgba(79, 70, 229, 0.08);
+  --color-warn: #b45309;
 }
 
 html {
@@ -30,6 +49,28 @@ body {
   color: var(--color-foreground);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 主题切换时,全局色彩平滑过渡 */
+.theme-transition *,
+.theme-transition *::before,
+.theme-transition *::after {
+  transition:
+    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    fill 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-delay: 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-transition *,
+  body {
+    transition: none !important;
+  }
 }
 
 ::selection {
@@ -41,7 +82,7 @@ body {
   height: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a2a32;
+  background: var(--color-border-strong);
   border-radius: 8px;
   border: 2px solid var(--color-background);
 }
@@ -51,25 +92,61 @@ body {
 
 .hero-grid {
   background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    linear-gradient(to right, var(--color-grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grid-line) 1px, transparent 1px);
   background-size: 44px 44px;
   mask-image: radial-gradient(ellipse 75% 65% at 50% 0%, black 45%, transparent 100%);
 }
 
+html.light {
+  --color-grid-line: rgba(9, 9, 11, 0.05);
+}
+
+html:not(.light) {
+  --color-grid-line: rgba(255, 255, 255, 0.035);
+}
+
 .glow-primary {
-  background: radial-gradient(closest-side, rgba(66, 211, 146, 0.16), transparent);
+  background: radial-gradient(closest-side, var(--color-glow-primary), transparent);
 }
 
 .glow-accent {
-  background: radial-gradient(closest-side, rgba(100, 122, 255, 0.15), transparent);
+  background: radial-gradient(closest-side, var(--color-glow-accent), transparent);
+}
+
+html.light {
+  --color-glow-primary: rgba(22, 163, 74, 0.1);
+  --color-glow-accent: rgba(79, 70, 229, 0.08);
+}
+
+html:not(.light) {
+  --color-glow-primary: rgba(66, 211, 146, 0.16);
+  --color-glow-accent: rgba(100, 122, 255, 0.15);
+}
+
+/* 头部毛玻璃随主题变化 */
+.site-header {
+  background: color-mix(in srgb, var(--color-background) 80%, transparent);
+  backdrop-filter: blur(12px);
 }
 
 .text-gradient {
-  background: linear-gradient(100deg, #ececed 15%, #42d392 55%, #647aff 90%);
+  background: linear-gradient(100deg, var(--color-gradient-from) 15%, var(--color-gradient-mid) 55%, var(--color-gradient-to) 90%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+html.light {
+  --color-gradient-from: #27272a;
+  --color-gradient-mid: #16a34a;
+  --color-gradient-to: #4f46e5;
+}
+
+html:not(.light) {
+  --color-gradient-from: #ececed;
+  --color-gradient-mid: #42d392;
+  --color-gradient-to: #647aff;
 }
 
 @keyframes float-in {
@@ -98,4 +175,29 @@ body {
 
 .pulse-dot {
   animation: pulse-dot 2.2s ease-in-out infinite;
+}
+
+/* 主题切换按钮:图标旋转切换动画 */
+.theme-toggle {
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-toggle svg {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.12s ease;
+}
+
+.theme-rotate-enter-from {
+  transform: rotate(-120deg) scale(0.4);
+  opacity: 0;
+}
+
+.theme-rotate-leave-to {
+  transform: rotate(120deg) scale(0.4);
+  opacity: 0;
+}
+
+.theme-rotate-enter-active,
+.theme-rotate-leave-active {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.12s ease;
 }
