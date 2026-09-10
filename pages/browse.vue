@@ -1,6 +1,17 @@
 <script setup lang="ts">
 import { categories, categoryMap } from '~/data/categories'
 
+interface ExternalRepo {
+  slug: string
+  name: string
+  description: string
+  author: string
+  stars: number
+  pushedAt?: string
+  language?: string
+  url: string
+}
+
 const route = useRoute()
 
 const activeCategory = computed(() => {
@@ -19,8 +30,7 @@ watch(q, (v) => {
   timer = setTimeout(() => (debouncedQ.value = v), 200)
 })
 
-const { data } = await useFetch('/api/projects', {
-  query: computed(() => ({
+const { data } = await useFetch('/api/projects', {  query: computed(() => ({
     category: activeCategory.value || undefined,
     q: debouncedQ.value || undefined,
     sort: sort.value,
@@ -28,6 +38,41 @@ const { data } = await useFetch('/api/projects', {
   })),
 })
 const projects = computed(() => data.value?.projects ?? [])
+
+// 站内无结果时,自动搜 GitHub 上的相关仓库
+const external = ref<{ repos: ExternalRepo[] } | null>(null)
+const externalPending = ref(false)
+const externalError = ref(false)
+let lastExternalQ = ''
+watch(
+  [debouncedQ, data] as const,
+  async ([v, d]) => {
+    if (!v) {
+      lastExternalQ = ''
+      external.value = null
+      externalError.value = false
+      return
+    }
+    if (!d) return // 等站内结果返回后再判断是否为空
+    if (projects.value.length) {
+      external.value = null
+      externalError.value = false
+      return
+    }
+    if (v === lastExternalQ) return
+    lastExternalQ = v
+    externalPending.value = true
+    externalError.value = false
+    try {
+      external.value = await $fetch('/api/search-external', { query: { q: v } })
+    } catch {
+      externalError.value = true
+    } finally {
+      externalPending.value = false
+    }
+  },
+  { immediate: true },
+)
 
 const sortOptions = [
   { value: 'stars', label: '最多 Star' },
@@ -129,13 +174,72 @@ useHead({ title: () => (activeCategory.value ? categoryMap[activeCategory.value]
     <div v-if="projects.length" class="mt-4 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
       <ProjectCard v-for="p in projects" :key="p.slug" :project="p" />
     </div>
-    <div v-else class="mt-10 rounded-xl border border-dashed border-border py-16 text-center">
-      <p class="text-3xl">🔍</p>
-      <p class="mt-3 text-[14px] text-muted">没有匹配的项目</p>
-      <p class="mt-1 text-[12.5px] text-faint">换个关键词,或者清空筛选条件试试</p>
-      <button class="mt-4 rounded-lg border border-border-strong px-4 py-1.5 text-[13px] text-muted hover:text-foreground" @click="q = ''; kind = ''">
-        清空筛选
-      </button>
+    <div v-else class="mt-6">
+      <div class="rounded-xl border border-dashed border-border py-10 text-center">
+        <p class="text-3xl">🔍</p>
+        <p class="mt-3 text-[14px] text-muted">站内没有匹配「{{ debouncedQ }}」的项目</p>
+        <p class="mt-1 text-[12.5px] text-faint">以下是从 GitHub 上找到的相关仓库,或试试换个关键词</p>
+        <div class="mt-4 flex items-center justify-center gap-2">
+          <button class="rounded-lg border border-border-strong px-4 py-1.5 text-[13px] text-muted hover:text-foreground" @click="q = ''; kind = ''">
+            清空筛选
+          </button>
+          <a
+            :href="`https://github.com/search?q=${encodeURIComponent(debouncedQ + ' skill')}&type=repositories`"
+            target="_blank"
+            rel="noopener"
+            class="rounded-lg border border-border-strong px-4 py-1.5 text-[13px] text-muted hover:text-foreground"
+          >
+            在 GitHub 打开完整搜索 ↗
+          </a>
+        </div>
+      </div>
+
+      <div v-if="externalPending" class="mt-8 text-center text-[13px] text-faint">
+        <span class="inline-block animate-pulse">正在搜索 GitHub 上的相关仓库…</span>
+      </div>
+      <p v-else-if="externalError" class="mt-8 text-center text-[12.5px] text-faint">GitHub 搜索暂时不可用(限流),稍后再试。</p>
+
+      <template v-if="external?.repos?.length">
+        <h2 class="mt-8 flex items-center gap-2 text-[14px] font-semibold text-muted">
+          <svg viewBox="0 0 16 16" class="size-3.5" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          GitHub 上的相关仓库
+          <span class="font-mono text-[11px] font-normal text-faint">{{ external.repos.length }} 个结果</span>
+        </h2>
+        <div class="mt-4 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+          <a
+            v-for="r in external.repos"
+            :key="r.slug"
+            :href="r.url"
+            target="_blank"
+            rel="noopener"
+            class="group flex flex-col rounded-xl border border-border bg-card p-4 transition-all duration-200 hover:border-border-strong hover:bg-card-hover hover:-translate-y-0.5"
+          >
+            <div class="flex items-start justify-between gap-3">
+              <div class="min-w-0">
+                <h3 class="truncate text-[14px] font-semibold text-foreground group-hover:text-primary transition-colors font-mono">
+                  {{ r.slug }}
+                </h3>
+                <p class="text-[11px] text-faint truncate">
+                  {{ r.author }}<template v-if="r.language"> · {{ r.language }}</template>
+                </p>
+              </div>
+              <span class="shrink-0 inline-flex items-center gap-1 rounded-md border border-border bg-surface px-2 py-0.5 text-[11px] font-mono text-muted" title="GitHub stars">
+                <svg viewBox="0 0 16 16" class="size-3 text-warn" fill="currentColor" aria-hidden="true"><path d="M8 .8l2.1 4.4 4.9.7-3.5 3.4.8 4.9L8 11.9l-4.3 2.3.8-4.9L1 5.9l4.9-.7L8 .8z"/></svg>
+                {{ formatStars(r.stars) }}
+              </span>
+            </div>
+            <p class="mt-3 text-[13px] leading-relaxed text-muted line-clamp-2">{{ r.description || '暂无描述' }}</p>
+            <div class="mt-auto pt-3 flex items-center justify-between">
+              <span class="inline-flex items-center rounded-md bg-white/[0.04] border border-border px-1.5 py-0.5 text-[10.5px] text-muted">未收录</span>
+              <span class="text-[10.5px] text-faint">在 GitHub 打开 ↗</span>
+            </div>
+          </a>
+        </div>
+        <p class="mt-4 text-[12px] text-faint">
+          觉得哪个值得收录?
+          <NuxtLink to="/submit" class="text-primary hover:underline">提交给我们 →</NuxtLink>
+        </p>
+      </template>
     </div>
   </div>
 </template>

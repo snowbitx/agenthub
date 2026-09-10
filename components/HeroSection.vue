@@ -23,7 +23,31 @@
         快速找到真正干活的能力模块与智能体。
       </p>
 
-      <div class="float-in mt-8 flex flex-wrap items-center justify-center gap-3" style="animation-delay: 180ms">
+      <form class="float-in mx-auto mt-8 flex max-w-xl items-center gap-2" style="animation-delay: 160ms" @submit.prevent="goSearch">
+        <label class="relative flex-1">
+          <svg viewBox="0 0 24 24" class="absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-faint" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
+          <input
+            v-model="searchQ"
+            type="search"
+            placeholder="搜索 Skill,比如 packet-capture…"
+            class="w-full rounded-lg border border-border bg-card py-2.5 pl-10 pr-3 text-[14px] placeholder:text-faint outline-none focus:border-primary/50 focus:ring-2 focus:ring-primary/15 transition"
+          />
+        </label>
+        <button
+          type="submit"
+          class="shrink-0 rounded-lg bg-primary px-4 py-2.5 text-[13.5px] font-semibold text-background transition-all hover:bg-primary-strong hover:shadow-[0_0_24px_rgba(66,211,146,0.35)]"
+        >
+          搜索
+        </button>
+      </form>
+      <div class="float-in mt-3 flex flex-wrap items-center justify-center gap-1.5 text-[11.5px] text-faint" style="animation-delay: 200ms">
+        热门:
+        <NuxtLink v-for="t in ['packet-capture', 'pdf', 'code-review', 'mcp']" :key="t" :to="`/browse?q=${t}`" class="rounded-full border border-border bg-card/70 px-2.5 py-0.5 font-mono text-[11px] text-muted hover:border-primary/40 hover:text-primary transition-colors">
+          {{ t }}
+        </NuxtLink>
+      </div>
+
+      <div class="float-in mt-8 flex flex-wrap items-center justify-center gap-3" style="animation-delay: 240ms">
         <NuxtLink
           to="/browse"
           class="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-[14px] font-semibold text-background transition-all hover:bg-primary-strong hover:shadow-[0_0_24px_rgba(66,211,146,0.35)]"
@@ -51,6 +75,12 @@
 
 <script setup lang="ts">
 const { data: stats } = await useFetch('/api/stats', { default: () => ({}) })
+
+const searchQ = ref('')
+const goSearch = () => {
+  const q = searchQ.value.trim()
+  if (q) navigateTo({ path: '/browse', query: { q } })
+}
 
 const statItems = computed(() => [
   { label: '收录项目', value: String(stats.value.totalProjects ?? '—') },
