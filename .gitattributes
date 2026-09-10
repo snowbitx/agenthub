@@ -1,0 +1,4 @@
+# Exclude generated/lock files from GitHub language statistics
+package-lock.json linguist-generated
+data/metrics.json linguist-generated
+pnpm-lock.yaml linguist-generated
