@@ -1,7 +1,7 @@
 import { getAllProjects, getStats } from '../utils/projects'
 import { categories } from '../../data/categories'
 
-const SITE = process.env.SITE_URL || 'https://agenthub.example.vercel.app'
+const SITE = process.env.SITE_URL || 'https://agenthub-topaz-phi.vercel.app'
 
 export default defineEventHandler((event) => {
   const projects = getAllProjects()

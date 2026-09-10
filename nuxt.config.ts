@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteUrl: process.env.SITE_URL || 'https://agenthub.example.vercel.app',
+      siteUrl: process.env.SITE_URL || 'https://agenthub-topaz-phi.vercel.app',
     },
   },
   app: {
