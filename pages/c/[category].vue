@@ -19,8 +19,31 @@ const repoStars = computed(() => {
   return [...m.values()].sort((a, b) => b - a)
 })
 
-useHead({ title: cat.label })
-useSeoMeta({ description: cat.description })
+const config = useRuntimeConfig()
+const siteUrl = config.public.siteUrl
+
+useHead({
+  title: () => `${cat.label} — AI Agent 生态目录`,
+  link: [{ rel: 'canonical', href: `${siteUrl}/c/${category}` }],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: `${cat.label} · AgentHub`,
+        description: cat.description,
+        url: `${siteUrl}/c/${category}`,
+        numberOfItems: projects.value.length,
+      }),
+    },
+  ],
+})
+useSeoMeta({
+  description: `${cat.description}。${projects.value.length} 个精选项目,GitHub star 与维护状态每日同步。`,
+  ogTitle: `${cat.label} · AgentHub`,
+  ogDescription: cat.description,
+})
 </script>
 
 <template>

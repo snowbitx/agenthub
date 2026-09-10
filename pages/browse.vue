@@ -37,7 +37,7 @@ const sortOptions = [
 ]
 
 const header = computed(() =>
-  activeCategory.value ? categoryMap[activeCategory.value].label : '全部技能',
+  activeCategory.value ? categoryMap[activeCategory.value].label : '全部项目',
 )
 
 watch(
@@ -111,7 +111,7 @@ useHead({ title: () => (activeCategory.value ? categoryMap[activeCategory.value]
       </NuxtLink>
       <span class="mx-1 hidden sm:block h-4 w-px bg-border" />
       <button
-        v-for="k in [{ v: '', l: '全部类型' }, { v: 'agent', l: '🤖 Agent' }, { v: 'skill', l: '⚡ 技能' }, { v: 'collection', l: '📦 合集' }]"
+        v-for="k in [{ v: '', l: '全部类型' }, { v: 'agent', l: '🤖 Agent' }, { v: 'skill', l: '⚡ Skill' }, { v: 'collection', l: '📦 合集' }]"
         :key="k.v"
         class="rounded-full border px-3 py-1.5 text-[12.5px] transition-colors"
         :class="kind === k.v ? 'border-accent/40 bg-accent-soft text-[#8fa2ff]' : 'border-border bg-card text-muted hover:text-foreground'"

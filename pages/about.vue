@@ -4,14 +4,14 @@ useHead({ title: '关于' })
 
 <template>
   <div class="mx-auto max-w-3xl px-4 sm:px-6 py-10 sm:py-14">
-    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">关于 SkillsHub</h1>
+    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">关于 AgentHub</h1>
     <div class="mt-6 space-y-5 text-[14px] leading-relaxed text-muted">
       <p>
-        SkillsHub 是一个<strong class="text-foreground">开放、社区驱动的 Agent Skills 目录</strong>,
+        AgentHub 是一个<strong class="text-foreground">开放、社区驱动的 AI Agent 生态目录</strong>,
         灵感与架构模式来自 vuejs-community:数据即代码,构建期产出索引,运行时零数据库。
       </p>
       <p>
-        Agent Skills 是一种开放的技能格式 —— 一个包含 SKILL.md 的文件夹,
+        Agent Skills 是一种开放的能力包格式 —— 一个包含 SKILL.md 的文件夹,
         让 Agent 在需要时加载对应的能力。生态正在爆发,但资源散落在无数仓库和 awesome 列表里,
         这里是它们的统一入口。
       </p>

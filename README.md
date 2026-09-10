@@ -1,4 +1,4 @@
-# SkillsHub ✦
+# AgentHub ✦
 
 **Discover the Agent Skills Ecosystem** — an open, community-driven directory of Agent Skills.
 Built from scratch following the architecture pattern of [vuejs-community](https://vuejs-community.vercel.app/): data as code, index generated at build time, zero runtime database.

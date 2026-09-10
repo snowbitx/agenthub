@@ -18,7 +18,7 @@
 const features = [
   { icon: '🗂', title: 'Everything Skills, One Place', desc: '官方示例、社区精品、 awesome 合集统一收录,告别在散落的仓库间大海捞针。' },
   { icon: '📈', title: 'Discover What Matters', desc: 'GitHub star、fork、最近推送时间自动同步,热度与维护状态一目了然。' },
-  { icon: '🧪', title: 'Curated for Builders', desc: '每条收录都经过 SKILL.md 格式校验,保证技能在 Claude Code 中真实可运行。' },
-  { icon: '🌱', title: 'Growing with the Ecosystem', desc: '社区通过 PR 提交新技能,类型安全的 defineProjectMeta 保证数据质量。' },
+  { icon: '🧪', title: 'Curated for Builders', desc: '每条收录都经过 SKILL.md 格式校验,保证 Skill 在 Claude Code 中真实可运行。' },
+  { icon: '🌱', title: 'Growing with the Ecosystem', desc: '社区通过 PR 提交新 Skill,类型安全的 defineProjectMeta 保证数据质量。' },
 ]
 </script>

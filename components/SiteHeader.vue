@@ -4,7 +4,7 @@
       <div class="flex h-14 items-center justify-between gap-4">
         <NuxtLink to="/" class="flex items-center gap-2.5 shrink-0 group">
           <span class="grid size-7 place-items-center rounded-lg bg-primary-soft border border-primary/25 text-primary text-sm">✦</span>
-          <span class="font-semibold tracking-tight text-[15px] group-hover:text-primary transition-colors">SkillsHub</span>
+          <span class="font-semibold tracking-tight text-[15px] group-hover:text-primary transition-colors">AgentHub</span>
           <span class="hidden sm:inline text-[10px] font-mono text-faint border border-border rounded px-1.5 py-0.5 mt-0.5">beta</span>
         </NuxtLink>
 
@@ -24,7 +24,7 @@
             to="/submit"
             class="hidden sm:inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-3 py-1.5 text-[13px] text-muted hover:text-foreground hover:border-border-strong transition-colors"
           >
-            <span class="text-primary">+</span> 提交技能
+            <span class="text-primary">+</span> 提交 Skill
           </NuxtLink>
           <a
             href="https://github.com/anthropics/skills"
@@ -62,7 +62,7 @@
             <span class="mr-1.5">{{ c.icon }}</span>{{ c.label }}
           </NuxtLink>
           <NuxtLink to="/submit" class="col-span-2 rounded-lg border border-primary/30 bg-primary-soft px-3 py-2 text-[13px] text-primary text-center" @click="mobileOpen = false">
-            + 提交技能
+            + 提交 Skill
           </NuxtLink>
         </nav>
       </Transition>

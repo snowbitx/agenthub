@@ -50,11 +50,38 @@ const related = computed(() =>
     .slice(0, 3),
 )
 
-useHead({ title: project.value.name })
+const config = useRuntimeConfig()
+const siteUrl = config.public.siteUrl
+const pageTitle = computed(() => `${project.value!.name} — ${isAgent.value ? 'Agent 框架' : 'Agent Skill'}`)
+const pageDesc = computed(
+  () => `${project.value!.description} ★${project.value!.stars ?? '?'} GitHub stars,${health.value.label}。安装方式、维护状态与同分类推荐。`,
+)
+
+useHead({
+  title: pageTitle,
+  link: [{ rel: 'canonical', href: `${siteUrl}/p/${slug}` }],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareApplication',
+        name: project.value!.name,
+        description: project.value!.description,
+        url: `${siteUrl}/p/${slug}`,
+        author: { '@type': 'Organization', name: project.value!.author },
+        applicationCategory: isAgent.value ? 'DeveloperApplication' : 'BrowserApplication',
+        operatingSystem: 'Cross-platform',
+      }),
+    },
+  ],
+})
 useSeoMeta({
-  description: project.value.description,
-  ogTitle: `${project.value.name} · SkillsHub`,
-  ogDescription: project.value.description,
+  description: pageDesc,
+  ogTitle: pageTitle,
+  ogDescription: () => project.value!.description,
+  ogType: 'website',
+  twitterCard: 'summary',
 })
 </script>
 
@@ -79,7 +106,7 @@ useSeoMeta({
             <div class="min-w-0 flex-1">
               <div class="flex flex-wrap items-center gap-2">
                 <h1 class="text-xl sm:text-2xl font-bold tracking-tight font-mono break-all">{{ project.name }}</h1>
-                <span class="rounded-md bg-white/[0.04] border border-border px-1.5 py-0.5 text-[10.5px] text-muted">{{ isCollection ? '技能合集' : isAgent ? 'Agent 框架' : '技能' }}</span>
+                <span class="rounded-md bg-white/[0.04] border border-border px-1.5 py-0.5 text-[10.5px] text-muted">{{ isCollection ? 'Skill 合集' : isAgent ? 'Agent 框架' : 'Skill' }}</span>
                 <span v-if="project.featured" class="rounded-md bg-warn/10 border border-warn/30 px-1.5 py-0.5 text-[10.5px] text-warn">精选</span>
               </div>
               <p class="mt-1 text-[12.5px] text-faint font-mono">by {{ project.author }}</p>

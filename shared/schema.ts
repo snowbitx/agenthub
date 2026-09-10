@@ -17,7 +17,7 @@ export interface ProjectMeta {
   category: CategoryId
   kind: ProjectKind
   repo: string
-  /** 仓库内技能所在子目录(单仓库多技能时使用) */
+  /** 仓库内 Skill 所在子目录(单仓库多个 Skill 时使用) */
   sourcePath?: string
   npm?: string
   author: string

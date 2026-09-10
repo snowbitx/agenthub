@@ -13,11 +13,39 @@
 </template>
 
 <script setup lang="ts">
+const config = useRuntimeConfig()
+const siteUrl = config.public.siteUrl
+
 useHead({
   meta: [
-    { name: 'description', content: 'SkillsHub — 发现、学习并使用最好的 Agent Skills 与 Agent 框架。聚合官方与社区项目,自动同步 GitHub star 与活跃度。' },
+    { name: 'description', content: 'AgentHub — 发现 AI Agent 生态最好的项目:Agent 框架、编程智能体、浏览器 Agent 与 Agent Skills。收录 150+ 项目,GitHub star 与活跃度每日自动同步。' },
     { name: 'theme-color', content: '#09090b' },
+    { name: 'keywords', content: 'AI Agent, Agent 框架, Agent Skills, Claude Skills, coding agent, browser agent, LangChain, MCP, 智能体, Agent 目录' },
   ],
+  link: [{ rel: 'canonical', href: siteUrl }],
   htmlAttrs: { lang: 'zh-CN' },
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'AgentHub',
+        alternateName: 'AgentHub 生态目录',
+        url: siteUrl,
+        description: 'Discover the AI Agent Ecosystem — frameworks, coding agents, browser agents and Agent Skills, with GitHub metrics synced daily.',
+      }),
+    },
+  ],
+})
+
+useSeoMeta({
+  ogTitle: 'AgentHub — Discover the AI Agent Ecosystem',
+  ogDescription: '开放、社区驱动的 AI Agent 生态目录:框架、编程智能体、Agent Skills,150+ 项目每日同步 GitHub 数据。',
+  ogType: 'website',
+  ogSiteName: 'AgentHub',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'AgentHub — Discover the AI Agent Ecosystem',
+  twitterDescription: '150+ AI Agent 框架与 Skills,GitHub 数据每日同步。',
 })
 </script>

@@ -14,7 +14,7 @@ const ROOT = dirname(fileURLToPath(import.meta.url))
 const PROJECTS_FILE = join(ROOT, '..', 'data', 'projects.ts')
 const METRICS_FILE = join(ROOT, '..', 'data', 'metrics.json')
 const TOKEN = process.env.GITHUB_TOKEN || ''
-const UA = 'skillsHub-sync/1.0'
+const UA = 'agenthub-sync/1.0'
 
 function extractRepos(ts) {
   const repos = new Set()
@@ -33,7 +33,10 @@ async function ghFetch(url, tries = 3) {
         ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
       },
     })
-    if (res.ok) return res.json()
+    if (res.ok) {
+      globalThis.__ghRemaining = Number(res.headers.get('x-ratelimit-remaining') ?? Infinity)
+      return res.json()
+    }
     if (res.status === 404) {
       console.warn(`  404 ${url}`)
       return null
@@ -60,7 +63,13 @@ async function main() {
     ? JSON.parse(readFileSync(METRICS_FILE, 'utf8'))
     : {}
   let ok = 0
+  let exhausted = false
   for (const repo of repos) {
+    const existing = metrics[repo]
+    // 12 小时内同步过的仓库跳过,节省限额(幂等续传)
+    if (existing?.lastSyncedAt && Date.now() - new Date(existing.lastSyncedAt).getTime() < 12 * 3600 * 1000) {
+      continue
+    }
     const path = repo.replace('https://github.com/', '')
     const data = await ghFetch(`https://api.github.com/repos/${path}`)
     if (data) {
@@ -75,15 +84,23 @@ async function main() {
       }
       ok++
       console.log(`  ✓ ${path}: ★${data.stargazers_count}`)
-    } else {
+    } else if (data === null) {
       console.warn(`  ✗ ${path} failed, keeping previous metrics`)
+    }
+    // 匿名核心限额只剩 3 个时,先保存已拉到的,避免空手而归
+    const remaining = Number(globalThis.__ghRemaining ?? Infinity)
+    if (remaining <= 3) {
+      console.warn('rate limit nearly exhausted, checkpointing')
+      exhausted = true
+      break
     }
   }
 
   mkdirSync(dirname(METRICS_FILE), { recursive: true })
   writeFileSync(METRICS_FILE, JSON.stringify(metrics, null, 2) + '\n')
-  console.log(`Done: ${ok}/${repos.length} synced -> data/metrics.json`)
-  if (ok === 0) process.exit(1)
+  const covered = Object.keys(metrics).length
+  console.log(`Done: ${ok} newly synced, ${covered}/${repos.length} repos covered -> data/metrics.json${exhausted ? ' (rate-limited, rerun later to resume)' : ''}`)
+  if (covered === 0) process.exit(1)
 }
 
 main().catch((e) => {

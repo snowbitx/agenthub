@@ -1,8 +1,8 @@
 <template>
   <div class="mx-auto max-w-3xl px-4 sm:px-6 py-10 sm:py-14">
-    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">提交技能</h1>
+    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">提交 Skill</h1>
     <p class="mt-2 text-[14px] leading-relaxed text-muted">
-      SkillsHub 是开放目录:任何符合 Agent Skills 规范的项目都可以被收录。
+      AgentHub 是开放目录:任何优质的 Agent 项目(Skills、框架、智能体)都可以被收录。
       数据本身就在仓库里 —— 修改一个 TypeScript 文件,发 PR 即可,站点自动重新部署。
     </p>
 
@@ -29,7 +29,7 @@
       <ul class="mt-3 space-y-2 text-[13.5px] text-muted">
         <li class="flex gap-2"><span class="text-primary">✓</span>仓库包含至少一个 SKILL.md(位于根目录或子目录)</li>
         <li class="flex gap-2"><span class="text-primary">✓</span>SKILL.md 含 YAML frontmatter(name / description)</li>
-        <li class="flex gap-2"><span class="text-primary">✓</span>有 README 或使用说明,技能可被真实加载</li>
+        <li class="flex gap-2"><span class="text-primary">✓</span>有 README 或使用说明,Skill 可被真实加载</li>
         <li class="flex gap-2"><span class="text-primary">✓</span>非纯 fork,且有明确的开源许可证</li>
       </ul>
     </section>
@@ -39,7 +39,7 @@
       <pre class="mt-3 overflow-x-auto rounded-lg border border-border bg-surface p-4 font-mono text-[12px] leading-relaxed text-muted"><code>defineProjectMeta({
   slug: 'my-skill',              // URL 标识,kebab-case
   name: 'my-skill',
-  description: '一句话说明这个技能解决什么问题',
+  description: '一句话说明这个 Skill 解决什么问题',
   category: 'devtools',          // official|devtools|docs|productivity
                                  // |creative|integrations|templates
   kind: 'skill',                 // skill | collection
@@ -60,5 +60,5 @@
 </template>
 
 <script setup lang="ts">
-useHead({ title: '提交技能' })
+useHead({ title: '提交 Skill' })
 </script>

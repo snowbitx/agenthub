@@ -3,14 +3,14 @@ import type { Category } from '../shared/schema'
 export const categories: Category[] = [
   {
     id: 'official',
-    label: '官方技能',
-    description: 'Anthropic 官方与示例技能,文档、Office 与构建器',
+    label: '官方 Skills',
+    description: 'Anthropic 官方与示例 Skills:文档、Office 与构建器',
     icon: '⚡',
   },
   {
     id: 'devtools',
     label: '开发工具',
-    description: '代码评审、调试、TDD 与工程工作流技能',
+    description: '代码评审、调试、TDD 与工程工作流 Skills',
     icon: '🛠️',
   },
   {

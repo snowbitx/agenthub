@@ -7,10 +7,18 @@ const all = computed(() => data.value?.projects ?? [])
 const featured = computed(() => all.value.filter((p) => p.featured).slice(0, 8))
 const newest = computed(() => [...all.value].sort((a, b) => (b.addedAt > a.addedAt ? 1 : -1)).slice(0, 4))
 
-useHead({ title: '首页' })
+const config = useRuntimeConfig()
+const siteUrl = config.public.siteUrl
+
+useHead({
+  title: 'AI Agent 生态目录',
+  link: [{ rel: 'canonical', href: siteUrl }],
+})
 useSeoMeta({
-  ogTitle: 'SkillsHub — Discover the Agent Skills Ecosystem',
-  ogDescription: '开放、社区驱动的 Agent Skills 目录',
+  description: '发现 AI Agent 生态最好的项目:Agent 框架、编程智能体、浏览器 Agent 与 Agent Skills。150+ 精选项目,GitHub 数据每日同步。',
+  ogTitle: 'AgentHub — Discover the AI Agent Ecosystem',
+  ogDescription: '开放、社区驱动的 AI Agent 生态目录:Frameworks · Coding Agents · Skills',
+  ogUrl: siteUrl,
 })
 </script>
 
@@ -22,7 +30,7 @@ useSeoMeta({
     <section class="mx-auto max-w-6xl px-4 sm:px-6">
       <div class="flex items-end justify-between">
         <div>
-          <h2 class="text-xl sm:text-2xl font-bold tracking-tight">精选技能</h2>
+          <h2 class="text-xl sm:text-2xl font-bold tracking-tight">精选项目</h2>
           <p class="mt-1 text-[13.5px] text-muted">由社区维护者人工筛选的高质量入口</p>
         </div>
         <NuxtLink to="/browse" class="text-[13px] text-muted hover:text-primary transition-colors">查看全部 →</NuxtLink>
@@ -56,7 +64,7 @@ useSeoMeta({
       <div class="flex items-end justify-between">
         <div>
           <h2 class="text-xl sm:text-2xl font-bold tracking-tight">最新收录</h2>
-          <p class="mt-1 text-[13.5px] text-muted">刚刚加入目录的技能与合集</p>
+          <p class="mt-1 text-[13.5px] text-muted">刚刚加入目录的项目</p>
         </div>
         <NuxtLink to="/browse?sort=newest" class="text-[13px] text-muted hover:text-primary transition-colors">更多 →</NuxtLink>
       </div>
