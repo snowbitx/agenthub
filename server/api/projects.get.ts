@@ -1,4 +1,5 @@
-import { filterProjects, getAllProjects, sortProjects } from '../utils/query'
+import { getAllProjects } from '../utils/projects'
+import { filterProjects, sortProjects } from '../utils/query'
 
 export default defineEventHandler((event) => {
   const q = getQuery(event)

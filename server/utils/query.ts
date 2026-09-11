@@ -1,4 +1,3 @@
-import { getAllProjects, getStats } from '../utils/projects'
 import { categoryMap } from '../../data/categories'
 import type { Project } from '../../shared/schema'
 
@@ -43,5 +42,3 @@ export function filterProjects(
   }
   return result
 }
-
-export { getAllProjects, getStats }

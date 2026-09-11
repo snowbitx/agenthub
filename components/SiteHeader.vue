@@ -77,7 +77,7 @@ import { categories } from '~/data/categories'
 
 const mobileOpen = ref(false)
 const route = useRoute()
-watch(() => route.fullPath, () => (mobileOpen = false))
+watch(() => route.fullPath, () => (mobileOpen.value = false))
 </script>
 
 <style scoped>
