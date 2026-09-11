@@ -18,7 +18,7 @@ useHead({ title: '关于' })
       <div class="rounded-xl border border-border bg-card p-5">
         <h2 class="text-[14px] font-semibold text-foreground">架构一览</h2>
         <ul class="mt-3 space-y-2 text-[13px]">
-          <li><span class="font-mono text-primary">Nuxt 3</span> + Tailwind CSS v4 — SSR 与 UI</li>
+          <li><span class="font-mono text-primary">Nuxt 4</span> + Tailwind CSS v4 — SSR 与 UI</li>
           <li><span class="font-mono text-primary">data/projects.ts</span> — 类型安全的种子数据(defineProjectMeta)</li>
           <li><span class="font-mono text-primary">scripts/sync-data.mjs</span> — GitHub API 同步 stars/forks/活跃度</li>
           <li><span class="font-mono text-primary">/api/projects</span> — 过滤、搜索、排序 API</li>

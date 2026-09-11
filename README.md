@@ -5,7 +5,7 @@ Built from scratch with a "data as code" philosophy: the index is generated at b
 
 **260 curated projects · 247 repos · 7.4M+ combined GitHub stars · metrics synced daily from the GitHub API**
 
-![stack](https://img.shields.io/badge/Nuxt%203-SSR-42d392) ![style](https://img.shields.io/badge/Tailwind%20CSS%20v4-dark-647aff) ![data](https://img.shields.io/badge/GitHub%20API-daily%20sync-f5a524)
+![stack](https://img.shields.io/badge/Nuxt%204-SSR-42d392) ![style](https://img.shields.io/badge/Tailwind%20CSS%20v4-dark-647aff) ![data](https://img.shields.io/badge/GitHub%20API-daily%20sync-f5a524)
 
 ## Features
 
