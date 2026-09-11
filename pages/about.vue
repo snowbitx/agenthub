@@ -8,7 +8,7 @@ useHead({ title: '关于' })
     <div class="mt-6 space-y-5 text-[14px] leading-relaxed text-muted">
       <p>
         AgentHub 是一个<strong class="text-foreground">开放、社区驱动的 AI Agent 生态目录</strong>,
-        灵感与架构模式来自 vuejs-community:数据即代码,构建期产出索引,运行时零数据库。
+        架构理念:数据即代码,构建期产出索引,运行时零数据库。
       </p>
       <p>
         Agent Skills 是一种开放的能力包格式 —— 一个包含 SKILL.md 的文件夹,

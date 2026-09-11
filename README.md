@@ -1,7 +1,7 @@
 # AgentHub ✦
 
 **Discover the AI Agent Ecosystem** — an open, community-driven directory of AI Agent frameworks, coding agents, browser/computer-use agents, and Agent Skills.
-Built from scratch following the architecture pattern of [vuejs-community](https://vuejs-community.vercel.app/): data as code, index generated at build time, zero runtime database.
+Built from scratch with a "data as code" philosophy: the index is generated at build time and the runtime has zero database dependencies.
 
 **260 curated projects · 247 repos · 7.4M+ combined GitHub stars · metrics synced daily from the GitHub API**
 
@@ -89,9 +89,9 @@ Then run `npm run data:sync` to backfill metrics and open a PR.
 
 ## Data Sync Strategy
 
-Run `npm run data:sync` on a schedule (a GitHub Actions cron once a day works well —
-`GITHUB_TOKEN` is injected automatically), commit the updated `data/metrics.json`, and let the
-host redeploy. Same "data as code" model as vuejs-community.
+Run `npm run data:sync` on a schedule (the bundled GitHub Actions cron runs once a day and
+`GITHUB_TOKEN` is injected automatically), commit the updated `data/metrics.json`, and every
+commit triggers an automatic redeploy on the host.
 
 ## Deployment (Vercel)
 
