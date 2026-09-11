@@ -40,9 +40,9 @@
   slug: 'my-skill',              // URL 标识,kebab-case
   name: 'my-skill',
   description: '一句话说明这个 Skill 解决什么问题',
-  category: 'devtools',          // official|devtools|docs|productivity
-                                 // |creative|integrations|templates
-  kind: 'skill',                 // skill | collection
+  category: 'prompts',           // agents|prompts|official|devtools|docs
+                                 // |productivity|creative|integrations|templates
+  kind: 'skill',                 // agent | skill | collection
   repo: 'https://github.com/you/my-skill',
   sourcePath: 'skills/my-skill', // 仓库内子路径(可选)
   author: 'you',

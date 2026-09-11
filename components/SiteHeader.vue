@@ -8,12 +8,13 @@
           <span class="hidden sm:inline text-[10px] font-mono text-faint border border-border rounded px-1.5 py-0.5 mt-0.5">beta</span>
         </NuxtLink>
 
-        <nav class="hidden md:flex items-center gap-1">
+        <nav class="hidden md:flex items-center gap-0.5 min-w-0">
           <NuxtLink
-            v-for="c in categories"
+            v-for="(c, i) in categories"
             :key="c.id"
             :to="`/c/${c.id}`"
-            class="px-3 py-1.5 rounded-lg text-[13px] text-muted hover:text-foreground hover:bg-card transition-colors"
+            class="px-2.5 py-1.5 rounded-lg text-[12.5px] whitespace-nowrap text-muted hover:text-foreground hover:bg-card transition-colors"
+            :class="i > 4 ? 'hidden xl:block' : ''"
           >
             {{ c.label }}
           </NuxtLink>
@@ -22,7 +23,7 @@
         <div class="flex items-center gap-2">
           <NuxtLink
             to="/submit"
-            class="hidden sm:inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-3 py-1.5 text-[13px] text-muted hover:text-foreground hover:border-border-strong transition-colors"
+            class="hidden sm:inline-flex items-center gap-1.5 whitespace-nowrap rounded-lg border border-border bg-card px-3 py-1.5 text-[13px] text-muted hover:text-foreground hover:border-border-strong transition-colors"
           >
             <span class="text-primary">+</span> 提交 Skill
           </NuxtLink>

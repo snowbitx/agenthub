@@ -8,6 +8,12 @@ export const categories: Category[] = [
     icon: '🤖',
   },
   {
+    id: 'prompts',
+    label: 'Prompts 提示词',
+    description: '高质量提示词合集、系统提示词档案与 Prompt 工程指南',
+    icon: '💬',
+  },
+  {
     id: 'official',
     label: '官方 Skills',
     description: 'Anthropic 官方与示例 Skills:文档、Office 与构建器',

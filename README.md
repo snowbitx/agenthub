@@ -3,7 +3,7 @@
 **Discover the AI Agent Ecosystem** — an open, community-driven directory of AI Agent frameworks, coding agents, browser/computer-use agents, and Agent Skills.
 Built from scratch following the architecture pattern of [vuejs-community](https://vuejs-community.vercel.app/): data as code, index generated at build time, zero runtime database.
 
-**230 curated projects · 217 repos · 7.1M+ combined GitHub stars · metrics synced daily from the GitHub API**
+**260 curated projects · 247 repos · 7.4M+ combined GitHub stars · metrics synced daily from the GitHub API**
 
 ![stack](https://img.shields.io/badge/Nuxt%203-SSR-42d392) ![style](https://img.shields.io/badge/Tailwind%20CSS%20v4-dark-647aff) ![data](https://img.shields.io/badge/GitHub%20API-daily%20sync-f5a524)
 
@@ -11,7 +11,7 @@ Built from scratch following the architecture pattern of [vuejs-community](https
 
 - **Home** — hero + live ecosystem stats (projects / repos / total stars) + featured projects + category explorer + latest additions
 - **Browse** `/browse` — debounced keyword search, kind filter (Agent / Skill / Collection), four sort modes, URL state sync
-- **Categories** `/c/[category]` — 8 categories (Agent frameworks first) with repo-heat overview
+- **Categories** `/c/[category]` — 9 categories (Agent frameworks & Prompts first) with repo-heat overview
 - **Detail** `/p/[slug]` — stars/forks/maintenance status, one-click install command (`npm install` for agents, `npx skills add` for skills), related projects
 - **Submit** `/submit` — PR-based contribution guide with entry template
 - **API** — `GET /api/projects` (category/q/kind/sort), `GET /api/projects/:slug`, `GET /api/stats`
@@ -35,6 +35,7 @@ Built from scratch following the architecture pattern of [vuejs-community](https
 | 📅 Productivity | marketing, resume, internal comms skills |
 | 🎨 Creative | design skills, taste-skill, canvas-design |
 | 🔌 Integrations | awesome-mcp-servers, pathway, llmware, quivr, KAG |
+| 💬 Prompts | prompts.chat (170k★), Prompt-Engineering-Guide, LangGPT, 中文调教指南, image prompt libraries |
 | 📦 Templates & Collections | awesome lists, marketplaces, starter kits |
 
 Plus dedicated ecosystem coverage: **memory layers** (mem0, Letta, MemOS), **deep research agents** (Tongyi DeepResearch, gpt-researcher), **voice agents** (pipecat, LiveKit, TEN), and **evaluation/observability** (MLflow, Cozeloop).
@@ -75,7 +76,7 @@ defineProjectMeta({
   slug: 'my-agent',
   name: 'my-agent',
   description: 'One sentence on what this project does',
-  category: 'agents',           // agents | official | devtools | docs | productivity | creative | integrations | templates
+  category: 'prompts',          // agents | prompts | official | devtools | docs | productivity | creative | integrations | templates
   kind: 'agent',                // agent | skill | collection
   repo: 'https://github.com/you/my-agent',
   author: 'you',

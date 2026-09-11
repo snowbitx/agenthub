@@ -1,4 +1,6 @@
 export type CategoryId =
+  | 'agents'
+  | 'prompts'
   | 'official'
   | 'devtools'
   | 'docs'
@@ -6,7 +8,6 @@ export type CategoryId =
   | 'creative'
   | 'integrations'
   | 'templates'
-  | 'agents'
 
 export type ProjectKind = 'skill' | 'collection' | 'agent'
 
