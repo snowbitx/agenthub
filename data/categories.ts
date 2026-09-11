@@ -14,6 +14,12 @@ export const categories: Category[] = [
     icon: '💬',
   },
   {
+    id: 'frontend',
+    label: '前端 AI 工具',
+    description: '直接服务前端工作流:设计转代码、UI 生成、AI 测试与素材生成',
+    icon: '⚛️',
+  },
+  {
     id: 'official',
     label: '官方 Skills',
     description: 'Anthropic 官方与示例 Skills:文档、Office 与构建器',

@@ -11,7 +11,7 @@ Built from scratch with a "data as code" philosophy: the index is generated at b
 
 - **Home** — hero + live ecosystem stats (projects / repos / total stars) + featured projects + category explorer + latest additions
 - **Browse** `/browse` — debounced keyword search, kind filter (Agent / Skill / Collection), four sort modes, URL state sync
-- **Categories** `/c/[category]` — 9 categories (Agent frameworks & Prompts first) with repo-heat overview
+- **Categories** `/c/[category]` — 10 categories (Agent frameworks, Prompts & Frontend AI first) with repo-heat overview
 - **Detail** `/p/[slug]` — stars/forks/maintenance status, one-click install command (`npm install` for agents, `npx skills add` for skills), related projects
 - **Submit** `/submit` — PR-based contribution guide with entry template
 - **API** — `GET /api/projects` (category/q/kind/sort), `GET /api/projects/:slug`, `GET /api/stats`
@@ -36,6 +36,7 @@ Built from scratch with a "data as code" philosophy: the index is generated at b
 | 🎨 Creative | design skills, taste-skill, canvas-design |
 | 🔌 Integrations | awesome-mcp-servers, pathway, llmware, quivr, KAG |
 | 💬 Prompts | prompts.chat (170k★), Prompt-Engineering-Guide, LangGPT, 中文调教指南, image prompt libraries |
+| ⚛️ Frontend AI | screenshot-to-code, OpenUI, Onlook, Playwright MCP, Midscene, magic-mcp |
 | 📦 Templates & Collections | awesome lists, marketplaces, starter kits |
 
 Plus dedicated ecosystem coverage: **memory layers** (mem0, Letta, MemOS), **deep research agents** (Tongyi DeepResearch, gpt-researcher), **voice agents** (pipecat, LiveKit, TEN), and **evaluation/observability** (MLflow, Cozeloop).

@@ -17,7 +17,7 @@ onMounted(init)
       <NuxtLink to="/" class="rounded-lg bg-primary px-4 py-2 text-[13.5px] font-semibold text-background hover:bg-primary-strong transition-colors">回首页</NuxtLink>
       <NuxtLink to="/browse" class="rounded-lg border border-border-strong px-4 py-2 text-[13.5px] text-muted hover:text-foreground transition-colors">浏览全部</NuxtLink>
     </div>
-    <p class="mt-8 font-mono text-[11px] text-faint">agents / prompts / official / devtools / docs / productivity / creative / integrations / templates</p>
+    <p class="mt-8 font-mono text-[11px] text-faint">agents / prompts / frontend / official / devtools / docs / productivity / creative / integrations / templates</p>
     <div class="mt-10 flex justify-center">
       <ThemeToggle />
     </div>

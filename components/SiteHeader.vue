@@ -14,7 +14,7 @@
             :key="c.id"
             :to="`/c/${c.id}`"
             class="px-2.5 py-1.5 rounded-lg text-[12.5px] whitespace-nowrap text-muted hover:text-foreground hover:bg-card transition-colors"
-            :class="i > 4 ? 'hidden xl:block' : ''"
+            :class="i > 4 ? (i > 7 ? 'hidden min-[1700px]:block' : 'hidden xl:block') : ''"
           >
             {{ c.label }}
           </NuxtLink>

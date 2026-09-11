@@ -1,6 +1,7 @@
 export type CategoryId =
   | 'agents'
   | 'prompts'
+  | 'frontend'
   | 'official'
   | 'devtools'
   | 'docs'

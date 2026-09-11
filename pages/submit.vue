@@ -40,7 +40,7 @@
   slug: 'my-skill',              // URL 标识,kebab-case
   name: 'my-skill',
   description: '一句话说明这个 Skill 解决什么问题',
-  category: 'prompts',           // agents|prompts|official|devtools|docs
+  category: 'frontend',          // agents|prompts|frontend|official|devtools|docs
                                  // |productivity|creative|integrations|templates
   kind: 'skill',                 // agent | skill | collection
   repo: 'https://github.com/you/my-skill',

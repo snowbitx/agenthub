@@ -2212,5 +2212,212 @@
     "pushedAt": "2026-05-29T01:00:03Z",
     "description": "Awesome resources for in-context learning and prompt engineering: Mastery of the LLMs such as ChatGPT, GPT-3, and FlanT5, with up-to-date and cutting-edge updates. ",
     "lastSyncedAt": "2026-09-11T01:47:41.045Z"
+  },
+  "https://github.com/abi/screenshot-to-code": {
+    "stars": 78512,
+    "forks": 9574,
+    "issues": 145,
+    "createdAt": "2023-11-14T17:53:32Z",
+    "pushedAt": "2026-09-09T17:27:34Z",
+    "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+    "lastSyncedAt": "2026-09-11T06:34:09.034Z"
+  },
+  "https://github.com/web-infra-dev/midscene": {
+    "stars": 14835,
+    "forks": 1152,
+    "issues": 82,
+    "createdAt": "2024-07-23T04:03:50Z",
+    "pushedAt": "2026-09-11T06:28:14Z",
+    "description": "GUI Agent for E2E Testing",
+    "lastSyncedAt": "2026-09-11T06:35:58.337Z"
+  },
+  "https://github.com/21st-dev/magic-mcp": {
+    "stars": 5840,
+    "forks": 447,
+    "issues": 1,
+    "createdAt": "2025-02-19T13:17:50Z",
+    "pushedAt": "2026-09-09T20:38:22Z",
+    "description": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own — right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp",
+    "lastSyncedAt": "2026-09-11T06:36:07.997Z"
+  },
+  "https://github.com/Nutlope/logocreator": {
+    "stars": 8637,
+    "forks": 809,
+    "issues": 16,
+    "createdAt": "2024-11-06T03:55:48Z",
+    "pushedAt": "2026-08-03T17:29:28Z",
+    "description": "A free + OSS logo generator powered by Flux on Together AI",
+    "lastSyncedAt": "2026-09-11T06:36:19.229Z"
+  },
+  "https://github.com/comfyanonymous/ComfyUI": {
+    "stars": 132462,
+    "forks": 15619,
+    "issues": 4856,
+    "createdAt": "2023-01-17T03:15:56Z",
+    "pushedAt": "2026-09-11T04:08:54Z",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "lastSyncedAt": "2026-09-11T06:36:27.525Z"
+  },
+  "https://github.com/Aider-AI/aider": {
+    "stars": 48890,
+    "forks": 4944,
+    "issues": 1860,
+    "createdAt": "2023-05-09T18:57:49Z",
+    "pushedAt": "2026-05-22T14:02:20Z",
+    "description": "aider is AI pair programming in your terminal",
+    "lastSyncedAt": "2026-09-11T06:36:29.825Z"
+  },
+  "https://github.com/continuedev/continue": {
+    "stars": 35869,
+    "forks": 5359,
+    "issues": 951,
+    "createdAt": "2023-05-24T03:39:39Z",
+    "pushedAt": "2026-09-08T10:01:48Z",
+    "description": "open-source coding agent",
+    "lastSyncedAt": "2026-09-11T06:36:33.057Z"
+  },
+  "https://github.com/TabbyML/tabby": {
+    "stars": 33874,
+    "forks": 1785,
+    "issues": 335,
+    "createdAt": "2023-03-16T09:18:01Z",
+    "pushedAt": "2026-06-30T20:38:02Z",
+    "description": "Self-hosted AI coding assistant",
+    "lastSyncedAt": "2026-09-11T06:36:38.787Z"
+  },
+  "https://github.com/RooCodeInc/Roo-Code": {
+    "stars": 24303,
+    "forks": 3419,
+    "issues": 1034,
+    "createdAt": "2024-10-31T17:56:50Z",
+    "pushedAt": "2026-05-15T18:08:47Z",
+    "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+    "lastSyncedAt": "2026-09-11T06:36:40.121Z"
+  },
+  "https://github.com/di-sukharev/opencommit": {
+    "stars": 7536,
+    "forks": 443,
+    "issues": 149,
+    "createdAt": "2023-03-06T10:30:51Z",
+    "pushedAt": "2026-09-09T15:32:24Z",
+    "description": "top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too",
+    "lastSyncedAt": "2026-09-11T06:36:43.422Z"
+  },
+  "https://github.com/Codium-ai/pr-agent": {
+    "stars": 12946,
+    "forks": 1838,
+    "issues": 100,
+    "createdAt": "2023-07-05T21:02:15Z",
+    "pushedAt": "2026-09-11T06:33:18Z",
+    "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+    "lastSyncedAt": "2026-09-11T06:36:45.656Z"
+  },
+  "https://github.com/zed-industries/zed": {
+    "stars": 90077,
+    "forks": 10538,
+    "issues": 3159,
+    "createdAt": "2021-02-20T03:01:06Z",
+    "pushedAt": "2026-09-11T05:28:25Z",
+    "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "lastSyncedAt": "2026-09-11T06:36:47.492Z"
+  },
+  "https://github.com/ollama/ollama": {
+    "stars": 180627,
+    "forks": 17808,
+    "issues": 3958,
+    "createdAt": "2023-06-26T19:39:32Z",
+    "pushedAt": "2026-09-11T06:09:40Z",
+    "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "lastSyncedAt": "2026-09-11T06:36:48.100Z"
+  },
+  "https://github.com/open-webui/open-webui": {
+    "stars": 151593,
+    "forks": 22175,
+    "issues": 295,
+    "createdAt": "2023-10-06T22:08:27Z",
+    "pushedAt": "2026-09-10T23:05:38Z",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "lastSyncedAt": "2026-09-11T06:36:49.029Z"
+  },
+  "https://github.com/BerriAI/litellm": {
+    "stars": 58486,
+    "forks": 11343,
+    "issues": 5026,
+    "createdAt": "2023-07-27T00:09:52Z",
+    "pushedAt": "2026-09-11T06:21:36Z",
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+    "lastSyncedAt": "2026-09-11T06:36:49.974Z"
+  },
+  "https://github.com/songquanpeng/one-api": {
+    "stars": 36845,
+    "forks": 6857,
+    "issues": 1034,
+    "createdAt": "2023-04-22T12:39:24Z",
+    "pushedAt": "2026-01-09T03:26:43Z",
+    "description": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+    "lastSyncedAt": "2026-09-11T06:36:50.408Z"
+  },
+  "https://github.com/ggml-org/llama.cpp": {
+    "stars": 127789,
+    "forks": 23009,
+    "issues": 2463,
+    "createdAt": "2023-03-10T18:58:00Z",
+    "pushedAt": "2026-09-11T06:33:57Z",
+    "description": "LLM inference in C/C++",
+    "lastSyncedAt": "2026-09-11T06:36:51.182Z"
+  },
+  "https://github.com/ItzCrazyKns/Perplexica": {
+    "stars": 36702,
+    "forks": 4074,
+    "issues": 350,
+    "createdAt": "2024-04-09T10:51:32Z",
+    "pushedAt": "2026-09-01T14:12:12Z",
+    "description": "Vane is an AI-powered answering engine.",
+    "lastSyncedAt": "2026-09-11T06:36:52.447Z"
+  },
+  "https://github.com/menloresearch/jan": {
+    "stars": 44406,
+    "forks": 3014,
+    "issues": 520,
+    "createdAt": "2023-08-17T02:17:10Z",
+    "pushedAt": "2026-09-11T06:02:04Z",
+    "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+    "lastSyncedAt": "2026-09-11T06:36:53.684Z"
+  },
+  "https://github.com/vercel/ai-chatbot": {
+    "stars": 20934,
+    "forks": 6754,
+    "issues": 29,
+    "createdAt": "2023-05-19T16:36:23Z",
+    "pushedAt": "2026-07-08T21:55:02Z",
+    "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+    "lastSyncedAt": "2026-09-11T06:36:54.887Z"
+  },
+  "https://github.com/wandb/openui": {
+    "stars": 22540,
+    "forks": 2061,
+    "issues": 87,
+    "createdAt": "2024-03-17T23:46:16Z",
+    "pushedAt": "2026-09-10T06:14:09Z",
+    "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
+    "lastSyncedAt": "2026-09-11T06:37:35.687Z"
+  },
+  "https://github.com/onlook-dev/onlook": {
+    "stars": 26712,
+    "forks": 2093,
+    "issues": 380,
+    "createdAt": "2024-06-25T19:16:02Z",
+    "pushedAt": "2026-08-25T01:06:22Z",
+    "description": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
+    "lastSyncedAt": "2026-09-11T06:37:36.306Z"
+  },
+  "https://github.com/microsoft/playwright-mcp": {
+    "stars": 36997,
+    "forks": 3134,
+    "issues": 11,
+    "createdAt": "2025-03-21T17:48:36Z",
+    "pushedAt": "2026-09-09T22:51:19Z",
+    "description": "Playwright MCP server",
+    "lastSyncedAt": "2026-09-11T06:37:36.994Z"
   }
 }
