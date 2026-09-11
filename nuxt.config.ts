@@ -44,6 +44,9 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
+      // API 必须保持动态:页脚有 /api/projects 链接,不排除会被爬虫冻结成静态文件,
+      // 导致搜索/筛选/排序全部失效
+      ignore: [/^\/api\//],
       routes: [
         '/',
         '/browse',
