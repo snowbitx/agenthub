@@ -3161,4 +3161,16 @@ export const projects: ProjectMeta[] = [
     tags: ['nextjs', 'template'],
     addedAt: '2026-09-12',
   }),
+  defineProjectMeta({
+    slug: 'vostride-agent-qa',
+    name: 'Agent QA',
+    description: '通过自然语言执行 Web 和移动应用回归测试，保留执行记忆，支持 CLI、MCP 工具和 Agent Skills；需配置工作区、仪表盘及模型。',
+    category: 'devtools',
+    kind: 'agent',
+    repo: 'https://github.com/vostride/agent-qa',
+    npm: 'agent-qa',
+    author: 'vostride',
+    tags: ['testing', 'regression', 'mcp', 'agent-skills'],
+    addedAt: '2026-10-04',
+  }),
 ]

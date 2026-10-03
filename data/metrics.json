@@ -2419,5 +2419,13 @@
     "pushedAt": "2026-09-28T23:19:44Z",
     "description": "Playwright MCP server",
     "lastSyncedAt": "2026-10-03T08:59:17.501Z"
+  },
+  "https://github.com/vostride/agent-qa": {
+    "stars": 897,
+    "forks": 20,
+    "issues": 0,
+    "createdAt": "2026-05-07T20:17:57Z",
+    "pushedAt": "2026-08-03T18:44:59Z",
+    "lastSyncedAt": "2026-10-03T22:17:54.322Z"
   }
 }
