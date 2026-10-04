@@ -1,363 +1,371 @@
 {
+  "https://github.com/vostride/agent-qa": {
+    "stars": 897,
+    "forks": 20,
+    "issues": 0,
+    "createdAt": "2026-05-07T20:17:57Z",
+    "pushedAt": "2026-08-03T18:44:59Z",
+    "lastSyncedAt": "2026-10-04T09:41:24.570Z"
+  },
   "https://github.com/anthropics/skills": {
-    "stars": 179454,
-    "forks": 21213,
-    "issues": 1394,
+    "stars": 179574,
+    "forks": 21234,
+    "issues": 1411,
     "createdAt": "2025-09-22T15:53:31Z",
-    "pushedAt": "2026-09-29T02:20:07Z",
+    "pushedAt": "2026-10-03T20:38:10Z",
     "description": "Public repository for Agent Skills",
-    "lastSyncedAt": "2026-10-03T08:58:17.825Z"
+    "lastSyncedAt": "2026-10-04T09:29:40.901Z"
   },
   "https://github.com/travisvn/awesome-claude-skills": {
-    "stars": 15253,
+    "stars": 15259,
     "forks": 2017,
-    "issues": 852,
+    "issues": 851,
     "createdAt": "2025-10-16T20:42:39Z",
     "pushedAt": "2026-04-28T19:30:24Z",
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
-    "lastSyncedAt": "2026-10-03T08:58:18.116Z"
+    "lastSyncedAt": "2026-10-04T09:29:41.068Z"
   },
   "https://github.com/anthropics/claude-cookbooks": {
-    "stars": 53155,
-    "forks": 6393,
-    "issues": 349,
+    "stars": 53170,
+    "forks": 6399,
+    "issues": 355,
     "createdAt": "2023-08-15T20:23:51Z",
     "pushedAt": "2026-09-28T16:56:36Z",
     "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "lastSyncedAt": "2026-10-03T08:58:18.418Z"
+    "lastSyncedAt": "2026-10-04T09:29:41.264Z"
   },
   "https://github.com/obra/superpowers": {
-    "stars": 294619,
-    "forks": 26330,
-    "issues": 298,
+    "stars": 295040,
+    "forks": 26367,
+    "issues": 306,
     "createdAt": "2025-10-09T19:45:18Z",
     "pushedAt": "2026-09-27T02:37:47Z",
     "description": "An agentic skills framework & software development methodology that works.",
-    "lastSyncedAt": "2026-10-03T08:58:18.668Z"
+    "lastSyncedAt": "2026-10-04T09:29:41.468Z"
   },
   "https://github.com/anthropics/claude-code": {
-    "stars": 149020,
-    "forks": 25287,
-    "issues": 14124,
+    "stars": 149333,
+    "forks": 25434,
+    "issues": 14197,
     "createdAt": "2025-02-22T17:41:21Z",
-    "pushedAt": "2026-10-03T06:16:55Z",
+    "pushedAt": "2026-10-03T23:07:17Z",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "lastSyncedAt": "2026-10-03T08:58:18.918Z"
+    "lastSyncedAt": "2026-10-04T09:29:41.696Z"
   },
   "https://github.com/davila7/claude-code-templates": {
-    "stars": 32320,
-    "forks": 3681,
-    "issues": 321,
+    "stars": 32360,
+    "forks": 3692,
+    "issues": 327,
     "createdAt": "2025-07-04T01:26:26Z",
-    "pushedAt": "2026-10-03T03:23:10Z",
+    "pushedAt": "2026-10-04T04:09:10Z",
     "description": "CLI tool for configuring and monitoring Claude Code",
-    "lastSyncedAt": "2026-10-03T08:58:19.168Z"
+    "lastSyncedAt": "2026-10-04T09:29:41.900Z"
   },
   "https://github.com/K-Dense-AI/claude-scientific-skills": {
-    "stars": 47437,
-    "forks": 4287,
+    "stars": 47534,
+    "forks": 4296,
     "issues": 21,
     "createdAt": "2025-10-19T20:54:15Z",
     "pushedAt": "2026-10-01T22:42:43Z",
     "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-    "lastSyncedAt": "2026-10-03T08:58:19.741Z"
+    "lastSyncedAt": "2026-10-04T09:29:42.351Z"
   },
   "https://github.com/langchain-ai/langchain": {
-    "stars": 147393,
-    "forks": 24686,
-    "issues": 608,
+    "stars": 147424,
+    "forks": 24698,
+    "issues": 617,
     "createdAt": "2022-10-17T02:58:36Z",
     "pushedAt": "2026-10-03T08:31:42Z",
     "description": "The agent engineering platform.",
-    "lastSyncedAt": "2026-10-03T08:58:19.978Z"
+    "lastSyncedAt": "2026-10-04T09:29:42.571Z"
   },
   "https://github.com/langchain-ai/langgraph": {
-    "stars": 42650,
-    "forks": 7229,
-    "issues": 820,
+    "stars": 42694,
+    "forks": 7243,
+    "issues": 821,
     "createdAt": "2023-08-09T18:33:12Z",
-    "pushedAt": "2026-10-03T02:08:21Z",
+    "pushedAt": "2026-10-04T01:25:16Z",
     "description": "Build resilient agents.",
-    "lastSyncedAt": "2026-10-03T08:58:20.202Z"
+    "lastSyncedAt": "2026-10-04T09:29:42.778Z"
   },
   "https://github.com/microsoft/autogen": {
-    "stars": 61248,
-    "forks": 9278,
-    "issues": 1109,
+    "stars": 61250,
+    "forks": 9280,
+    "issues": 1096,
     "createdAt": "2023-08-18T11:43:45Z",
     "pushedAt": "2026-04-15T11:59:09Z",
     "description": "A programming framework for agentic AI",
-    "lastSyncedAt": "2026-10-03T08:58:22.006Z"
+    "lastSyncedAt": "2026-10-04T09:29:43.008Z"
   },
   "https://github.com/crewAIInc/crewAI": {
-    "stars": 59302,
-    "forks": 8624,
-    "issues": 522,
+    "stars": 59330,
+    "forks": 8633,
+    "issues": 534,
     "createdAt": "2023-10-27T03:26:59Z",
     "pushedAt": "2026-10-03T00:03:55Z",
     "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "lastSyncedAt": "2026-10-03T08:58:22.243Z"
+    "lastSyncedAt": "2026-10-04T09:29:43.222Z"
   },
   "https://github.com/openai/openai-agents-python": {
-    "stars": 29818,
-    "forks": 4839,
-    "issues": 7,
+    "stars": 29826,
+    "forks": 4842,
+    "issues": 6,
     "createdAt": "2025-03-11T03:42:36Z",
     "pushedAt": "2026-10-02T18:52:10Z",
     "description": "A lightweight, powerful framework for multi-agent workflows",
-    "lastSyncedAt": "2026-10-03T08:58:22.458Z"
+    "lastSyncedAt": "2026-10-04T09:29:43.479Z"
   },
   "https://github.com/vercel/ai": {
-    "stars": 27092,
-    "forks": 5242,
-    "issues": 1380,
+    "stars": 27109,
+    "forks": 5248,
+    "issues": 1402,
     "createdAt": "2023-05-23T15:04:08Z",
-    "pushedAt": "2026-10-03T04:19:29Z",
+    "pushedAt": "2026-10-04T04:57:28Z",
     "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
-    "lastSyncedAt": "2026-10-03T08:58:22.669Z"
+    "lastSyncedAt": "2026-10-04T09:29:43.719Z"
   },
   "https://github.com/mastra-ai/mastra": {
-    "stars": 28523,
-    "forks": 2911,
-    "issues": 469,
+    "stars": 28546,
+    "forks": 2913,
+    "issues": 485,
     "createdAt": "2024-08-06T20:44:31Z",
-    "pushedAt": "2026-10-03T08:14:59Z",
+    "pushedAt": "2026-10-04T09:09:44Z",
     "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
-    "lastSyncedAt": "2026-10-03T08:58:22.869Z"
+    "lastSyncedAt": "2026-10-04T09:29:43.912Z"
   },
   "https://github.com/pydantic/pydantic-ai": {
-    "stars": 20377,
-    "forks": 2849,
-    "issues": 1362,
+    "stars": 20394,
+    "forks": 2856,
+    "issues": 1370,
     "createdAt": "2024-06-21T15:55:04Z",
-    "pushedAt": "2026-10-03T04:43:51Z",
+    "pushedAt": "2026-10-04T04:31:48Z",
     "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
-    "lastSyncedAt": "2026-10-03T08:58:23.112Z"
+    "lastSyncedAt": "2026-10-04T09:29:44.141Z"
   },
   "https://github.com/google/adk-python": {
-    "stars": 21696,
-    "forks": 4088,
-    "issues": 435,
+    "stars": 21701,
+    "forks": 4097,
+    "issues": 448,
     "createdAt": "2025-04-01T20:44:40Z",
-    "pushedAt": "2026-10-03T03:42:32Z",
+    "pushedAt": "2026-10-04T03:17:24Z",
     "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-    "lastSyncedAt": "2026-10-03T08:58:23.316Z"
+    "lastSyncedAt": "2026-10-04T09:29:44.332Z"
   },
   "https://github.com/strands-agents/sdk-python": {
-    "stars": 8632,
-    "forks": 1315,
-    "issues": 934,
+    "stars": 8649,
+    "forks": 1321,
+    "issues": 941,
     "createdAt": "2025-05-14T19:59:51Z",
     "pushedAt": "2026-10-02T20:26:11Z",
     "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
-    "lastSyncedAt": "2026-10-03T08:58:23.810Z"
+    "lastSyncedAt": "2026-10-04T09:29:44.760Z"
   },
   "https://github.com/openinterpreter/open-interpreter": {
-    "stars": 68496,
-    "forks": 5886,
-    "issues": 11,
+    "stars": 68504,
+    "forks": 5887,
+    "issues": 13,
     "createdAt": "2023-07-14T07:10:44Z",
     "pushedAt": "2026-10-02T07:44:16Z",
     "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
-    "lastSyncedAt": "2026-10-03T08:58:24.241Z"
+    "lastSyncedAt": "2026-10-04T09:29:45.142Z"
   },
   "https://github.com/browser-use/browser-use": {
-    "stars": 117032,
-    "forks": 12910,
-    "issues": 531,
+    "stars": 117099,
+    "forks": 12925,
+    "issues": 538,
     "createdAt": "2024-10-31T16:00:56Z",
     "pushedAt": "2026-10-03T00:06:08Z",
     "description": "Agents that use the browser.",
-    "lastSyncedAt": "2026-10-03T08:58:24.456Z"
+    "lastSyncedAt": "2026-10-04T09:29:45.361Z"
   },
   "https://github.com/simstudioai/sim": {
-    "stars": 29764,
-    "forks": 3848,
-    "issues": 382,
+    "stars": 29770,
+    "forks": 3849,
+    "issues": 383,
     "createdAt": "2025-01-05T22:47:49Z",
-    "pushedAt": "2026-10-03T08:54:00Z",
+    "pushedAt": "2026-10-04T09:11:52Z",
     "description": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
-    "lastSyncedAt": "2026-10-03T08:58:24.685Z"
+    "lastSyncedAt": "2026-10-04T09:29:45.593Z"
   },
   "https://github.com/openclaw/openclaw": {
-    "stars": 391204,
-    "forks": 82235,
-    "issues": 9188,
+    "stars": 391269,
+    "forks": 82252,
+    "issues": 9274,
     "createdAt": "2025-11-24T10:16:47Z",
-    "pushedAt": "2026-10-03T08:58:06Z",
+    "pushedAt": "2026-10-04T09:28:43Z",
     "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-    "lastSyncedAt": "2026-10-03T08:58:24.943Z"
+    "lastSyncedAt": "2026-10-04T09:29:45.819Z"
   },
   "https://github.com/anthropics/claude-code-sdk-python": {
-    "stars": 8208,
-    "forks": 1317,
-    "issues": 526,
+    "stars": 8213,
+    "forks": 1320,
+    "issues": 529,
     "createdAt": "2025-06-11T21:33:43Z",
-    "pushedAt": "2026-10-02T20:22:41Z",
+    "pushedAt": "2026-10-03T23:10:01Z",
     "description": null,
-    "lastSyncedAt": "2026-10-03T08:58:25.344Z"
+    "lastSyncedAt": "2026-10-04T09:29:46.228Z"
   },
   "https://github.com/sst/opencode": {
-    "stars": 211553,
-    "forks": 28088,
-    "issues": 6219,
+    "stars": 211672,
+    "forks": 28136,
+    "issues": 6256,
     "createdAt": "2025-04-30T20:08:00Z",
-    "pushedAt": "2026-10-03T06:09:38Z",
+    "pushedAt": "2026-10-04T08:21:25Z",
     "description": "The open source coding agent.",
-    "lastSyncedAt": "2026-10-03T08:58:25.791Z"
+    "lastSyncedAt": "2026-10-04T09:29:46.591Z"
   },
   "https://github.com/google-gemini/gemini-cli": {
-    "stars": 107220,
-    "forks": 14682,
-    "issues": 789,
+    "stars": 107227,
+    "forks": 14690,
+    "issues": 790,
     "createdAt": "2025-04-17T17:04:31Z",
     "pushedAt": "2026-10-03T01:29:14Z",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "lastSyncedAt": "2026-10-03T08:58:26.007Z"
+    "lastSyncedAt": "2026-10-04T09:29:46.812Z"
   },
   "https://github.com/addyosmani/agent-skills": {
-    "stars": 100632,
-    "forks": 10577,
-    "issues": 110,
+    "stars": 100947,
+    "forks": 10606,
+    "issues": 119,
     "createdAt": "2026-02-15T20:20:26Z",
-    "pushedAt": "2026-10-03T06:42:25Z",
+    "pushedAt": "2026-10-03T18:21:11Z",
     "description": "Production-grade engineering skills for AI coding agents.",
-    "lastSyncedAt": "2026-10-03T08:58:26.187Z"
+    "lastSyncedAt": "2026-10-04T09:29:47.050Z"
   },
   "https://github.com/DietrichGebert/ponytail": {
-    "stars": 152184,
-    "forks": 8167,
-    "issues": 206,
+    "stars": 153985,
+    "forks": 8277,
+    "issues": 227,
     "createdAt": "2026-06-12T00:52:37Z",
     "pushedAt": "2026-10-03T05:12:55Z",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "lastSyncedAt": "2026-10-03T08:58:26.388Z"
+    "lastSyncedAt": "2026-10-04T09:29:47.263Z"
   },
   "https://github.com/JuliusBrussee/caveman": {
-    "stars": 109242,
-    "forks": 6319,
-    "issues": 143,
+    "stars": 109671,
+    "forks": 6344,
+    "issues": 115,
     "createdAt": "2026-04-04T10:03:00Z",
-    "pushedAt": "2026-10-03T08:07:10Z",
+    "pushedAt": "2026-10-04T07:51:14Z",
     "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-    "lastSyncedAt": "2026-10-03T08:58:26.638Z"
+    "lastSyncedAt": "2026-10-04T09:29:47.458Z"
   },
   "https://github.com/Leonxlnx/taste-skill": {
-    "stars": 92155,
-    "forks": 6253,
+    "stars": 92428,
+    "forks": 6272,
     "issues": 73,
     "createdAt": "2026-02-19T21:44:05Z",
     "pushedAt": "2026-09-26T09:01:50Z",
     "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
-    "lastSyncedAt": "2026-10-03T08:58:26.883Z"
+    "lastSyncedAt": "2026-10-04T09:29:47.622Z"
   },
   "https://github.com/multica-ai/andrej-karpathy-skills": {
-    "stars": 216629,
-    "forks": 21812,
+    "stars": 216772,
+    "forks": 21826,
     "issues": 130,
     "createdAt": "2026-01-27T03:53:13Z",
     "pushedAt": "2026-04-20T10:05:04Z",
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "lastSyncedAt": "2026-10-03T08:58:27.129Z"
+    "lastSyncedAt": "2026-10-04T09:29:47.852Z"
   },
   "https://github.com/thedotmack/claude-mem": {
-    "stars": 95214,
-    "forks": 8432,
-    "issues": 110,
+    "stars": 95787,
+    "forks": 8468,
+    "issues": 88,
     "createdAt": "2025-08-31T20:50:03Z",
-    "pushedAt": "2026-10-03T06:33:20Z",
+    "pushedAt": "2026-10-04T09:15:15Z",
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "lastSyncedAt": "2026-10-03T08:58:27.321Z"
+    "lastSyncedAt": "2026-10-04T09:29:48.020Z"
   },
   "https://github.com/musistudio/claude-code-router": {
-    "stars": 37518,
-    "forks": 3146,
-    "issues": 1165,
+    "stars": 37529,
+    "forks": 3147,
+    "issues": 1167,
     "createdAt": "2025-02-25T02:17:18Z",
     "pushedAt": "2026-09-26T15:00:04Z",
     "description": "One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control.",
-    "lastSyncedAt": "2026-10-03T08:58:27.531Z"
+    "lastSyncedAt": "2026-10-04T09:29:48.190Z"
   },
   "https://github.com/farion1231/cc-switch": {
-    "stars": 139663,
-    "forks": 9403,
-    "issues": 2937,
+    "stars": 139880,
+    "forks": 9415,
+    "issues": 2947,
     "createdAt": "2025-08-04T14:16:16Z",
-    "pushedAt": "2026-10-03T08:12:42Z",
+    "pushedAt": "2026-10-04T09:07:49Z",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-    "lastSyncedAt": "2026-10-03T08:58:27.730Z"
+    "lastSyncedAt": "2026-10-04T09:29:48.377Z"
   },
   "https://github.com/NanmiCoder/cc-haha": {
-    "stars": 14849,
-    "forks": 8595,
+    "stars": 14855,
+    "forks": 8594,
     "issues": 181,
     "createdAt": "2026-03-31T17:30:14Z",
-    "pushedAt": "2026-10-01T18:49:34Z",
+    "pushedAt": "2026-10-04T09:19:48Z",
     "description": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
-    "lastSyncedAt": "2026-10-03T08:58:28.186Z"
+    "lastSyncedAt": "2026-10-04T09:29:48.766Z"
   },
   "https://github.com/headroomlabs-ai/headroom": {
-    "stars": 74313,
-    "forks": 5743,
+    "stars": 74377,
+    "forks": 5751,
     "issues": 455,
     "createdAt": "2026-01-07T19:58:51Z",
-    "pushedAt": "2026-10-03T07:45:52Z",
+    "pushedAt": "2026-10-03T21:18:57Z",
     "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-    "lastSyncedAt": "2026-10-03T08:58:28.658Z"
+    "lastSyncedAt": "2026-10-04T09:29:49.185Z"
   },
   "https://github.com/samber/cc-skills-golang": {
-    "stars": 3378,
-    "forks": 224,
+    "stars": 3383,
+    "forks": 225,
     "issues": 7,
     "createdAt": "2026-03-21T23:10:11Z",
     "pushedAt": "2026-10-01T12:32:20Z",
     "description": "🧑‍🎨 A collection of Golang agentic skills that works",
-    "lastSyncedAt": "2026-10-03T08:58:29.094Z"
+    "lastSyncedAt": "2026-10-04T09:29:49.594Z"
   },
   "https://github.com/NeoLabHQ/context-engineering-kit": {
-    "stars": 1741,
+    "stars": 1743,
     "forks": 159,
     "issues": 10,
     "createdAt": "2025-11-13T23:23:04Z",
     "pushedAt": "2026-08-26T21:08:01Z",
     "description": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others. Includes CodeRabbit open-source alternative.",
-    "lastSyncedAt": "2026-10-03T08:58:29.572Z"
+    "lastSyncedAt": "2026-10-04T09:29:49.999Z"
   },
   "https://github.com/microsoft/skills-for-fabric": {
-    "stars": 1213,
-    "forks": 345,
-    "issues": 43,
+    "stars": 1216,
+    "forks": 346,
+    "issues": 44,
     "createdAt": "2026-02-17T20:02:53Z",
     "pushedAt": "2026-10-01T20:23:30Z",
     "description": "A collection of skills and MCP systems to enable users of CLI, VSCode, Claude to operate over Microsoft Fabric",
-    "lastSyncedAt": "2026-10-03T08:58:29.977Z"
+    "lastSyncedAt": "2026-10-04T09:29:50.446Z"
   },
   "https://github.com/daymade/claude-code-skills": {
     "stars": 1441,
     "forks": 223,
     "issues": 14,
     "createdAt": "2025-10-22T11:17:31Z",
-    "pushedAt": "2026-10-03T08:13:40Z",
+    "pushedAt": "2026-10-04T08:42:43Z",
     "description": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.",
-    "lastSyncedAt": "2026-10-03T08:58:30.415Z"
+    "lastSyncedAt": "2026-10-04T09:29:50.795Z"
   },
   "https://github.com/withkynam/vibecode-pro-max-kit": {
-    "stars": 1143,
+    "stars": 1144,
     "forks": 234,
     "issues": 23,
     "createdAt": "2026-05-27T05:46:25Z",
     "pushedAt": "2026-06-21T08:31:44Z",
     "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 15 agents, 33 skills working with /goal, agent-team, & workflow on autopilot loops with 0 need for human gate. Kills context rot, ships features, not spaghetti. Claude Code & Codex. Any stack",
-    "lastSyncedAt": "2026-10-03T08:58:30.845Z"
+    "lastSyncedAt": "2026-10-04T09:29:51.192Z"
   },
   "https://github.com/callstack/agent-device": {
-    "stars": 4873,
-    "forks": 322,
-    "issues": 116,
+    "stars": 4884,
+    "forks": 325,
+    "issues": 123,
     "createdAt": "2026-01-30T18:41:54Z",
-    "pushedAt": "2026-10-03T08:48:58Z",
+    "pushedAt": "2026-10-04T09:24:30Z",
     "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-    "lastSyncedAt": "2026-10-03T08:58:31.265Z"
+    "lastSyncedAt": "2026-10-04T09:29:51.573Z"
   },
   "https://github.com/new-silvermoon/awesome-android-agent-skills": {
     "stars": 970,
@@ -366,178 +374,178 @@
     "createdAt": "2024-02-06T17:13:24Z",
     "pushedAt": "2026-07-27T21:51:10Z",
     "description": "A collection of standardized Agent Skills to teach GitHub Copilot, Claude, Gemini and Cursor about modern Android development (Kotlin, Jetpack Compose, etc.).",
-    "lastSyncedAt": "2026-10-03T08:58:31.659Z"
+    "lastSyncedAt": "2026-10-04T09:29:51.992Z"
   },
   "https://github.com/Imbad0202/academic-research-skills": {
-    "stars": 50226,
-    "forks": 3874,
-    "issues": 32,
+    "stars": 50336,
+    "forks": 3884,
+    "issues": 31,
     "createdAt": "2026-02-26T06:31:01Z",
-    "pushedAt": "2026-10-03T06:58:49Z",
+    "pushedAt": "2026-10-03T14:29:44Z",
     "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-    "lastSyncedAt": "2026-10-03T08:58:32.061Z"
+    "lastSyncedAt": "2026-10-04T09:29:52.378Z"
   },
   "https://github.com/OthmanAdi/planning-with-files": {
-    "stars": 27263,
-    "forks": 2268,
-    "issues": 6,
+    "stars": 27278,
+    "forks": 2269,
+    "issues": 10,
     "createdAt": "2026-01-03T07:37:28Z",
     "pushedAt": "2026-10-01T19:57:49Z",
     "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
-    "lastSyncedAt": "2026-10-03T08:58:32.471Z"
+    "lastSyncedAt": "2026-10-04T09:29:52.824Z"
   },
   "https://github.com/shanraisshan/claude-code-best-practice": {
-    "stars": 67022,
-    "forks": 6700,
-    "issues": 51,
+    "stars": 67059,
+    "forks": 6702,
+    "issues": 52,
     "createdAt": "2025-10-31T14:15:28Z",
-    "pushedAt": "2026-10-03T06:45:54Z",
+    "pushedAt": "2026-10-04T06:45:46Z",
     "description": "from vibe coding to agentic engineering - practice makes claude perfect",
-    "lastSyncedAt": "2026-10-03T08:58:32.898Z"
+    "lastSyncedAt": "2026-10-04T09:29:53.267Z"
   },
   "https://github.com/coreyhaines31/marketingskills": {
-    "stars": 52532,
-    "forks": 7885,
-    "issues": 72,
+    "stars": 52737,
+    "forks": 7906,
+    "issues": 76,
     "createdAt": "2026-01-15T19:45:23Z",
     "pushedAt": "2026-10-03T01:51:50Z",
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "lastSyncedAt": "2026-10-03T08:58:33.285Z"
+    "lastSyncedAt": "2026-10-04T09:29:53.675Z"
   },
   "https://github.com/bergside/awesome-design-skills": {
-    "stars": 3023,
+    "stars": 3038,
     "forks": 293,
     "issues": 14,
     "createdAt": "2026-03-09T08:55:36Z",
     "pushedAt": "2026-06-28T10:05:22Z",
     "description": "List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools",
-    "lastSyncedAt": "2026-10-03T08:58:33.706Z"
+    "lastSyncedAt": "2026-10-04T09:29:54.077Z"
   },
   "https://github.com/ComposioHQ/awesome-claude-skills": {
-    "stars": 76391,
-    "forks": 8927,
-    "issues": 1615,
+    "stars": 76452,
+    "forks": 8943,
+    "issues": 1622,
     "createdAt": "2025-10-17T07:15:01Z",
     "pushedAt": "2026-09-18T07:16:11Z",
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "lastSyncedAt": "2026-10-03T08:58:34.168Z"
+    "lastSyncedAt": "2026-10-04T09:29:54.484Z"
   },
   "https://github.com/heilcheng/awesome-agent-skills": {
-    "stars": 6256,
-    "forks": 731,
-    "issues": 363,
+    "stars": 6258,
+    "forks": 733,
+    "issues": 366,
     "createdAt": "2025-12-29T21:13:40Z",
     "pushedAt": "2026-04-05T20:39:24Z",
     "description": "Tutorials, Guides and Agent Skills Directories",
-    "lastSyncedAt": "2026-10-03T08:58:34.622Z"
+    "lastSyncedAt": "2026-10-04T09:29:54.861Z"
   },
   "https://github.com/Prat011/awesome-llm-skills": {
-    "stars": 1775,
-    "forks": 318,
+    "stars": 1778,
+    "forks": 320,
     "issues": 173,
     "createdAt": "2025-10-22T06:15:37Z",
     "pushedAt": "2026-07-14T09:53:56Z",
     "description": "A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents",
-    "lastSyncedAt": "2026-10-03T08:58:35.098Z"
+    "lastSyncedAt": "2026-10-04T09:29:55.291Z"
   },
   "https://github.com/rohitg00/awesome-claude-code-toolkit": {
-    "stars": 2669,
-    "forks": 992,
+    "stars": 2674,
+    "forks": 995,
     "issues": 346,
     "createdAt": "2026-02-04T21:09:33Z",
     "pushedAt": "2026-05-12T07:18:34Z",
     "description": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more.",
-    "lastSyncedAt": "2026-10-03T08:58:35.584Z"
+    "lastSyncedAt": "2026-10-04T09:29:55.746Z"
   },
   "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools": {
-    "stars": 144000,
-    "forks": 34798,
+    "stars": 144013,
+    "forks": 34800,
     "issues": 163,
     "createdAt": "2025-03-05T16:38:29Z",
     "pushedAt": "2026-08-11T13:01:09Z",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "lastSyncedAt": "2026-10-03T08:58:35.983Z"
+    "lastSyncedAt": "2026-10-04T09:29:56.138Z"
   },
   "https://github.com/glittercowboy/taches-cc-resources": {
     "stars": 1981,
-    "forks": 409,
+    "forks": 408,
     "issues": 16,
     "createdAt": "2025-11-13T18:02:17Z",
     "pushedAt": "2026-04-01T15:10:58Z",
     "description": "A collection of my favorite custom Claude Code resources to make life easier.",
-    "lastSyncedAt": "2026-10-03T08:58:36.400Z"
+    "lastSyncedAt": "2026-10-04T09:29:56.529Z"
   },
   "https://github.com/jnMetaCode/agency-agents-zh": {
-    "stars": 21043,
-    "forks": 3389,
+    "stars": 21050,
+    "forks": 3390,
     "issues": 1,
     "createdAt": "2026-03-06T11:11:51Z",
     "pushedAt": "2026-09-29T15:49:25Z",
     "description": "🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉/Qt 上位机/机械设计）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
-    "lastSyncedAt": "2026-10-03T08:58:36.836Z"
+    "lastSyncedAt": "2026-10-04T09:29:56.950Z"
   },
   "https://github.com/anthropics/claude-agent-sdk-python": {
-    "stars": 8208,
-    "forks": 1317,
-    "issues": 526,
+    "stars": 8213,
+    "forks": 1320,
+    "issues": 529,
     "createdAt": "2025-06-11T21:33:43Z",
-    "pushedAt": "2026-10-02T20:22:41Z",
+    "pushedAt": "2026-10-03T23:10:01Z",
     "description": null,
-    "lastSyncedAt": "2026-10-03T08:58:37.291Z"
+    "lastSyncedAt": "2026-10-04T09:29:57.384Z"
   },
   "https://github.com/openai/swarm": {
-    "stars": 22034,
-    "forks": 2343,
+    "stars": 22035,
+    "forks": 2341,
     "issues": 37,
     "createdAt": "2024-02-22T20:53:54Z",
     "pushedAt": "2026-04-15T17:10:28Z",
     "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
-    "lastSyncedAt": "2026-10-03T08:58:37.726Z"
+    "lastSyncedAt": "2026-10-04T09:29:57.948Z"
   },
   "https://github.com/camel-ai/camel": {
-    "stars": 17805,
-    "forks": 2104,
+    "stars": 17810,
+    "forks": 2103,
     "issues": 527,
     "createdAt": "2023-03-17T21:41:54Z",
     "pushedAt": "2026-09-30T04:46:03Z",
     "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
-    "lastSyncedAt": "2026-10-03T08:58:38.188Z"
+    "lastSyncedAt": "2026-10-04T09:29:58.362Z"
   },
   "https://github.com/run-llama/llama_index": {
-    "stars": 52391,
-    "forks": 8270,
-    "issues": 851,
+    "stars": 52404,
+    "forks": 8274,
+    "issues": 855,
     "createdAt": "2022-11-02T04:24:54Z",
     "pushedAt": "2026-10-01T18:39:47Z",
     "description": "LlamaIndex is the document processing platform for AI",
-    "lastSyncedAt": "2026-10-03T08:58:38.670Z"
+    "lastSyncedAt": "2026-10-04T09:29:58.770Z"
   },
   "https://github.com/JetBrains/koog": {
-    "stars": 4599,
-    "forks": 483,
-    "issues": 232,
+    "stars": 4601,
+    "forks": 484,
+    "issues": 233,
     "createdAt": "2025-05-01T13:38:01Z",
-    "pushedAt": "2026-10-02T16:57:02Z",
+    "pushedAt": "2026-10-04T02:38:09Z",
     "description": "Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems",
-    "lastSyncedAt": "2026-10-03T08:58:39.121Z"
+    "lastSyncedAt": "2026-10-04T09:29:59.190Z"
   },
   "https://github.com/Yeachan-Heo/oh-my-claudecode": {
-    "stars": 39548,
-    "forks": 3532,
+    "stars": 39572,
+    "forks": 3538,
     "issues": 1,
     "createdAt": "2026-01-09T03:36:29Z",
-    "pushedAt": "2026-10-03T07:07:47Z",
+    "pushedAt": "2026-10-04T07:26:03Z",
     "description": "Teams-first Multi-agent orchestration for Claude Code",
-    "lastSyncedAt": "2026-10-03T08:58:27.946Z"
+    "lastSyncedAt": "2026-10-04T09:29:48.586Z"
   },
   "https://github.com/Graphify-Labs/graphify": {
-    "stars": 123399,
-    "forks": 11889,
-    "issues": 1532,
+    "stars": 123640,
+    "forks": 11919,
+    "issues": 1514,
     "createdAt": "2026-04-03T15:49:07Z",
-    "pushedAt": "2026-10-02T22:12:03Z",
+    "pushedAt": "2026-10-04T01:26:07Z",
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "lastSyncedAt": "2026-10-03T08:58:28.447Z"
+    "lastSyncedAt": "2026-10-04T09:29:48.943Z"
   },
   "https://github.com/utkusen/sast-skills": {
     "stars": 1323,
@@ -546,34 +554,34 @@
     "createdAt": "2026-03-30T14:11:49Z",
     "pushedAt": "2026-04-08T14:45:56Z",
     "description": "Collection of agent skills to find vulnerabilities inside your web/mobile apps.",
-    "lastSyncedAt": "2026-10-03T08:58:28.896Z"
+    "lastSyncedAt": "2026-10-04T09:29:49.400Z"
   },
   "https://github.com/softaworks/agent-toolkit": {
-    "stars": 2519,
-    "forks": 228,
+    "stars": 2521,
+    "forks": 230,
     "issues": 19,
     "createdAt": "2026-01-19T12:35:40Z",
     "pushedAt": "2026-03-05T16:46:24Z",
     "description": "A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.",
-    "lastSyncedAt": "2026-10-03T08:58:29.321Z"
+    "lastSyncedAt": "2026-10-04T09:29:49.804Z"
   },
   "https://github.com/ConardLi/garden-skills": {
-    "stars": 12720,
-    "forks": 1525,
+    "stars": 12727,
+    "forks": 1526,
     "issues": 19,
     "createdAt": "2026-04-21T11:56:17Z",
     "pushedAt": "2026-07-12T14:36:31Z",
     "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-    "lastSyncedAt": "2026-10-03T08:58:29.763Z"
+    "lastSyncedAt": "2026-10-04T09:29:50.188Z"
   },
   "https://github.com/numman-ali/n-skills": {
-    "stars": 1050,
+    "stars": 1051,
     "forks": 109,
     "issues": 38,
     "createdAt": "2026-01-02T13:14:28Z",
     "pushedAt": "2026-09-12T00:25:34Z",
     "description": "Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills",
-    "lastSyncedAt": "2026-10-03T08:58:30.158Z"
+    "lastSyncedAt": "2026-10-04T09:29:50.622Z"
   },
   "https://github.com/GuDaStudio/skills": {
     "stars": 2020,
@@ -582,187 +590,187 @@
     "createdAt": "2025-12-16T14:54:52Z",
     "pushedAt": "2025-12-23T15:04:12Z",
     "description": "This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and tools.",
-    "lastSyncedAt": "2026-10-03T08:58:30.609Z"
+    "lastSyncedAt": "2026-10-04T09:29:51.006Z"
   },
   "https://github.com/dmtrKovalenko/fff": {
-    "stars": 10907,
-    "forks": 458,
-    "issues": 74,
+    "stars": 10921,
+    "forks": 457,
+    "issues": 78,
     "createdAt": "2025-07-31T22:01:49Z",
-    "pushedAt": "2026-09-27T23:53:48Z",
+    "pushedAt": "2026-10-04T08:29:21Z",
     "description": "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS",
-    "lastSyncedAt": "2026-10-03T08:58:31.044Z"
+    "lastSyncedAt": "2026-10-04T09:29:51.367Z"
   },
   "https://github.com/mukul975/Anthropic-Cybersecurity-Skills": {
-    "stars": 33729,
-    "forks": 4084,
+    "stars": 33760,
+    "forks": 4089,
     "issues": 51,
     "createdAt": "2026-02-25T09:47:50Z",
     "pushedAt": "2026-08-31T04:32:44Z",
     "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-    "lastSyncedAt": "2026-10-03T08:58:31.458Z"
+    "lastSyncedAt": "2026-10-04T09:29:51.789Z"
   },
   "https://github.com/gptme/gptme": {
-    "stars": 4442,
+    "stars": 4444,
     "forks": 447,
-    "issues": 49,
+    "issues": 51,
     "createdAt": "2023-03-24T16:25:01Z",
-    "pushedAt": "2026-10-03T08:24:36Z",
+    "pushedAt": "2026-10-04T07:42:50Z",
     "description": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!",
-    "lastSyncedAt": "2026-10-03T08:58:31.866Z"
+    "lastSyncedAt": "2026-10-04T09:29:52.213Z"
   },
   "https://github.com/brycewang-stanford/Awesome-Journal-Skills": {
-    "stars": 1203,
+    "stars": 1207,
     "forks": 155,
     "issues": 2,
     "createdAt": "2026-05-25T06:19:56Z",
     "pushedAt": "2026-09-27T08:08:29Z",
     "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
-    "lastSyncedAt": "2026-10-03T08:58:32.266Z"
+    "lastSyncedAt": "2026-10-04T09:29:52.582Z"
   },
   "https://github.com/humanlayer/12-factor-agents": {
-    "stars": 26539,
+    "stars": 26543,
     "forks": 1985,
     "issues": 27,
     "createdAt": "2025-03-30T22:10:39Z",
     "pushedAt": "2025-09-21T14:37:40Z",
     "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
-    "lastSyncedAt": "2026-10-03T08:58:32.688Z"
+    "lastSyncedAt": "2026-10-04T09:29:53.083Z"
   },
   "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know": {
-    "stars": 3091,
-    "forks": 357,
+    "stars": 3092,
+    "forks": 358,
     "issues": 16,
     "createdAt": "2025-08-17T14:45:39Z",
     "pushedAt": "2026-07-28T11:00:38Z",
     "description": "A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.",
-    "lastSyncedAt": "2026-10-03T08:58:33.098Z"
+    "lastSyncedAt": "2026-10-04T09:29:53.456Z"
   },
   "https://github.com/Paramchoudhary/ResumeSkills": {
-    "stars": 2524,
-    "forks": 211,
+    "stars": 2531,
+    "forks": 214,
     "issues": 5,
     "createdAt": "2026-01-30T10:29:46Z",
     "pushedAt": "2026-06-19T07:20:29Z",
     "description": "A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.",
-    "lastSyncedAt": "2026-10-03T08:58:33.488Z"
+    "lastSyncedAt": "2026-10-04T09:29:53.893Z"
   },
   "https://github.com/rohitg00/awesome-claude-design": {
-    "stars": 1122,
+    "stars": 1124,
     "forks": 145,
     "issues": 6,
     "createdAt": "2026-04-19T09:20:44Z",
     "pushedAt": "2026-04-23T13:37:55Z",
     "description": "Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes.",
-    "lastSyncedAt": "2026-10-03T08:58:33.916Z"
+    "lastSyncedAt": "2026-10-04T09:29:54.285Z"
   },
   "https://github.com/VoltAgent/awesome-agent-skills": {
-    "stars": 35142,
-    "forks": 3779,
-    "issues": 45,
+    "stars": 35184,
+    "forks": 3784,
+    "issues": 47,
     "createdAt": "2025-10-28T08:55:32Z",
     "pushedAt": "2026-10-02T17:24:52Z",
     "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-    "lastSyncedAt": "2026-10-03T08:58:34.419Z"
+    "lastSyncedAt": "2026-10-04T09:29:54.672Z"
   },
   "https://github.com/BehiSecc/awesome-claude-skills": {
-    "stars": 10202,
-    "forks": 1646,
-    "issues": 295,
+    "stars": 10205,
+    "forks": 1647,
+    "issues": 299,
     "createdAt": "2025-10-17T15:05:35Z",
     "pushedAt": "2026-09-21T07:16:41Z",
     "description": "A curated list of Claude Skills.",
-    "lastSyncedAt": "2026-10-03T08:58:34.826Z"
+    "lastSyncedAt": "2026-10-04T09:29:55.085Z"
   },
   "https://github.com/abubakarsiddik31/claude-skills-collection": {
-    "stars": 1085,
+    "stars": 1086,
     "forks": 195,
     "issues": 15,
     "createdAt": "2025-10-18T16:24:12Z",
     "pushedAt": "2026-09-12T11:58:10Z",
     "description": "A curated collection of official and community-built Claude Skills – extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
-    "lastSyncedAt": "2026-10-03T08:58:35.376Z"
+    "lastSyncedAt": "2026-10-04T09:29:55.498Z"
   },
   "https://github.com/hesreallyhim/awesome-claude-code": {
-    "stars": 54987,
-    "forks": 4781,
-    "issues": 1193,
+    "stars": 55040,
+    "forks": 4784,
+    "issues": 1204,
     "createdAt": "2025-04-19T20:55:59Z",
-    "pushedAt": "2026-10-03T06:18:54Z",
+    "pushedAt": "2026-10-04T08:03:33Z",
     "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
-    "lastSyncedAt": "2026-10-03T08:58:35.786Z"
+    "lastSyncedAt": "2026-10-04T09:29:55.956Z"
   },
   "https://github.com/davepoon/buildwithclaude": {
-    "stars": 3581,
-    "forks": 556,
-    "issues": 16,
+    "stars": 3588,
+    "forks": 559,
+    "issues": 19,
     "createdAt": "2025-07-25T02:26:45Z",
-    "pushedAt": "2026-10-03T08:09:57Z",
+    "pushedAt": "2026-10-03T23:37:11Z",
     "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
-    "lastSyncedAt": "2026-10-03T08:58:36.181Z"
+    "lastSyncedAt": "2026-10-04T09:29:56.342Z"
   },
   "https://github.com/trycua/acu": {
-    "stars": 1778,
+    "stars": 1779,
     "forks": 142,
     "issues": 16,
     "createdAt": "2025-01-05T15:56:34Z",
     "pushedAt": "2025-09-26T04:09:48Z",
     "description": "A curated list of resources about AI agents for Computer Use, including research papers, projects, frameworks, and tools.",
-    "lastSyncedAt": "2026-10-03T08:58:36.620Z"
+    "lastSyncedAt": "2026-10-04T09:29:56.731Z"
   },
   "https://github.com/anthropics/claude-plugins-official": {
-    "stars": 37328,
-    "forks": 4201,
-    "issues": 1049,
+    "stars": 37363,
+    "forks": 4208,
+    "issues": 1050,
     "createdAt": "2025-11-20T18:36:20Z",
     "pushedAt": "2026-10-02T21:26:11Z",
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-    "lastSyncedAt": "2026-10-03T08:58:37.063Z"
+    "lastSyncedAt": "2026-10-04T09:29:57.187Z"
   },
   "https://github.com/FoundationAgents/MetaGPT": {
-    "stars": 70723,
+    "stars": 70734,
     "forks": 8989,
     "issues": 144,
     "createdAt": "2023-06-30T09:04:55Z",
     "pushedAt": "2026-01-21T10:12:33Z",
     "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-    "lastSyncedAt": "2026-10-03T08:58:37.502Z"
+    "lastSyncedAt": "2026-10-04T09:29:57.723Z"
   },
   "https://github.com/microsoft/agent-framework": {
-    "stars": 13919,
-    "forks": 2418,
-    "issues": 710,
+    "stars": 13935,
+    "forks": 2424,
+    "issues": 725,
     "createdAt": "2025-04-28T19:40:42Z",
     "pushedAt": "2026-10-03T01:49:25Z",
     "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
-    "lastSyncedAt": "2026-10-03T08:58:37.941Z"
+    "lastSyncedAt": "2026-10-04T09:29:58.138Z"
   },
   "https://github.com/TransformerOptimus/SuperAGI": {
-    "stars": 17699,
-    "forks": 2226,
-    "issues": 264,
+    "stars": 17698,
+    "forks": 2227,
+    "issues": 265,
     "createdAt": "2023-05-13T08:55:24Z",
     "pushedAt": "2025-01-22T22:14:07Z",
     "description": "<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.",
-    "lastSyncedAt": "2026-10-03T08:58:38.409Z"
+    "lastSyncedAt": "2026-10-04T09:29:58.545Z"
   },
   "https://github.com/deepset-ai/haystack": {
-    "stars": 26645,
-    "forks": 3222,
-    "issues": 149,
+    "stars": 26646,
+    "forks": 3227,
+    "issues": 153,
     "createdAt": "2019-11-14T09:05:28Z",
     "pushedAt": "2026-10-02T15:30:35Z",
     "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
-    "lastSyncedAt": "2026-10-03T08:58:38.878Z"
+    "lastSyncedAt": "2026-10-04T09:29:58.954Z"
   },
   "https://github.com/kyegomez/swarms": {
-    "stars": 7226,
-    "forks": 1033,
-    "issues": 265,
+    "stars": 7230,
+    "forks": 1036,
+    "issues": 269,
     "createdAt": "2023-05-11T01:09:00Z",
-    "pushedAt": "2026-10-02T21:22:34Z",
+    "pushedAt": "2026-10-03T23:33:42Z",
     "description": "The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai",
-    "lastSyncedAt": "2026-10-03T08:58:39.331Z"
+    "lastSyncedAt": "2026-10-04T09:29:59.385Z"
   },
   "https://github.com/OpenBMB/XAgent": {
     "stars": 8552,
@@ -771,7 +779,7 @@
     "createdAt": "2023-10-16T03:44:57Z",
     "pushedAt": "2026-07-31T03:30:54Z",
     "description": "An Autonomous LLM Agent for Complex Task Solving",
-    "lastSyncedAt": "2026-10-03T08:58:39.540Z"
+    "lastSyncedAt": "2026-10-04T09:29:59.609Z"
   },
   "https://github.com/InternLM/MindSearch": {
     "stars": 6934,
@@ -780,232 +788,232 @@
     "createdAt": "2024-07-28T03:54:50Z",
     "pushedAt": "2025-07-04T10:06:45Z",
     "description": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)",
-    "lastSyncedAt": "2026-10-03T08:58:39.804Z"
+    "lastSyncedAt": "2026-10-04T09:29:59.796Z"
   },
   "https://github.com/MervinPraison/PraisonAI": {
-    "stars": 9127,
-    "forks": 1458,
-    "issues": 224,
+    "stars": 9131,
+    "forks": 1460,
+    "issues": 231,
     "createdAt": "2024-03-19T16:45:25Z",
-    "pushedAt": "2026-10-03T08:56:39Z",
+    "pushedAt": "2026-10-04T08:36:00Z",
     "description": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
-    "lastSyncedAt": "2026-10-03T08:58:40.001Z"
+    "lastSyncedAt": "2026-10-04T09:30:00.014Z"
   },
   "https://github.com/omnigent-ai/omnigent": {
-    "stars": 10428,
-    "forks": 1671,
-    "issues": 1683,
+    "stars": 10474,
+    "forks": 1677,
+    "issues": 1715,
     "createdAt": "2026-06-11T12:18:13Z",
-    "pushedAt": "2026-10-03T06:53:51Z",
+    "pushedAt": "2026-10-04T09:09:17Z",
     "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-    "lastSyncedAt": "2026-10-03T08:58:40.229Z"
+    "lastSyncedAt": "2026-10-04T09:30:00.238Z"
   },
   "https://github.com/Fosowl/agenticSeek": {
-    "stars": 27420,
-    "forks": 3077,
+    "stars": 27422,
+    "forks": 3076,
     "issues": 29,
     "createdAt": "2025-02-19T18:03:06Z",
     "pushedAt": "2026-10-02T20:03:48Z",
     "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
-    "lastSyncedAt": "2026-10-03T08:58:40.431Z"
+    "lastSyncedAt": "2026-10-04T09:30:00.467Z"
   },
   "https://github.com/AstrBotDevs/AstrBot": {
-    "stars": 41329,
-    "forks": 3008,
-    "issues": 1580,
+    "stars": 41378,
+    "forks": 3015,
+    "issues": 1587,
     "createdAt": "2022-12-08T13:27:46Z",
-    "pushedAt": "2026-10-03T08:07:05Z",
+    "pushedAt": "2026-10-04T05:09:17Z",
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-    "lastSyncedAt": "2026-10-03T08:58:40.638Z"
+    "lastSyncedAt": "2026-10-04T09:30:00.657Z"
   },
   "https://github.com/khoj-ai/khoj": {
-    "stars": 37555,
-    "forks": 2494,
-    "issues": 161,
+    "stars": 37558,
+    "forks": 2496,
+    "issues": 163,
     "createdAt": "2021-08-16T01:48:44Z",
     "pushedAt": "2026-08-02T01:55:40Z",
     "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
-    "lastSyncedAt": "2026-10-03T08:58:40.859Z"
+    "lastSyncedAt": "2026-10-04T09:30:00.897Z"
   },
   "https://github.com/CherryHQ/cherry-studio": {
-    "stars": 52333,
+    "stars": 52355,
     "forks": 5034,
-    "issues": 1709,
+    "issues": 1711,
     "createdAt": "2024-05-24T01:56:26Z",
-    "pushedAt": "2026-10-03T08:25:35Z",
+    "pushedAt": "2026-10-04T09:18:16Z",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "lastSyncedAt": "2026-10-03T08:58:41.088Z"
+    "lastSyncedAt": "2026-10-04T09:30:01.176Z"
   },
   "https://github.com/labring/FastGPT": {
-    "stars": 29775,
+    "stars": 29778,
     "forks": 7323,
     "issues": 180,
     "createdAt": "2023-02-23T16:53:25Z",
     "pushedAt": "2026-10-01T01:35:56Z",
     "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
-    "lastSyncedAt": "2026-10-03T08:58:41.322Z"
+    "lastSyncedAt": "2026-10-04T09:30:01.375Z"
   },
   "https://github.com/coze-dev/coze-studio": {
-    "stars": 21666,
+    "stars": 21672,
     "forks": 3127,
     "issues": 577,
     "createdAt": "2025-06-26T02:19:21Z",
     "pushedAt": "2026-07-29T03:18:43Z",
     "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
-    "lastSyncedAt": "2026-10-03T08:58:41.571Z"
+    "lastSyncedAt": "2026-10-04T09:30:01.594Z"
   },
   "https://github.com/Tencent/WeKnora": {
-    "stars": 31818,
-    "forks": 4249,
-    "issues": 647,
+    "stars": 31947,
+    "forks": 4260,
+    "issues": 651,
     "createdAt": "2025-07-22T08:01:23Z",
     "pushedAt": "2026-10-01T11:57:46Z",
     "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-    "lastSyncedAt": "2026-10-03T08:58:41.792Z"
+    "lastSyncedAt": "2026-10-04T09:30:01.807Z"
   },
   "https://github.com/assafelovic/gpt-researcher": {
-    "stars": 29884,
-    "forks": 4080,
+    "stars": 29903,
+    "forks": 4081,
     "issues": 23,
     "createdAt": "2023-05-12T10:33:54Z",
     "pushedAt": "2026-10-01T19:33:35Z",
     "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
-    "lastSyncedAt": "2026-10-03T08:58:41.992Z"
+    "lastSyncedAt": "2026-10-04T09:30:01.996Z"
   },
   "https://github.com/bytedance/deer-flow": {
-    "stars": 83342,
-    "forks": 11560,
-    "issues": 891,
+    "stars": 83370,
+    "forks": 11570,
+    "issues": 883,
     "createdAt": "2025-05-07T02:50:19Z",
-    "pushedAt": "2026-10-03T08:43:17Z",
+    "pushedAt": "2026-10-04T09:04:58Z",
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "lastSyncedAt": "2026-10-03T08:58:42.241Z"
+    "lastSyncedAt": "2026-10-04T09:30:02.226Z"
   },
   "https://github.com/cline/cline": {
-    "stars": 69754,
-    "forks": 7591,
-    "issues": 1582,
+    "stars": 69811,
+    "forks": 7598,
+    "issues": 1593,
     "createdAt": "2024-07-06T07:28:10Z",
     "pushedAt": "2026-10-03T03:04:24Z",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "lastSyncedAt": "2026-10-03T08:58:42.488Z"
+    "lastSyncedAt": "2026-10-04T09:30:02.427Z"
   },
   "https://github.com/aaif-goose/goose": {
-    "stars": 54888,
-    "forks": 6352,
-    "issues": 422,
+    "stars": 54926,
+    "forks": 6355,
+    "issues": 425,
     "createdAt": "2024-08-23T19:03:36Z",
     "pushedAt": "2026-10-02T17:36:13Z",
     "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-    "lastSyncedAt": "2026-10-03T08:58:42.712Z"
+    "lastSyncedAt": "2026-10-04T09:30:02.712Z"
   },
   "https://github.com/TauricResearch/TradingAgents": {
-    "stars": 109562,
-    "forks": 21059,
-    "issues": 109,
+    "stars": 109680,
+    "forks": 21091,
+    "issues": 76,
     "createdAt": "2024-12-28T03:31:08Z",
-    "pushedAt": "2026-09-29T06:15:10Z",
+    "pushedAt": "2026-10-03T21:30:10Z",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "lastSyncedAt": "2026-10-03T08:58:42.985Z"
+    "lastSyncedAt": "2026-10-04T09:30:02.891Z"
   },
   "https://github.com/earendil-works/pi": {
-    "stars": 111888,
-    "forks": 14193,
-    "issues": 258,
+    "stars": 112295,
+    "forks": 14239,
+    "issues": 265,
     "createdAt": "2025-08-09T14:03:50Z",
-    "pushedAt": "2026-10-02T22:29:23Z",
+    "pushedAt": "2026-10-04T00:44:54Z",
     "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-    "lastSyncedAt": "2026-10-03T08:58:43.207Z"
+    "lastSyncedAt": "2026-10-04T09:30:03.123Z"
   },
   "https://github.com/affaan-m/ECC": {
-    "stars": 271629,
-    "forks": 40576,
+    "stars": 272511,
+    "forks": 40689,
     "issues": 340,
     "createdAt": "2026-01-18T00:51:51Z",
     "pushedAt": "2026-10-02T02:01:14Z",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "lastSyncedAt": "2026-10-03T08:58:43.407Z"
+    "lastSyncedAt": "2026-10-04T09:30:03.333Z"
   },
   "https://github.com/ruvnet/ruflo": {
-    "stars": 73763,
-    "forks": 8761,
-    "issues": 1053,
+    "stars": 73826,
+    "forks": 8771,
+    "issues": 1076,
     "createdAt": "2025-06-02T21:24:20Z",
-    "pushedAt": "2026-10-03T08:33:22Z",
+    "pushedAt": "2026-10-04T05:56:40Z",
     "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "lastSyncedAt": "2026-10-03T08:58:43.614Z"
+    "lastSyncedAt": "2026-10-04T09:30:03.546Z"
   },
   "https://github.com/stablyai/orca": {
-    "stars": 84077,
-    "forks": 5418,
-    "issues": 7403,
+    "stars": 84625,
+    "forks": 5460,
+    "issues": 7483,
     "createdAt": "2026-03-17T03:28:57Z",
-    "pushedAt": "2026-10-03T08:54:24Z",
+    "pushedAt": "2026-10-04T09:26:46Z",
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-    "lastSyncedAt": "2026-10-03T08:58:43.822Z"
+    "lastSyncedAt": "2026-10-04T09:30:03.754Z"
   },
   "https://github.com/getpaseo/paseo": {
-    "stars": 19300,
-    "forks": 2259,
-    "issues": 997,
+    "stars": 19400,
+    "forks": 2274,
+    "issues": 1023,
     "createdAt": "2025-10-13T12:27:02Z",
-    "pushedAt": "2026-10-03T01:08:04Z",
+    "pushedAt": "2026-10-04T09:24:34Z",
     "description": "Orchestrate multiple coding agents from desktop and mobile",
-    "lastSyncedAt": "2026-10-03T08:58:44.040Z"
+    "lastSyncedAt": "2026-10-04T09:30:03.971Z"
   },
   "https://github.com/superset-sh/superset": {
-    "stars": 14831,
-    "forks": 1319,
-    "issues": 852,
+    "stars": 14864,
+    "forks": 1324,
+    "issues": 866,
     "createdAt": "2025-10-21T09:16:51Z",
-    "pushedAt": "2026-10-03T05:15:26Z",
+    "pushedAt": "2026-10-04T07:20:42Z",
     "description": "Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.",
-    "lastSyncedAt": "2026-10-03T08:58:44.299Z"
+    "lastSyncedAt": "2026-10-04T09:30:04.155Z"
   },
   "https://github.com/triggerdotdev/trigger.dev": {
-    "stars": 16458,
-    "forks": 1479,
-    "issues": 347,
+    "stars": 16462,
+    "forks": 1481,
+    "issues": 348,
     "createdAt": "2022-11-30T14:59:07Z",
-    "pushedAt": "2026-10-02T22:06:26Z",
+    "pushedAt": "2026-10-04T06:12:29Z",
     "description": "Trigger.dev – build and deploy durable AI agents and workflows",
-    "lastSyncedAt": "2026-10-03T08:58:44.573Z"
+    "lastSyncedAt": "2026-10-04T09:30:04.355Z"
   },
   "https://github.com/alibaba/spring-ai-alibaba": {
     "stars": 10957,
-    "forks": 2436,
-    "issues": 159,
+    "forks": 2437,
+    "issues": 161,
     "createdAt": "2024-09-09T01:35:50Z",
     "pushedAt": "2026-09-16T12:55:05Z",
     "description": "Agentic AI Framework for Java Developers",
-    "lastSyncedAt": "2026-10-03T08:58:44.766Z"
+    "lastSyncedAt": "2026-10-04T09:30:04.597Z"
   },
   "https://github.com/TencentCloud/TencentDB-Agent-Memory": {
-    "stars": 27651,
-    "forks": 2665,
-    "issues": 887,
+    "stars": 27682,
+    "forks": 2670,
+    "issues": 895,
     "createdAt": "2026-04-07T06:34:26Z",
     "pushedAt": "2026-09-29T08:48:49Z",
     "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-    "lastSyncedAt": "2026-10-03T08:58:44.986Z"
+    "lastSyncedAt": "2026-10-04T09:30:04.797Z"
   },
   "https://github.com/raga-ai-hub/RagaAI-Catalyst": {
-    "stars": 16169,
+    "stars": 16170,
     "forks": 3571,
     "issues": 34,
     "createdAt": "2024-08-26T12:13:15Z",
     "pushedAt": "2026-02-11T14:43:33Z",
     "description": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced analytics with timeline and execution graph view ",
-    "lastSyncedAt": "2026-10-03T08:58:45.200Z"
+    "lastSyncedAt": "2026-10-04T09:30:05.029Z"
   },
   "https://github.com/openlit/openlit": {
-    "stars": 2813,
+    "stars": 2814,
     "forks": 418,
     "issues": 139,
     "createdAt": "2024-01-23T17:40:59Z",
     "pushedAt": "2026-10-01T23:48:45Z",
     "description": "OpenLIT is the open-source agent harness engineering platform: trace, evaluate, guard, and improve everything around the model in your AI agents, on OTEL.",
-    "lastSyncedAt": "2026-10-03T08:58:45.424Z"
+    "lastSyncedAt": "2026-10-04T09:30:05.255Z"
   },
   "https://github.com/zenml-io/zenml": {
     "stars": 5601,
@@ -1014,34 +1022,34 @@
     "createdAt": "2020-11-19T09:25:46Z",
     "pushedAt": "2026-10-02T15:31:58Z",
     "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
-    "lastSyncedAt": "2026-10-03T08:58:45.626Z"
+    "lastSyncedAt": "2026-10-04T09:30:05.480Z"
   },
   "https://github.com/dtyq/magic": {
-    "stars": 5044,
+    "stars": 5045,
     "forks": 567,
     "issues": 21,
     "createdAt": "2025-05-14T22:04:29Z",
     "pushedAt": "2026-08-12T12:46:11Z",
     "description": "Magicrew. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)",
-    "lastSyncedAt": "2026-10-03T08:58:45.832Z"
+    "lastSyncedAt": "2026-10-04T09:30:05.710Z"
   },
   "https://github.com/iflytek/astron-agent": {
-    "stars": 8873,
-    "forks": 885,
-    "issues": 48,
+    "stars": 8872,
+    "forks": 888,
+    "issues": 53,
     "createdAt": "2025-09-19T08:46:01Z",
-    "pushedAt": "2026-10-02T14:37:17Z",
+    "pushedAt": "2026-10-03T09:25:55Z",
     "description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
-    "lastSyncedAt": "2026-10-03T08:58:46.052Z"
+    "lastSyncedAt": "2026-10-04T09:30:05.890Z"
   },
   "https://github.com/bytechefhq/bytechef": {
     "stars": 1009,
     "forks": 174,
-    "issues": 463,
+    "issues": 469,
     "createdAt": "2021-09-30T03:39:20Z",
-    "pushedAt": "2026-10-03T08:58:02Z",
+    "pushedAt": "2026-10-04T08:33:27Z",
     "description": "Open-source AI agents and workflow automation. Self-host or embed in your SaaS. Apache 2.0 alternative to n8n and Zapier.",
-    "lastSyncedAt": "2026-10-03T08:58:46.268Z"
+    "lastSyncedAt": "2026-10-04T09:30:06.157Z"
   },
   "https://github.com/trypromptly/LLMStack": {
     "stars": 2308,
@@ -1050,7 +1058,7 @@
     "createdAt": "2023-08-06T00:39:25Z",
     "pushedAt": "2024-12-11T19:59:51Z",
     "description": "No-code multi-agent framework to build LLM Agents, workflows and applications with your data",
-    "lastSyncedAt": "2026-10-03T08:58:46.497Z"
+    "lastSyncedAt": "2026-10-04T09:30:06.370Z"
   },
   "https://github.com/PySpur-Dev/pyspur": {
     "stars": 5798,
@@ -1059,169 +1067,169 @@
     "createdAt": "2024-09-23T17:24:52Z",
     "pushedAt": "2026-06-29T17:53:12Z",
     "description": "A visual playground for agentic workflows: Iterate over your agents 10x faster",
-    "lastSyncedAt": "2026-10-03T08:58:46.754Z"
+    "lastSyncedAt": "2026-10-04T09:30:06.556Z"
   },
   "https://github.com/HKUDS/nanobot": {
-    "stars": 48751,
-    "forks": 8600,
-    "issues": 811,
+    "stars": 48777,
+    "forks": 8604,
+    "issues": 824,
     "createdAt": "2026-02-01T07:16:15Z",
-    "pushedAt": "2026-10-03T08:57:04Z",
+    "pushedAt": "2026-10-04T08:55:48Z",
     "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
-    "lastSyncedAt": "2026-10-03T08:58:47.005Z"
+    "lastSyncedAt": "2026-10-04T09:30:06.768Z"
   },
   "https://github.com/the-open-agent/openagent": {
-    "stars": 5684,
+    "stars": 5687,
     "forks": 664,
     "issues": 51,
     "createdAt": "2020-05-29T02:45:58Z",
     "pushedAt": "2026-10-01T12:23:43Z",
     "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
-    "lastSyncedAt": "2026-10-03T08:58:47.269Z"
+    "lastSyncedAt": "2026-10-04T09:30:06.968Z"
   },
   "https://github.com/nanocoai/nanoclaw": {
-    "stars": 30863,
-    "forks": 12786,
-    "issues": 1032,
+    "stars": 30876,
+    "forks": 12782,
+    "issues": 1031,
     "createdAt": "2026-01-31T15:47:22Z",
-    "pushedAt": "2026-10-02T22:14:22Z",
+    "pushedAt": "2026-10-04T07:49:02Z",
     "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
-    "lastSyncedAt": "2026-10-03T08:58:47.474Z"
+    "lastSyncedAt": "2026-10-04T09:30:07.187Z"
   },
   "https://github.com/netease-youdao/LobsterAI": {
-    "stars": 6083,
-    "forks": 972,
-    "issues": 515,
+    "stars": 6084,
+    "forks": 973,
+    "issues": 512,
     "createdAt": "2026-02-12T09:56:20Z",
     "pushedAt": "2026-10-01T14:38:10Z",
     "description": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
-    "lastSyncedAt": "2026-10-03T08:58:47.722Z"
+    "lastSyncedAt": "2026-10-04T09:30:07.376Z"
   },
   "https://github.com/osaurus-ai/osaurus": {
-    "stars": 8019,
-    "forks": 473,
-    "issues": 254,
+    "stars": 8018,
+    "forks": 474,
+    "issues": 261,
     "createdAt": "2025-08-17T15:05:39Z",
-    "pushedAt": "2026-10-03T08:58:45Z",
+    "pushedAt": "2026-10-04T09:00:50Z",
     "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
-    "lastSyncedAt": "2026-10-03T08:58:47.939Z"
+    "lastSyncedAt": "2026-10-04T09:30:07.599Z"
   },
   "https://github.com/zai-org/Open-AutoGLM": {
-    "stars": 26340,
-    "forks": 4046,
+    "stars": 26344,
+    "forks": 4047,
     "issues": 269,
     "createdAt": "2025-12-08T09:23:44Z",
     "pushedAt": "2026-03-06T08:38:39Z",
     "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
-    "lastSyncedAt": "2026-10-03T08:58:48.142Z"
+    "lastSyncedAt": "2026-10-04T09:30:07.804Z"
   },
   "https://github.com/github/copilot-sdk": {
-    "stars": 10539,
+    "stars": 10542,
     "forks": 1472,
-    "issues": 346,
+    "issues": 345,
     "createdAt": "2026-01-14T00:23:22Z",
     "pushedAt": "2026-10-02T22:19:53Z",
     "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-    "lastSyncedAt": "2026-10-03T08:58:48.399Z"
+    "lastSyncedAt": "2026-10-04T09:30:07.996Z"
   },
   "https://github.com/google/adk-go": {
-    "stars": 8844,
-    "forks": 1025,
-    "issues": 207,
+    "stars": 8846,
+    "forks": 1028,
+    "issues": 205,
     "createdAt": "2025-05-05T17:16:26Z",
-    "pushedAt": "2026-10-02T18:01:04Z",
+    "pushedAt": "2026-10-03T13:56:25Z",
     "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-    "lastSyncedAt": "2026-10-03T08:58:48.607Z"
+    "lastSyncedAt": "2026-10-04T09:30:08.241Z"
   },
   "https://github.com/microsoft/fara": {
-    "stars": 6207,
+    "stars": 6208,
     "forks": 604,
     "issues": 42,
     "createdAt": "2025-10-29T16:23:22Z",
     "pushedAt": "2026-09-22T14:45:27Z",
     "description": "Fara1.5 – A family of frontier computer use agent models",
-    "lastSyncedAt": "2026-10-03T08:58:48.864Z"
+    "lastSyncedAt": "2026-10-04T09:30:08.446Z"
   },
   "https://github.com/trycua/cua": {
-    "stars": 27867,
-    "forks": 1964,
+    "stars": 27985,
+    "forks": 1983,
     "issues": 1022,
     "createdAt": "2025-01-31T15:02:49Z",
-    "pushedAt": "2026-10-03T08:56:17Z",
+    "pushedAt": "2026-10-04T08:26:57Z",
     "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-    "lastSyncedAt": "2026-10-03T08:58:49.074Z"
+    "lastSyncedAt": "2026-10-04T09:30:08.642Z"
   },
   "https://github.com/simular-ai/Agent-S": {
-    "stars": 12507,
-    "forks": 1461,
-    "issues": 54,
+    "stars": 12529,
+    "forks": 1464,
+    "issues": 56,
     "createdAt": "2024-10-09T15:43:12Z",
     "pushedAt": "2026-09-05T22:02:40Z",
     "description": "Agent S: an open agentic framework that uses computers like a human",
-    "lastSyncedAt": "2026-10-03T08:58:49.325Z"
+    "lastSyncedAt": "2026-10-04T09:30:08.891Z"
   },
   "https://github.com/browserbase/stagehand": {
-    "stars": 25522,
+    "stars": 25530,
     "forks": 1752,
-    "issues": 377,
+    "issues": 375,
     "createdAt": "2024-03-24T19:19:44Z",
-    "pushedAt": "2026-10-02T23:16:53Z",
+    "pushedAt": "2026-10-04T09:18:47Z",
     "description": "The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more.",
-    "lastSyncedAt": "2026-10-03T08:58:49.591Z"
+    "lastSyncedAt": "2026-10-04T09:30:09.100Z"
   },
   "https://github.com/nanobrowser/nanobrowser": {
-    "stars": 13875,
-    "forks": 1471,
+    "stars": 13908,
+    "forks": 1475,
     "issues": 81,
     "createdAt": "2024-12-31T08:11:27Z",
     "pushedAt": "2026-10-02T14:46:19Z",
     "description": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.",
-    "lastSyncedAt": "2026-10-03T08:58:49.816Z"
+    "lastSyncedAt": "2026-10-04T09:30:09.333Z"
   },
   "https://github.com/browseros-ai/BrowserOS": {
-    "stars": 13802,
-    "forks": 1470,
+    "stars": 13814,
+    "forks": 1472,
     "issues": 90,
     "createdAt": "2025-05-18T16:23:54Z",
-    "pushedAt": "2026-10-03T06:03:22Z",
+    "pushedAt": "2026-10-03T17:15:39Z",
     "description": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
-    "lastSyncedAt": "2026-10-03T08:58:50.064Z"
+    "lastSyncedAt": "2026-10-04T09:30:09.572Z"
   },
   "https://github.com/steel-dev/steel-browser": {
-    "stars": 7729,
-    "forks": 986,
+    "stars": 7733,
+    "forks": 988,
     "issues": 74,
     "createdAt": "2024-11-01T18:15:29Z",
     "pushedAt": "2026-09-28T20:40:14Z",
     "description": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
-    "lastSyncedAt": "2026-10-03T08:58:50.316Z"
+    "lastSyncedAt": "2026-10-04T09:30:09.874Z"
   },
   "https://github.com/hyperbrowserai/HyperAgent": {
-    "stars": 1585,
+    "stars": 1586,
     "forks": 210,
     "issues": 26,
     "createdAt": "2025-04-14T05:02:59Z",
     "pushedAt": "2026-05-11T21:41:09Z",
     "description": "AI Browser Automation",
-    "lastSyncedAt": "2026-10-03T08:58:50.531Z"
+    "lastSyncedAt": "2026-10-04T09:30:10.106Z"
   },
   "https://github.com/EmergenceAI/Agent-E": {
-    "stars": 1251,
+    "stars": 1250,
     "forks": 192,
     "issues": 24,
     "createdAt": "2024-03-28T21:54:39Z",
     "pushedAt": "2026-05-04T07:51:00Z",
     "description": "Agent driven automation starting with the web. Try it: https://www.emergence.ai/web-automation-api",
-    "lastSyncedAt": "2026-10-03T08:58:50.741Z"
+    "lastSyncedAt": "2026-10-04T09:30:10.356Z"
   },
   "https://github.com/nottelabs/notte": {
-    "stars": 2013,
+    "stars": 2015,
     "forks": 184,
     "issues": 15,
     "createdAt": "2024-12-08T02:06:30Z",
-    "pushedAt": "2026-10-03T05:11:05Z",
+    "pushedAt": "2026-10-04T06:51:32Z",
     "description": "Cloud browser infrastructure and web automation platform for your AI and coding agents",
-    "lastSyncedAt": "2026-10-03T08:58:50.975Z"
+    "lastSyncedAt": "2026-10-04T09:30:10.637Z"
   },
   "https://github.com/lavague-ai/LaVague": {
     "stars": 6394,
@@ -1230,25 +1238,25 @@
     "createdAt": "2024-02-26T23:40:23Z",
     "pushedAt": "2025-01-21T13:41:48Z",
     "description": "Large Action Model framework to develop AI Web Agents",
-    "lastSyncedAt": "2026-10-03T08:58:51.200Z"
+    "lastSyncedAt": "2026-10-04T09:30:10.884Z"
   },
   "https://github.com/tinyfish-io/agentql": {
     "stars": 1476,
-    "forks": 176,
+    "forks": 177,
     "issues": 13,
     "createdAt": "2024-02-20T19:56:33Z",
     "pushedAt": "2026-10-02T09:00:41Z",
     "description": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.",
-    "lastSyncedAt": "2026-10-03T08:58:51.428Z"
+    "lastSyncedAt": "2026-10-04T09:30:11.150Z"
   },
   "https://github.com/spider-rs/spider": {
-    "stars": 2751,
+    "stars": 2752,
     "forks": 307,
     "issues": 3,
     "createdAt": "2018-01-07T18:49:20Z",
     "pushedAt": "2026-10-01T21:26:06Z",
     "description": "Foundational low latency web data collecting in Rust",
-    "lastSyncedAt": "2026-10-03T08:58:51.667Z"
+    "lastSyncedAt": "2026-10-04T09:30:11.397Z"
   },
   "https://github.com/yuruotong1/autoMate": {
     "stars": 3965,
@@ -1257,16 +1265,16 @@
     "createdAt": "2024-01-20T03:04:09Z",
     "pushedAt": "2026-09-18T00:02:05Z",
     "description": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
-    "lastSyncedAt": "2026-10-03T08:58:51.898Z"
+    "lastSyncedAt": "2026-10-04T09:30:11.587Z"
   },
   "https://github.com/e2b-dev/open-computer-use": {
-    "stars": 2306,
+    "stars": 2307,
     "forks": 261,
     "issues": 21,
     "createdAt": "2024-10-31T15:39:29Z",
     "pushedAt": "2026-07-09T17:37:06Z",
     "description": "AI computer use powered by open source LLMs and E2B Desktop Sandbox",
-    "lastSyncedAt": "2026-10-03T08:58:52.221Z"
+    "lastSyncedAt": "2026-10-04T09:30:11.816Z"
   },
   "https://github.com/ghostwright/ghost-os": {
     "stars": 1667,
@@ -1275,304 +1283,304 @@
     "createdAt": "2026-02-19T03:53:36Z",
     "pushedAt": "2026-03-23T22:41:44Z",
     "description": "Full computer-use for AI agents. Self-learning workflows. Native macOS. No screenshots required.",
-    "lastSyncedAt": "2026-10-03T08:58:52.435Z"
+    "lastSyncedAt": "2026-10-04T09:30:12.064Z"
   },
   "https://github.com/openai/openai-cua-sample-app": {
-    "stars": 1883,
-    "forks": 434,
+    "stars": 1885,
+    "forks": 435,
     "issues": 44,
     "createdAt": "2025-03-11T14:57:29Z",
     "pushedAt": "2026-09-04T21:39:16Z",
     "description": "Learn how to use CUA (our Computer Using Agent) via the API on multiple computer environments.",
-    "lastSyncedAt": "2026-10-03T08:58:52.689Z"
+    "lastSyncedAt": "2026-10-04T09:30:12.275Z"
   },
   "https://github.com/feder-cr/AIHawk": {
-    "stars": 31762,
-    "forks": 4685,
+    "stars": 31769,
+    "forks": 4687,
     "issues": 2,
     "createdAt": "2024-08-04T12:15:06Z",
     "pushedAt": "2026-10-03T04:13:36Z",
     "description": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
-    "lastSyncedAt": "2026-10-03T08:58:53.150Z"
+    "lastSyncedAt": "2026-10-04T09:30:12.717Z"
   },
   "https://github.com/HKUDS/DeepCode": {
-    "stars": 16665,
-    "forks": 2165,
+    "stars": 16669,
+    "forks": 2164,
     "issues": 19,
     "createdAt": "2025-05-14T05:23:02Z",
     "pushedAt": "2026-09-28T08:06:05Z",
     "description": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)\"",
-    "lastSyncedAt": "2026-10-03T08:58:53.412Z"
+    "lastSyncedAt": "2026-10-04T09:30:12.938Z"
   },
   "https://github.com/0x4m4/hexstrike-ai": {
-    "stars": 12287,
-    "forks": 2499,
+    "stars": 12306,
+    "forks": 2503,
     "issues": 114,
     "createdAt": "2025-07-10T17:53:18Z",
     "pushedAt": "2026-08-03T14:33:09Z",
     "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
-    "lastSyncedAt": "2026-10-03T08:58:53.610Z"
+    "lastSyncedAt": "2026-10-04T09:30:13.120Z"
   },
   "https://github.com/NousResearch/hermes-agent": {
-    "stars": 250848,
-    "forks": 53756,
-    "issues": 47870,
+    "stars": 251055,
+    "forks": 53856,
+    "issues": 47877,
     "createdAt": "2025-07-22T22:22:28Z",
-    "pushedAt": "2026-10-03T08:40:41Z",
+    "pushedAt": "2026-10-04T09:27:47Z",
     "description": "The agent that grows with you",
-    "lastSyncedAt": "2026-10-03T08:58:53.886Z"
+    "lastSyncedAt": "2026-10-04T09:30:13.349Z"
   },
   "https://github.com/zhayujie/CowAgent": {
-    "stars": 47219,
-    "forks": 10373,
-    "issues": 92,
+    "stars": 47227,
+    "forks": 10375,
+    "issues": 52,
     "createdAt": "2022-08-07T08:33:41Z",
-    "pushedAt": "2026-10-03T05:30:19Z",
+    "pushedAt": "2026-10-04T06:30:27Z",
     "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.",
-    "lastSyncedAt": "2026-10-03T08:58:54.103Z"
+    "lastSyncedAt": "2026-10-04T09:30:13.573Z"
   },
   "https://github.com/tinyhumansai/openhuman": {
-    "stars": 40475,
-    "forks": 3997,
-    "issues": 259,
+    "stars": 40571,
+    "forks": 4022,
+    "issues": 268,
     "createdAt": "2026-02-18T20:01:27Z",
-    "pushedAt": "2026-10-03T08:08:18Z",
+    "pushedAt": "2026-10-04T08:19:56Z",
     "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
-    "lastSyncedAt": "2026-10-03T08:58:54.310Z"
+    "lastSyncedAt": "2026-10-04T09:30:13.824Z"
   },
   "https://github.com/iOfficeAI/AionUi": {
-    "stars": 33291,
-    "forks": 3467,
+    "stars": 33304,
+    "forks": 3464,
     "issues": 936,
     "createdAt": "2025-08-07T10:29:51Z",
     "pushedAt": "2026-09-09T07:57:01Z",
     "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
-    "lastSyncedAt": "2026-10-03T08:58:54.521Z"
+    "lastSyncedAt": "2026-10-04T09:30:14.041Z"
   },
   "https://github.com/holaboss-ai/holaOS": {
-    "stars": 11454,
+    "stars": 11457,
     "forks": 730,
     "issues": 10,
     "createdAt": "2026-03-22T07:36:16Z",
     "pushedAt": "2026-08-21T13:11:13Z",
     "description": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines.",
-    "lastSyncedAt": "2026-10-03T08:58:54.740Z"
+    "lastSyncedAt": "2026-10-04T09:30:14.264Z"
   },
   "https://github.com/mem0ai/mem0": {
-    "stars": 66509,
-    "forks": 7837,
-    "issues": 781,
+    "stars": 66552,
+    "forks": 7843,
+    "issues": 783,
     "createdAt": "2023-06-20T08:58:36Z",
     "pushedAt": "2026-10-01T20:07:39Z",
     "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
-    "lastSyncedAt": "2026-10-03T08:58:54.954Z"
+    "lastSyncedAt": "2026-10-04T09:30:14.478Z"
   },
   "https://github.com/letta-ai/letta": {
-    "stars": 25011,
+    "stars": 25024,
     "forks": 2642,
     "issues": 0,
     "createdAt": "2023-10-11T07:38:37Z",
     "pushedAt": "2026-09-10T17:59:08Z",
     "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
-    "lastSyncedAt": "2026-10-03T08:58:55.203Z"
+    "lastSyncedAt": "2026-10-04T09:30:14.678Z"
   },
   "https://github.com/MemTensor/MemOS": {
-    "stars": 11683,
-    "forks": 1065,
-    "issues": 117,
+    "stars": 11694,
+    "forks": 1068,
+    "issues": 122,
     "createdAt": "2025-07-06T09:51:27Z",
     "pushedAt": "2026-09-29T03:09:34Z",
     "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
-    "lastSyncedAt": "2026-10-03T08:58:55.433Z"
+    "lastSyncedAt": "2026-10-04T09:30:14.950Z"
   },
   "https://github.com/memvid/memvid": {
-    "stars": 16572,
+    "stars": 16574,
     "forks": 1421,
     "issues": 34,
     "createdAt": "2025-05-27T16:01:08Z",
     "pushedAt": "2026-07-14T14:39:07Z",
     "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
-    "lastSyncedAt": "2026-10-03T08:58:55.665Z"
+    "lastSyncedAt": "2026-10-04T09:30:15.153Z"
   },
   "https://github.com/MemoriLabs/Memori": {
-    "stars": 17063,
-    "forks": 3646,
+    "stars": 17069,
+    "forks": 3649,
     "issues": 36,
     "createdAt": "2025-07-24T07:07:51Z",
     "pushedAt": "2026-10-03T01:33:14Z",
     "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
-    "lastSyncedAt": "2026-10-03T08:58:55.904Z"
+    "lastSyncedAt": "2026-10-04T09:30:15.381Z"
   },
   "https://github.com/EverMind-AI/EverOS": {
-    "stars": 13327,
-    "forks": 925,
-    "issues": 75,
+    "stars": 13338,
+    "forks": 926,
+    "issues": 76,
     "createdAt": "2025-10-28T15:09:32Z",
-    "pushedAt": "2026-10-01T13:01:28Z",
+    "pushedAt": "2026-10-04T07:31:24Z",
     "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
-    "lastSyncedAt": "2026-10-03T08:58:56.168Z"
+    "lastSyncedAt": "2026-10-04T09:30:15.610Z"
   },
   "https://github.com/activeloopai/deeplake": {
-    "stars": 9247,
+    "stars": 9248,
     "forks": 726,
-    "issues": 153,
+    "issues": 159,
     "createdAt": "2019-08-09T06:17:59Z",
     "pushedAt": "2026-05-21T15:28:00Z",
     "description": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
-    "lastSyncedAt": "2026-10-03T08:58:56.396Z"
+    "lastSyncedAt": "2026-10-04T09:30:15.865Z"
   },
   "https://github.com/Alibaba-NLP/DeepResearch": {
-    "stars": 20001,
+    "stars": 20003,
     "forks": 1529,
     "issues": 96,
     "createdAt": "2025-01-09T11:07:35Z",
     "pushedAt": "2026-02-27T13:12:11Z",
     "description": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
-    "lastSyncedAt": "2026-10-03T08:58:56.613Z"
+    "lastSyncedAt": "2026-10-04T09:30:16.063Z"
   },
   "https://github.com/dzhng/deep-research": {
-    "stars": 19745,
-    "forks": 2003,
+    "stars": 19753,
+    "forks": 2004,
     "issues": 95,
     "createdAt": "2025-02-04T01:27:56Z",
     "pushedAt": "2026-04-11T23:58:25Z",
     "description": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic.",
-    "lastSyncedAt": "2026-10-03T08:58:56.869Z"
+    "lastSyncedAt": "2026-10-04T09:30:16.281Z"
   },
   "https://github.com/zilliztech/deep-searcher": {
     "stars": 8292,
-    "forks": 805,
+    "forks": 806,
     "issues": 57,
     "createdAt": "2025-02-08T02:07:05Z",
     "pushedAt": "2026-09-22T10:08:42Z",
     "description": "Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.",
-    "lastSyncedAt": "2026-10-03T08:58:57.084Z"
+    "lastSyncedAt": "2026-10-04T09:30:16.516Z"
   },
   "https://github.com/MiroMindAI/MiroThinker": {
-    "stars": 8417,
+    "stars": 8418,
     "forks": 646,
     "issues": 5,
     "createdAt": "2025-08-07T13:32:12Z",
     "pushedAt": "2026-07-06T14:50:39Z",
     "description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively.",
-    "lastSyncedAt": "2026-10-03T08:58:57.346Z"
+    "lastSyncedAt": "2026-10-04T09:30:16.749Z"
   },
   "https://github.com/nickscamara/open-deep-research": {
-    "stars": 6294,
+    "stars": 6295,
     "forks": 740,
     "issues": 45,
     "createdAt": "2025-02-03T16:02:40Z",
     "pushedAt": "2025-05-07T15:38:28Z",
     "description": "An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl",
-    "lastSyncedAt": "2026-10-03T08:58:57.589Z"
+    "lastSyncedAt": "2026-10-04T09:30:16.987Z"
   },
   "https://github.com/virattt/dexter": {
-    "stars": 27633,
-    "forks": 3411,
+    "stars": 27641,
+    "forks": 3412,
     "issues": 105,
     "createdAt": "2025-10-14T21:02:00Z",
     "pushedAt": "2026-09-23T19:56:36Z",
     "description": "An autonomous agent for deep financial research",
-    "lastSyncedAt": "2026-10-03T08:58:57.775Z"
+    "lastSyncedAt": "2026-10-04T09:30:17.205Z"
   },
   "https://github.com/xbtlin/ai-berkshire": {
-    "stars": 16600,
-    "forks": 2473,
+    "stars": 16611,
+    "forks": 2474,
     "issues": 31,
     "createdAt": "2026-04-07T11:19:51Z",
     "pushedAt": "2026-09-27T18:07:45Z",
     "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-    "lastSyncedAt": "2026-10-03T08:58:58.021Z"
+    "lastSyncedAt": "2026-10-04T09:30:17.391Z"
   },
   "https://github.com/hsliuping/TradingAgents-CN": {
-    "stars": 32132,
-    "forks": 6718,
+    "stars": 32142,
+    "forks": 6719,
     "issues": 298,
     "createdAt": "2025-06-26T07:45:09Z",
     "pushedAt": "2026-09-22T12:11:05Z",
     "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
-    "lastSyncedAt": "2026-10-03T08:58:58.260Z"
+    "lastSyncedAt": "2026-10-04T09:30:17.635Z"
   },
   "https://github.com/pipecat-ai/pipecat": {
-    "stars": 16152,
-    "forks": 2815,
-    "issues": 375,
+    "stars": 16164,
+    "forks": 2816,
+    "issues": 370,
     "createdAt": "2023-12-27T12:59:00Z",
-    "pushedAt": "2026-10-03T08:37:57Z",
+    "pushedAt": "2026-10-03T19:41:34Z",
     "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
-    "lastSyncedAt": "2026-10-03T08:58:58.502Z"
+    "lastSyncedAt": "2026-10-04T09:30:17.854Z"
   },
   "https://github.com/livekit/agents": {
-    "stars": 14454,
-    "forks": 3840,
-    "issues": 936,
+    "stars": 14468,
+    "forks": 3845,
+    "issues": 943,
     "createdAt": "2023-10-19T23:00:55Z",
-    "pushedAt": "2026-10-03T01:30:21Z",
+    "pushedAt": "2026-10-04T07:27:12Z",
     "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
-    "lastSyncedAt": "2026-10-03T08:58:58.757Z"
+    "lastSyncedAt": "2026-10-04T09:30:18.098Z"
   },
   "https://github.com/TEN-framework/ten-framework": {
-    "stars": 11142,
+    "stars": 11145,
     "forks": 1367,
     "issues": 247,
     "createdAt": "2024-06-19T14:26:15Z",
-    "pushedAt": "2026-10-03T03:31:36Z",
+    "pushedAt": "2026-10-04T05:13:03Z",
     "description": " Open-source framework for conversational voice AI agents",
-    "lastSyncedAt": "2026-10-03T08:58:59.063Z"
+    "lastSyncedAt": "2026-10-04T09:30:18.291Z"
   },
   "https://github.com/huggingface/speech-to-speech": {
-    "stars": 13362,
-    "forks": 1701,
-    "issues": 106,
+    "stars": 13364,
+    "forks": 1700,
+    "issues": 109,
     "createdAt": "2024-08-07T15:32:09Z",
-    "pushedAt": "2026-10-02T23:14:37Z",
+    "pushedAt": "2026-10-03T22:17:19Z",
     "description": "Build voice agents with open-source models",
-    "lastSyncedAt": "2026-10-03T08:58:59.293Z"
+    "lastSyncedAt": "2026-10-04T09:30:18.495Z"
   },
   "https://github.com/GetStream/Vision-Agents": {
-    "stars": 8150,
-    "forks": 689,
+    "stars": 8151,
+    "forks": 691,
     "issues": 44,
     "createdAt": "2025-08-11T18:02:04Z",
-    "pushedAt": "2026-10-03T04:17:33Z",
+    "pushedAt": "2026-10-04T05:16:46Z",
     "description": "Open Vision Agents by Stream. Build voice and vision agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency.",
-    "lastSyncedAt": "2026-10-03T08:58:59.543Z"
+    "lastSyncedAt": "2026-10-04T09:30:18.686Z"
   },
   "https://github.com/PatterAI/Patter": {
-    "stars": 1063,
+    "stars": 1064,
     "forks": 126,
     "issues": 10,
     "createdAt": "2026-04-07T09:32:07Z",
     "pushedAt": "2026-10-03T06:19:16Z",
     "description": "Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to own the stack. Give your AI agent a phone number in 4 lines — Python and TypeScript, MIT licensed, Twilio, Telnyx, and Plivo.",
-    "lastSyncedAt": "2026-10-03T08:58:59.755Z"
+    "lastSyncedAt": "2026-10-04T09:30:18.905Z"
   },
   "https://github.com/punkpeye/awesome-mcp-servers": {
-    "stars": 95770,
-    "forks": 16988,
-    "issues": 2800,
+    "stars": 95810,
+    "forks": 17051,
+    "issues": 2886,
     "createdAt": "2024-11-30T04:49:10Z",
     "pushedAt": "2026-09-27T02:12:17Z",
     "description": "A collection of MCP servers.",
-    "lastSyncedAt": "2026-10-03T08:58:59.958Z"
+    "lastSyncedAt": "2026-10-04T09:30:19.140Z"
   },
   "https://github.com/pathwaycom/pathway": {
-    "stars": 62191,
-    "forks": 1683,
-    "issues": 38,
+    "stars": 62185,
+    "forks": 1684,
+    "issues": 39,
     "createdAt": "2022-11-27T13:01:14Z",
-    "pushedAt": "2026-10-03T05:29:04Z",
+    "pushedAt": "2026-10-04T05:40:10Z",
     "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
-    "lastSyncedAt": "2026-10-03T08:59:00.184Z"
+    "lastSyncedAt": "2026-10-04T09:30:19.363Z"
   },
   "https://github.com/llmware-ai/llmware": {
-    "stars": 14827,
+    "stars": 14826,
     "forks": 2932,
     "issues": 95,
     "createdAt": "2023-09-29T15:19:06Z",
     "pushedAt": "2026-10-01T16:09:57Z",
     "description": "Unified framework for building enterprise RAG pipelines with small, specialized models",
-    "lastSyncedAt": "2026-10-03T08:59:00.400Z"
+    "lastSyncedAt": "2026-10-04T09:30:19.543Z"
   },
   "https://github.com/The-Vibe-Company/quivr": {
     "stars": 39579,
@@ -1581,115 +1589,115 @@
     "createdAt": "2023-05-12T23:53:30Z",
     "pushedAt": "2026-08-31T18:02:45Z",
     "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
-    "lastSyncedAt": "2026-10-03T08:59:00.620Z"
+    "lastSyncedAt": "2026-10-04T09:30:19.764Z"
   },
   "https://github.com/neuml/txtai": {
-    "stars": 12990,
-    "forks": 912,
-    "issues": 19,
+    "stars": 12991,
+    "forks": 914,
+    "issues": 27,
     "createdAt": "2020-08-09T19:14:59Z",
     "pushedAt": "2026-10-02T18:39:04Z",
     "description": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
-    "lastSyncedAt": "2026-10-03T08:59:00.827Z"
+    "lastSyncedAt": "2026-10-04T09:30:19.935Z"
   },
   "https://github.com/OpenSPG/KAG": {
-    "stars": 9081,
+    "stars": 9082,
     "forks": 722,
     "issues": 173,
     "createdAt": "2024-09-21T13:56:44Z",
     "pushedAt": "2026-01-28T13:30:54Z",
     "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
-    "lastSyncedAt": "2026-10-03T08:59:01.038Z"
+    "lastSyncedAt": "2026-10-04T09:30:20.137Z"
   },
   "https://github.com/Marker-Inc-Korea/AutoRAG": {
     "stars": 5109,
     "forks": 444,
-    "issues": 148,
+    "issues": 138,
     "createdAt": "2024-01-10T12:25:00Z",
-    "pushedAt": "2026-10-02T16:52:49Z",
+    "pushedAt": "2026-10-04T08:37:56Z",
     "description": "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.",
-    "lastSyncedAt": "2026-10-03T08:59:01.266Z"
+    "lastSyncedAt": "2026-10-04T09:30:20.333Z"
   },
   "https://github.com/mlflow/mlflow": {
-    "stars": 28241,
-    "forks": 6415,
-    "issues": 2152,
+    "stars": 28250,
+    "forks": 6420,
+    "issues": 2156,
     "createdAt": "2018-06-05T16:05:58Z",
-    "pushedAt": "2026-10-03T08:47:55Z",
+    "pushedAt": "2026-10-04T09:18:59Z",
     "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
-    "lastSyncedAt": "2026-10-03T08:59:01.485Z"
+    "lastSyncedAt": "2026-10-04T09:30:20.548Z"
   },
   "https://github.com/coze-dev/coze-loop": {
-    "stars": 5757,
-    "forks": 800,
+    "stars": 5759,
+    "forks": 801,
     "issues": 87,
     "createdAt": "2025-06-24T00:26:28Z",
     "pushedAt": "2026-09-30T03:55:32Z",
     "description": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.  ",
-    "lastSyncedAt": "2026-10-03T08:59:01.706Z"
+    "lastSyncedAt": "2026-10-04T09:30:20.759Z"
   },
   "https://github.com/wshobson/agents": {
-    "stars": 40170,
-    "forks": 4284,
+    "stars": 40183,
+    "forks": 4285,
     "issues": 4,
     "createdAt": "2025-07-24T23:28:14Z",
     "pushedAt": "2026-10-01T19:08:25Z",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-    "lastSyncedAt": "2026-10-03T08:59:01.954Z"
+    "lastSyncedAt": "2026-10-04T09:30:20.945Z"
   },
   "https://github.com/alirezarezvani/claude-skills": {
-    "stars": 27377,
-    "forks": 3856,
+    "stars": 27539,
+    "forks": 3880,
     "issues": 27,
     "createdAt": "2025-10-19T04:04:05Z",
     "pushedAt": "2026-08-30T09:46:16Z",
     "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-    "lastSyncedAt": "2026-10-03T08:59:02.188Z"
+    "lastSyncedAt": "2026-10-04T09:30:21.125Z"
   },
   "https://github.com/jarrodwatts/claude-hud": {
-    "stars": 28271,
-    "forks": 1312,
-    "issues": 1,
+    "stars": 28293,
+    "forks": 1310,
+    "issues": 2,
     "createdAt": "2026-01-02T01:35:07Z",
-    "pushedAt": "2026-10-01T19:27:55Z",
+    "pushedAt": "2026-10-03T21:32:41Z",
     "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
-    "lastSyncedAt": "2026-10-03T08:59:02.440Z"
+    "lastSyncedAt": "2026-10-04T09:30:21.342Z"
   },
   "https://github.com/EveryInc/compound-engineering-plugin": {
-    "stars": 25377,
-    "forks": 2069,
+    "stars": 25387,
+    "forks": 2070,
     "issues": 115,
     "createdAt": "2025-10-09T19:43:46Z",
     "pushedAt": "2026-10-02T09:55:48Z",
     "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
-    "lastSyncedAt": "2026-10-03T08:59:02.681Z"
+    "lastSyncedAt": "2026-10-04T09:30:21.514Z"
   },
   "https://github.com/YishenTu/claudian": {
-    "stars": 15569,
-    "forks": 1051,
-    "issues": 68,
+    "stars": 15575,
+    "forks": 1055,
+    "issues": 71,
     "createdAt": "2025-12-05T17:58:26Z",
-    "pushedAt": "2026-10-03T08:17:06Z",
+    "pushedAt": "2026-10-04T09:26:57Z",
     "description": "An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault",
-    "lastSyncedAt": "2026-10-03T08:59:02.893Z"
+    "lastSyncedAt": "2026-10-04T09:30:21.757Z"
   },
   "https://github.com/ykdojo/claude-code-tips": {
-    "stars": 10182,
+    "stars": 10189,
     "forks": 825,
     "issues": 4,
     "createdAt": "2025-11-28T00:52:00Z",
     "pushedAt": "2026-09-25T03:50:54Z",
     "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
-    "lastSyncedAt": "2026-10-03T08:59:03.106Z"
+    "lastSyncedAt": "2026-10-04T09:30:21.948Z"
   },
   "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep": {
-    "stars": 16918,
+    "stars": 16951,
     "forks": 1429,
     "issues": 68,
     "createdAt": "2026-03-10T07:31:45Z",
     "pushedAt": "2026-09-29T05:26:25Z",
     "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
-    "lastSyncedAt": "2026-10-03T08:59:03.297Z"
+    "lastSyncedAt": "2026-10-04T09:30:22.135Z"
   },
   "https://github.com/UfoMiao/zcf": {
     "stars": 6084,
@@ -1698,160 +1706,160 @@
     "createdAt": "2025-07-30T06:09:00Z",
     "pushedAt": "2026-08-31T03:02:03Z",
     "description": "Zero-Config Code Flow for Claude code & Codex",
-    "lastSyncedAt": "2026-10-03T08:59:03.509Z"
+    "lastSyncedAt": "2026-10-04T09:30:22.344Z"
   },
   "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui": {
-    "stars": 6771,
+    "stars": 6783,
     "forks": 668,
-    "issues": 524,
+    "issues": 530,
     "createdAt": "2025-11-20T03:41:05Z",
     "pushedAt": "2026-09-30T14:16:47Z",
     "description": "Jetbrains Claude Code and Codex GUI Plugin",
-    "lastSyncedAt": "2026-10-03T08:59:03.727Z"
+    "lastSyncedAt": "2026-10-04T09:30:22.552Z"
   },
   "https://github.com/trailhq/Graft": {
-    "stars": 9515,
-    "forks": 874,
-    "issues": 205,
+    "stars": 9552,
+    "forks": 881,
+    "issues": 210,
     "createdAt": "2026-07-03T13:44:21Z",
-    "pushedAt": "2026-10-02T21:31:12Z",
+    "pushedAt": "2026-10-04T07:26:54Z",
     "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.",
-    "lastSyncedAt": "2026-10-03T08:59:03.931Z"
+    "lastSyncedAt": "2026-10-04T09:30:22.730Z"
   },
   "https://github.com/hashicorp/agent-skills": {
-    "stars": 882,
+    "stars": 883,
     "forks": 130,
     "issues": 11,
     "createdAt": "2025-11-08T02:07:20Z",
     "pushedAt": "2026-09-28T16:04:00Z",
     "description": "A collection of Agent skills and Claude Code plugins for HashiCorp products.",
-    "lastSyncedAt": "2026-10-03T08:59:04.150Z"
+    "lastSyncedAt": "2026-10-04T09:30:22.947Z"
   },
   "https://github.com/microsoft/power-platform-skills": {
-    "stars": 950,
-    "forks": 191,
-    "issues": 171,
+    "stars": 958,
+    "forks": 193,
+    "issues": 172,
     "createdAt": "2026-01-21T18:25:14Z",
-    "pushedAt": "2026-10-03T08:50:39Z",
+    "pushedAt": "2026-10-04T08:52:22Z",
     "description": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
-    "lastSyncedAt": "2026-10-03T08:59:04.386Z"
+    "lastSyncedAt": "2026-10-04T09:30:23.153Z"
   },
   "https://github.com/K-Dense-AI/scientific-agent-skills": {
-    "stars": 47437,
-    "forks": 4287,
+    "stars": 47534,
+    "forks": 4296,
     "issues": 21,
     "createdAt": "2025-10-19T20:54:15Z",
     "pushedAt": "2026-10-01T22:42:43Z",
     "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-    "lastSyncedAt": "2026-10-03T08:59:04.620Z"
+    "lastSyncedAt": "2026-10-04T09:30:23.352Z"
   },
   "https://github.com/data-goblin/power-bi-agentic-development": {
-    "stars": 957,
+    "stars": 969,
     "forks": 141,
-    "issues": 2,
+    "issues": 0,
     "createdAt": "2026-01-15T09:26:29Z",
-    "pushedAt": "2026-10-02T12:17:15Z",
+    "pushedAt": "2026-10-03T13:54:22Z",
     "description": "Power BI AI skills and Power BI agents for Claude Code and GitHub Copilot: a plugin marketplace of Power BI skills, subagents, and hooks for semantic models, DAX, TMDL, reports, and AI dashboards. Includes Microsoft Fabric skills and Fabric agents. Weekly updates.",
-    "lastSyncedAt": "2026-10-03T08:59:04.821Z"
+    "lastSyncedAt": "2026-10-04T09:30:23.532Z"
   },
   "https://github.com/freshtechbro/claudedesignskills": {
-    "stars": 971,
-    "forks": 166,
+    "stars": 974,
+    "forks": 167,
     "issues": 5,
     "createdAt": "2025-10-25T16:30:04Z",
     "pushedAt": "2025-11-20T01:58:04Z",
     "description": "A comprehensive collection of Claude Code skills for modern web development, specializing in 3D graphics, animation, and interactive web experiences.",
-    "lastSyncedAt": "2026-10-03T08:59:05.052Z"
+    "lastSyncedAt": "2026-10-04T09:30:23.743Z"
   },
   "https://github.com/danny-avila/LibreChat": {
-    "stars": 45209,
-    "forks": 9268,
-    "issues": 844,
+    "stars": 45243,
+    "forks": 9277,
+    "issues": 837,
     "createdAt": "2023-02-12T01:06:52Z",
-    "pushedAt": "2026-10-03T05:04:13Z",
+    "pushedAt": "2026-10-04T04:42:05Z",
     "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "lastSyncedAt": "2026-10-03T08:59:05.542Z"
+    "lastSyncedAt": "2026-10-04T09:30:24.170Z"
   },
   "https://github.com/ToolJet/ToolJet": {
-    "stars": 41027,
+    "stars": 41033,
     "forks": 5471,
     "issues": 1280,
     "createdAt": "2021-03-30T08:51:34Z",
     "pushedAt": "2026-10-03T08:30:14Z",
     "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
-    "lastSyncedAt": "2026-10-03T08:59:05.765Z"
+    "lastSyncedAt": "2026-10-04T09:30:24.355Z"
   },
   "https://github.com/dataelement/bisheng": {
-    "stars": 12021,
+    "stars": 12024,
     "forks": 1975,
     "issues": 49,
     "createdAt": "2023-08-28T10:00:24Z",
     "pushedAt": "2026-09-30T18:17:23Z",
     "description": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.",
-    "lastSyncedAt": "2026-10-03T08:59:05.994Z"
+    "lastSyncedAt": "2026-10-04T09:30:24.555Z"
   },
   "https://github.com/genkit-ai/genkit": {
-    "stars": 6468,
-    "forks": 856,
-    "issues": 828,
+    "stars": 6469,
+    "forks": 858,
+    "issues": 835,
     "createdAt": "2024-04-29T22:04:42Z",
-    "pushedAt": "2026-10-03T05:24:16Z",
+    "pushedAt": "2026-10-04T04:35:44Z",
     "description": "Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in production by Google",
-    "lastSyncedAt": "2026-10-03T08:59:06.227Z"
+    "lastSyncedAt": "2026-10-04T09:30:24.777Z"
   },
   "https://github.com/VoltAgent/voltagent": {
-    "stars": 10716,
-    "forks": 1153,
-    "issues": 100,
+    "stars": 10723,
+    "forks": 1154,
+    "issues": 102,
     "createdAt": "2025-04-16T15:41:18Z",
     "pushedAt": "2026-09-28T02:04:53Z",
     "description": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
-    "lastSyncedAt": "2026-10-03T08:59:06.443Z"
+    "lastSyncedAt": "2026-10-04T09:30:24.977Z"
   },
   "https://github.com/GoogleCloudPlatform/agent-starter-pack": {
-    "stars": 6566,
+    "stars": 6567,
     "forks": 1502,
     "issues": 50,
     "createdAt": "2025-01-31T16:03:06Z",
     "pushedAt": "2026-07-21T23:42:40Z",
     "description": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability.",
-    "lastSyncedAt": "2026-10-03T08:59:06.681Z"
+    "lastSyncedAt": "2026-10-04T09:30:25.198Z"
   },
   "https://github.com/langchain4j/langchain4j": {
-    "stars": 13198,
-    "forks": 2585,
-    "issues": 955,
+    "stars": 13202,
+    "forks": 2588,
+    "issues": 958,
     "createdAt": "2023-06-20T15:30:29Z",
     "pushedAt": "2026-10-02T12:48:47Z",
     "description": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot.",
-    "lastSyncedAt": "2026-10-03T08:59:06.883Z"
+    "lastSyncedAt": "2026-10-04T09:30:25.402Z"
   },
   "https://github.com/aiwaves-cn/agents": {
-    "stars": 5964,
+    "stars": 5965,
     "forks": 480,
     "issues": 49,
     "createdAt": "2023-07-18T02:01:03Z",
     "pushedAt": "2024-09-26T03:12:53Z",
     "description": "An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents",
-    "lastSyncedAt": "2026-10-03T08:59:07.118Z"
+    "lastSyncedAt": "2026-10-04T09:30:25.601Z"
   },
   "https://github.com/golutra/golutra": {
-    "stars": 3851,
+    "stars": 3852,
     "forks": 441,
-    "issues": 57,
+    "issues": 56,
     "createdAt": "2026-02-15T11:49:39Z",
     "pushedAt": "2026-09-28T10:52:20Z",
     "description": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
-    "lastSyncedAt": "2026-10-03T08:59:07.390Z"
+    "lastSyncedAt": "2026-10-04T09:30:25.792Z"
   },
   "https://github.com/UnicomAI/wanwu": {
-    "stars": 2359,
+    "stars": 2358,
     "forks": 142,
     "issues": 41,
     "createdAt": "2025-06-06T02:45:28Z",
     "pushedAt": "2026-09-25T02:57:14Z",
     "description": "China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and also supports model management. The platform features a developer-friendly license, and we welcome all developers to build upon the platform.",
-    "lastSyncedAt": "2026-10-03T08:59:07.594Z"
+    "lastSyncedAt": "2026-10-04T09:30:25.972Z"
   },
   "https://github.com/hexabot-ai/Hexabot": {
     "stars": 1274,
@@ -1860,34 +1868,34 @@
     "createdAt": "2024-09-09T18:57:42Z",
     "pushedAt": "2026-09-23T09:54:10Z",
     "description": "Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime.",
-    "lastSyncedAt": "2026-10-03T08:59:07.796Z"
+    "lastSyncedAt": "2026-10-04T09:30:26.167Z"
   },
   "https://github.com/arc53/DocsGPT": {
-    "stars": 18302,
-    "forks": 2174,
-    "issues": 166,
+    "stars": 18314,
+    "forks": 2179,
+    "issues": 165,
     "createdAt": "2023-02-02T11:03:23Z",
-    "pushedAt": "2026-10-02T20:53:52Z",
+    "pushedAt": "2026-10-03T23:00:10Z",
     "description": "Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.",
-    "lastSyncedAt": "2026-10-03T08:59:08.024Z"
+    "lastSyncedAt": "2026-10-04T09:30:26.392Z"
   },
   "https://github.com/rocketride-org/rocketride-server": {
-    "stars": 17951,
-    "forks": 7697,
-    "issues": 346,
+    "stars": 17921,
+    "forks": 7676,
+    "issues": 362,
     "createdAt": "2026-02-11T17:02:53Z",
-    "pushedAt": "2026-10-03T08:54:56Z",
+    "pushedAt": "2026-10-04T07:57:42Z",
     "description": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.",
-    "lastSyncedAt": "2026-10-03T08:59:08.248Z"
+    "lastSyncedAt": "2026-10-04T09:30:26.578Z"
   },
   "https://github.com/ntegrals/openbrowser": {
-    "stars": 9554,
+    "stars": 9555,
     "forks": 867,
     "issues": 20,
     "createdAt": "2019-04-11T15:59:04Z",
     "pushedAt": "2026-04-02T12:55:42Z",
     "description": "Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.",
-    "lastSyncedAt": "2026-10-03T08:59:08.447Z"
+    "lastSyncedAt": "2026-10-04T09:30:26.776Z"
   },
   "https://github.com/keon/browser-control": {
     "stars": 3146,
@@ -1896,25 +1904,25 @@
     "createdAt": "2016-12-21T06:16:32Z",
     "pushedAt": "2026-08-27T06:44:30Z",
     "description": "A tiny, fast Rust CLI that drives a real browser over the Chrome DevTools Protocol — built for coding agents.",
-    "lastSyncedAt": "2026-10-03T08:59:08.657Z"
+    "lastSyncedAt": "2026-10-04T09:30:26.982Z"
   },
   "https://github.com/platonai/Browser4": {
-    "stars": 1148,
+    "stars": 1150,
     "forks": 152,
     "issues": 30,
     "createdAt": "2018-03-12T12:00:26Z",
-    "pushedAt": "2026-10-03T08:07:53Z",
+    "pushedAt": "2026-10-04T09:16:23Z",
     "description": "Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.",
-    "lastSyncedAt": "2026-10-03T08:59:08.913Z"
+    "lastSyncedAt": "2026-10-04T09:30:27.163Z"
   },
   "https://github.com/showlab/computer_use_ootb": {
-    "stars": 1966,
+    "stars": 1967,
     "forks": 197,
     "issues": 40,
     "createdAt": "2024-10-23T10:30:42Z",
     "pushedAt": "2025-05-21T14:27:44Z",
     "description": "Out-of-the-box (OOTB) GUI Agent for Windows and macOS",
-    "lastSyncedAt": "2026-10-03T08:59:09.147Z"
+    "lastSyncedAt": "2026-10-04T09:30:27.354Z"
   },
   "https://github.com/showlab/ShowUI": {
     "stars": 1911,
@@ -1923,7 +1931,7 @@
     "createdAt": "2024-10-31T04:56:39Z",
     "pushedAt": "2026-04-24T07:16:50Z",
     "description": "[CVPR 2025] Open-source, End-to-end, Vision-Language-Action model for GUI Agent & Computer Use.",
-    "lastSyncedAt": "2026-10-03T08:59:09.394Z"
+    "lastSyncedAt": "2026-10-04T09:30:27.568Z"
   },
   "https://github.com/TurixAI/TuriX-CUA": {
     "stars": 3171,
@@ -1932,178 +1940,178 @@
     "createdAt": "2025-08-04T08:59:43Z",
     "pushedAt": "2026-09-14T06:52:24Z",
     "description": "This is the official website for TuriX Computer-use-Agent",
-    "lastSyncedAt": "2026-10-03T08:59:09.601Z"
+    "lastSyncedAt": "2026-10-04T09:30:27.765Z"
   },
   "https://github.com/Open-Source-Legal/OpenContracts": {
-    "stars": 1493,
+    "stars": 1494,
     "forks": 191,
     "issues": 16,
     "createdAt": "2022-10-24T04:08:13Z",
     "pushedAt": "2026-10-03T02:06:50Z",
     "description": "The open document intelligence platform for builders and hackers - DMS for the agentic world",
-    "lastSyncedAt": "2026-10-03T08:59:09.873Z"
+    "lastSyncedAt": "2026-10-04T09:30:27.967Z"
   },
   "https://github.com/tambo-ai/tambo": {
     "stars": 11181,
-    "forks": 568,
-    "issues": 46,
+    "forks": 569,
+    "issues": 47,
     "createdAt": "2024-06-15T17:11:37Z",
-    "pushedAt": "2026-10-02T02:06:22Z",
+    "pushedAt": "2026-10-04T01:52:04Z",
     "description": "Generative UI SDK for React",
-    "lastSyncedAt": "2026-10-03T08:59:10.105Z"
+    "lastSyncedAt": "2026-10-04T09:30:28.188Z"
   },
   "https://github.com/f/prompts.chat": {
-    "stars": 171893,
-    "forks": 22017,
+    "stars": 171983,
+    "forks": 22028,
     "issues": 85,
     "createdAt": "2022-12-05T13:54:13Z",
     "pushedAt": "2026-10-03T08:12:28Z",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "lastSyncedAt": "2026-10-03T08:59:10.309Z"
+    "lastSyncedAt": "2026-10-04T09:30:28.357Z"
   },
   "https://github.com/dair-ai/Prompt-Engineering-Guide": {
-    "stars": 78798,
-    "forks": 8659,
-    "issues": 287,
+    "stars": 78815,
+    "forks": 8660,
+    "issues": 288,
     "createdAt": "2022-12-16T16:04:50Z",
     "pushedAt": "2026-03-11T20:09:13Z",
     "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-    "lastSyncedAt": "2026-10-03T08:59:10.539Z"
+    "lastSyncedAt": "2026-10-04T09:30:28.560Z"
   },
   "https://github.com/asgeirtj/system_prompts_leaks": {
-    "stars": 68792,
-    "forks": 11174,
-    "issues": 57,
+    "stars": 68853,
+    "forks": 11182,
+    "issues": 56,
     "createdAt": "2025-05-03T02:43:56Z",
-    "pushedAt": "2026-10-03T08:53:50Z",
+    "pushedAt": "2026-10-04T06:57:32Z",
     "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
-    "lastSyncedAt": "2026-10-03T08:59:10.748Z"
+    "lastSyncedAt": "2026-10-04T09:30:28.783Z"
   },
   "https://github.com/PlexPt/awesome-chatgpt-prompts-zh": {
-    "stars": 62902,
-    "forks": 13535,
+    "stars": 62926,
+    "forks": 13537,
     "issues": 47,
     "createdAt": "2022-12-12T01:55:03Z",
     "pushedAt": "2026-04-28T10:52:14Z",
     "description": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。",
-    "lastSyncedAt": "2026-10-03T08:59:10.956Z"
+    "lastSyncedAt": "2026-10-04T09:30:28.983Z"
   },
   "https://github.com/freestylefly/awesome-gpt-image-2": {
-    "stars": 33874,
-    "forks": 3242,
+    "stars": 33913,
+    "forks": 3243,
     "issues": 34,
     "createdAt": "2026-04-25T09:19:13Z",
-    "pushedAt": "2026-10-03T08:57:44Z",
+    "pushedAt": "2026-10-03T09:56:12Z",
     "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
-    "lastSyncedAt": "2026-10-03T08:59:11.155Z"
+    "lastSyncedAt": "2026-10-04T09:30:29.161Z"
   },
   "https://github.com/promptfoo/promptfoo": {
-    "stars": 25662,
-    "forks": 2426,
-    "issues": 695,
+    "stars": 25692,
+    "forks": 2432,
+    "issues": 717,
     "createdAt": "2023-04-28T15:48:49Z",
-    "pushedAt": "2026-10-03T02:47:54Z",
+    "pushedAt": "2026-10-04T09:20:13Z",
     "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
-    "lastSyncedAt": "2026-10-03T08:59:11.417Z"
+    "lastSyncedAt": "2026-10-04T09:30:29.363Z"
   },
   "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts": {
-    "stars": 17273,
+    "stars": 17278,
     "forks": 1736,
     "issues": 3,
     "createdAt": "2026-04-18T11:22:14Z",
     "pushedAt": "2026-07-18T06:23:28Z",
     "description": "GPT-Image-2 API and Prompts",
-    "lastSyncedAt": "2026-10-03T08:59:11.634Z"
+    "lastSyncedAt": "2026-10-04T09:30:29.583Z"
   },
   "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
-    "stars": 13528,
-    "forks": 1434,
+    "stars": 13535,
+    "forks": 1435,
     "issues": 3,
     "createdAt": "2025-11-23T07:17:48Z",
-    "pushedAt": "2026-10-03T08:05:23Z",
+    "pushedAt": "2026-10-04T05:20:23Z",
     "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
-    "lastSyncedAt": "2026-10-03T08:59:12.137Z"
+    "lastSyncedAt": "2026-10-04T09:30:29.993Z"
   },
   "https://github.com/nidhinjs/prompt-master": {
-    "stars": 13997,
-    "forks": 1620,
+    "stars": 14026,
+    "forks": 1625,
     "issues": 36,
     "createdAt": "2026-03-11T16:25:43Z",
     "pushedAt": "2026-08-24T07:30:40Z",
     "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
-    "lastSyncedAt": "2026-10-03T08:59:12.627Z"
+    "lastSyncedAt": "2026-10-04T09:30:30.398Z"
   },
   "https://github.com/LouisShark/chatgpt_system_prompt": {
-    "stars": 10789,
+    "stars": 10793,
     "forks": 1459,
     "issues": 2,
     "createdAt": "2023-11-01T12:35:05Z",
     "pushedAt": "2026-09-30T07:12:00Z",
     "description": "A collection of GPT system prompts and various prompt injection/leaking knowledge.",
-    "lastSyncedAt": "2026-10-03T08:59:13.020Z"
+    "lastSyncedAt": "2026-10-04T09:30:30.788Z"
   },
   "https://github.com/friuns2/BlackFriday-GPTs-Prompts": {
-    "stars": 9793,
-    "forks": 1386,
+    "stars": 9795,
+    "forks": 1385,
     "issues": 222,
     "createdAt": "2023-11-22T13:45:01Z",
     "pushedAt": "2026-03-18T02:09:18Z",
     "description": "List of free GPTs that doesn't require plus subscription ",
-    "lastSyncedAt": "2026-10-03T08:59:13.413Z"
+    "lastSyncedAt": "2026-10-04T09:30:31.234Z"
   },
   "https://github.com/jamez-bondos/awesome-gpt4o-images": {
-    "stars": 8153,
+    "stars": 8154,
     "forks": 1799,
     "issues": 7,
     "createdAt": "2025-04-13T15:34:48Z",
     "pushedAt": "2025-05-26T02:32:13Z",
     "description": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities.",
-    "lastSyncedAt": "2026-10-03T08:59:13.816Z"
+    "lastSyncedAt": "2026-10-04T09:30:31.634Z"
   },
   "https://github.com/promptslab/Awesome-Prompt-Engineering": {
-    "stars": 6356,
-    "forks": 775,
-    "issues": 122,
+    "stars": 6357,
+    "forks": 776,
+    "issues": 123,
     "createdAt": "2023-02-09T18:22:52Z",
-    "pushedAt": "2026-10-02T12:19:02Z",
+    "pushedAt": "2026-10-03T11:28:52Z",
     "description": "This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc ",
-    "lastSyncedAt": "2026-10-03T08:59:14.365Z"
+    "lastSyncedAt": "2026-10-04T09:30:31.994Z"
   },
   "https://github.com/0xeb/TheBigPromptLibrary": {
-    "stars": 5433,
-    "forks": 737,
+    "stars": 5436,
+    "forks": 739,
     "issues": 3,
     "createdAt": "2023-11-24T16:37:18Z",
     "pushedAt": "2026-09-07T18:54:55Z",
     "description": "A collection of prompts, system prompts and LLM instructions",
-    "lastSyncedAt": "2026-10-03T08:59:14.806Z"
+    "lastSyncedAt": "2026-10-04T09:30:32.362Z"
   },
   "https://github.com/trigaten/Learn_Prompting": {
-    "stars": 4737,
+    "stars": 4735,
     "forks": 662,
     "issues": 101,
     "createdAt": "2022-10-25T06:23:34Z",
     "pushedAt": "2025-01-14T15:04:07Z",
     "description": "Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community",
-    "lastSyncedAt": "2026-10-03T08:59:15.275Z"
+    "lastSyncedAt": "2026-10-04T09:30:32.933Z"
   },
   "https://github.com/Meirtz/Awesome-Context-Engineering": {
     "stars": 3316,
-    "forks": 291,
+    "forks": 292,
     "issues": 72,
     "createdAt": "2025-07-02T17:46:03Z",
     "pushedAt": "2026-05-28T05:40:26Z",
     "description": " 🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems. hundreds of papers, frameworks, and  implementation guides for LLMs and AI agents.",
-    "lastSyncedAt": "2026-10-03T08:59:15.747Z"
+    "lastSyncedAt": "2026-10-04T09:30:33.356Z"
   },
   "https://github.com/LearnPrompt/LearnPrompt": {
-    "stars": 2673,
+    "stars": 2674,
     "forks": 223,
     "issues": 1,
     "createdAt": "2023-04-23T06:51:33Z",
     "pushedAt": "2026-10-02T16:28:03Z",
     "description": "永久免费开源的 AIGC 课程, 目前已支持Claude Code，Codex，Hermes，OpenClaw，Obsidian，Prompt Engineering, ChatGPT, Midjourney, Runway, Stable Diffusion, AI数字人，AI声音&音乐，开源大模型",
-    "lastSyncedAt": "2026-10-03T08:59:16.157Z"
+    "lastSyncedAt": "2026-10-04T09:30:33.745Z"
   },
   "https://github.com/YiVal/YiVal": {
     "stars": 2137,
@@ -2112,25 +2120,25 @@
     "createdAt": "2023-07-15T02:04:35Z",
     "pushedAt": "2024-04-22T04:42:25Z",
     "description": "Your Automatic Prompt Engineering Assistant for GenAI Applications",
-    "lastSyncedAt": "2026-10-03T08:59:16.616Z"
+    "lastSyncedAt": "2026-10-04T09:30:34.140Z"
   },
   "https://github.com/NVIDIA/SkillSpector": {
-    "stars": 19171,
-    "forks": 1667,
-    "issues": 150,
+    "stars": 19327,
+    "forks": 1689,
+    "issues": 153,
     "createdAt": "2026-03-21T00:28:43Z",
-    "pushedAt": "2026-10-02T18:40:00Z",
+    "pushedAt": "2026-10-04T09:29:44Z",
     "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-    "lastSyncedAt": "2026-10-03T08:59:11.894Z"
+    "lastSyncedAt": "2026-10-04T09:30:29.773Z"
   },
   "https://github.com/Piebald-AI/claude-code-system-prompts": {
-    "stars": 12818,
+    "stars": 12826,
     "forks": 2038,
     "issues": 9,
     "createdAt": "2025-11-18T21:26:33Z",
-    "pushedAt": "2026-10-02T19:19:04Z",
+    "pushedAt": "2026-10-03T21:54:21Z",
     "description": "All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
-    "lastSyncedAt": "2026-10-03T08:59:12.374Z"
+    "lastSyncedAt": "2026-10-04T09:30:30.183Z"
   },
   "https://github.com/langgptai/LangGPT": {
     "stars": 12569,
@@ -2139,52 +2147,52 @@
     "createdAt": "2023-05-06T13:49:43Z",
     "pushedAt": "2026-09-11T02:11:09Z",
     "description": "LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 最流行的提示词落地范式 | Language of GPT  The pioneering framework for structured & meta-prompt design 10,000+ ⭐ | Battle-tested by thousands of users worldwide  Created by 云中江树",
-    "lastSyncedAt": "2026-10-03T08:59:12.816Z"
+    "lastSyncedAt": "2026-10-04T09:30:30.594Z"
   },
   "https://github.com/YouMind-OpenLab/awesome-gpt-image-2": {
-    "stars": 9991,
+    "stars": 9999,
     "forks": 882,
     "issues": 4,
     "createdAt": "2026-04-16T13:57:42Z",
-    "pushedAt": "2026-10-03T02:46:25Z",
+    "pushedAt": "2026-10-04T03:17:30Z",
     "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
-    "lastSyncedAt": "2026-10-03T08:59:13.222Z"
+    "lastSyncedAt": "2026-10-04T09:30:31.015Z"
   },
   "https://github.com/ai-boost/awesome-prompts": {
-    "stars": 8985,
+    "stars": 8988,
     "forks": 876,
     "issues": 39,
     "createdAt": "2024-01-19T15:15:10Z",
-    "pushedAt": "2026-10-03T08:33:17Z",
+    "pushedAt": "2026-10-04T08:31:36Z",
     "description": "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.",
-    "lastSyncedAt": "2026-10-03T08:59:13.610Z"
+    "lastSyncedAt": "2026-10-04T09:30:31.402Z"
   },
   "https://github.com/mufeedvh/code2prompt": {
-    "stars": 7720,
+    "stars": 7722,
     "forks": 456,
     "issues": 16,
     "createdAt": "2024-03-09T12:42:06Z",
     "pushedAt": "2026-09-25T18:24:47Z",
     "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
-    "lastSyncedAt": "2026-10-03T08:59:14.131Z"
+    "lastSyncedAt": "2026-10-04T09:30:31.812Z"
   },
   "https://github.com/langgptai/awesome-claude-prompts": {
     "stars": 5515,
-    "forks": 621,
+    "forks": 622,
     "issues": 2,
     "createdAt": "2023-07-12T02:05:27Z",
     "pushedAt": "2026-08-25T13:49:28Z",
     "description": "This repo includes Claude prompt curation to use Claude better.",
-    "lastSyncedAt": "2026-10-03T08:59:14.559Z"
+    "lastSyncedAt": "2026-10-04T09:30:32.187Z"
   },
   "https://github.com/thinkingjimmy/Learning-Prompt": {
-    "stars": 5301,
+    "stars": 5300,
     "forks": 393,
     "issues": 16,
     "createdAt": "2023-03-06T09:39:35Z",
     "pushedAt": "2023-09-17T02:06:16Z",
     "description": "Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included!",
-    "lastSyncedAt": "2026-10-03T08:59:15.011Z"
+    "lastSyncedAt": "2026-10-04T09:30:32.535Z"
   },
   "https://github.com/atfortes/Awesome-LLM-Reasoning": {
     "stars": 3692,
@@ -2193,16 +2201,16 @@
     "createdAt": "2022-11-05T08:03:53Z",
     "pushedAt": "2026-04-20T00:57:27Z",
     "description": "From Chain-of-Thought prompting to OpenAI o1 and DeepSeek-R1 🍓",
-    "lastSyncedAt": "2026-10-03T08:59:15.485Z"
+    "lastSyncedAt": "2026-10-04T09:30:33.127Z"
   },
   "https://github.com/KhazP/vibe-coding-prompt-template": {
     "stars": 3125,
-    "forks": 385,
+    "forks": 386,
     "issues": 0,
     "createdAt": "2025-04-14T17:27:16Z",
     "pushedAt": "2026-09-10T12:19:12Z",
     "description": "Templates and workflow for generating PRDs, Tech Designs, and MVP and more using LLMs for AI IDEs",
-    "lastSyncedAt": "2026-10-03T08:59:15.949Z"
+    "lastSyncedAt": "2026-10-04T09:30:33.549Z"
   },
   "https://github.com/EgoAlpha/prompt-in-context-learning": {
     "stars": 2247,
@@ -2211,79 +2219,79 @@
     "createdAt": "2023-03-08T08:47:29Z",
     "pushedAt": "2026-05-29T01:00:03Z",
     "description": "Awesome resources for in-context learning and prompt engineering: Mastery of the LLMs such as ChatGPT, GPT-3, and FlanT5, with up-to-date and cutting-edge updates. ",
-    "lastSyncedAt": "2026-10-03T08:59:16.366Z"
+    "lastSyncedAt": "2026-10-04T09:30:33.951Z"
   },
   "https://github.com/abi/screenshot-to-code": {
-    "stars": 79939,
-    "forks": 9771,
+    "stars": 79972,
+    "forks": 9777,
     "issues": 148,
     "createdAt": "2023-11-14T17:53:32Z",
     "pushedAt": "2026-09-29T19:38:42Z",
     "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-    "lastSyncedAt": "2026-10-03T08:59:16.814Z"
+    "lastSyncedAt": "2026-10-04T09:30:34.342Z"
   },
   "https://github.com/web-infra-dev/midscene": {
-    "stars": 15063,
+    "stars": 15065,
     "forks": 1172,
     "issues": 100,
     "createdAt": "2024-07-23T04:03:50Z",
     "pushedAt": "2026-09-30T13:45:56Z",
     "description": "GUI Agent for E2E Testing",
-    "lastSyncedAt": "2026-10-03T08:59:17.729Z"
+    "lastSyncedAt": "2026-10-04T09:30:35.195Z"
   },
   "https://github.com/21st-dev/magic-mcp": {
-    "stars": 5958,
+    "stars": 5964,
     "forks": 469,
     "issues": 5,
     "createdAt": "2025-02-19T13:17:50Z",
     "pushedAt": "2026-09-09T20:38:22Z",
     "description": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own — right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp",
-    "lastSyncedAt": "2026-10-03T08:59:17.993Z"
+    "lastSyncedAt": "2026-10-04T09:30:35.410Z"
   },
   "https://github.com/Nutlope/logocreator": {
-    "stars": 8788,
+    "stars": 8787,
     "forks": 822,
     "issues": 16,
     "createdAt": "2024-11-06T03:55:48Z",
     "pushedAt": "2026-08-03T17:29:28Z",
     "description": "A free + OSS logo generator powered by Flux on Together AI",
-    "lastSyncedAt": "2026-10-03T08:59:18.207Z"
+    "lastSyncedAt": "2026-10-04T09:30:35.629Z"
   },
   "https://github.com/comfyanonymous/ComfyUI": {
-    "stars": 135933,
-    "forks": 16115,
-    "issues": 5027,
+    "stars": 136042,
+    "forks": 16128,
+    "issues": 5050,
     "createdAt": "2023-01-17T03:15:56Z",
-    "pushedAt": "2026-10-03T08:30:39Z",
+    "pushedAt": "2026-10-04T09:29:58Z",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-    "lastSyncedAt": "2026-10-03T08:59:18.706Z"
+    "lastSyncedAt": "2026-10-04T09:30:36.061Z"
   },
   "https://github.com/Aider-AI/aider": {
-    "stars": 49344,
-    "forks": 5021,
-    "issues": 1909,
+    "stars": 49368,
+    "forks": 5026,
+    "issues": 1910,
     "createdAt": "2023-05-09T18:57:49Z",
     "pushedAt": "2026-05-22T14:02:20Z",
     "description": "aider is AI pair programming in your terminal",
-    "lastSyncedAt": "2026-10-03T08:59:18.971Z"
+    "lastSyncedAt": "2026-10-04T09:30:36.248Z"
   },
   "https://github.com/continuedev/continue": {
-    "stars": 36093,
-    "forks": 5444,
-    "issues": 825,
+    "stars": 36106,
+    "forks": 5443,
+    "issues": 827,
     "createdAt": "2023-05-24T03:39:39Z",
-    "pushedAt": "2026-10-03T05:43:16Z",
+    "pushedAt": "2026-10-04T09:28:06Z",
     "description": "open-source coding agent",
-    "lastSyncedAt": "2026-10-03T08:59:19.231Z"
+    "lastSyncedAt": "2026-10-04T09:30:36.443Z"
   },
   "https://github.com/TabbyML/tabby": {
-    "stars": 33888,
-    "forks": 1792,
-    "issues": 341,
+    "stars": 33893,
+    "forks": 1793,
+    "issues": 342,
     "createdAt": "2023-03-16T09:18:01Z",
     "pushedAt": "2026-06-30T20:38:02Z",
     "description": "Self-hosted AI coding assistant",
-    "lastSyncedAt": "2026-10-03T08:59:19.557Z"
+    "lastSyncedAt": "2026-10-04T09:30:36.623Z"
   },
   "https://github.com/RooCodeInc/Roo-Code": {
     "stars": 24289,
@@ -2292,140 +2300,132 @@
     "createdAt": "2024-10-31T17:56:50Z",
     "pushedAt": "2026-05-15T18:08:47Z",
     "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
-    "lastSyncedAt": "2026-10-03T08:59:19.756Z"
+    "lastSyncedAt": "2026-10-04T09:30:36.794Z"
   },
   "https://github.com/di-sukharev/opencommit": {
     "stars": 7543,
-    "forks": 445,
+    "forks": 444,
     "issues": 152,
     "createdAt": "2023-03-06T10:30:51Z",
     "pushedAt": "2026-09-09T15:32:24Z",
     "description": "top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too",
-    "lastSyncedAt": "2026-10-03T08:59:19.995Z"
+    "lastSyncedAt": "2026-10-04T09:30:36.987Z"
   },
   "https://github.com/Codium-ai/pr-agent": {
-    "stars": 13246,
-    "forks": 1922,
-    "issues": 45,
+    "stars": 13258,
+    "forks": 1931,
+    "issues": 37,
     "createdAt": "2023-07-05T21:02:15Z",
-    "pushedAt": "2026-10-03T08:03:52Z",
+    "pushedAt": "2026-10-04T09:12:15Z",
     "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
-    "lastSyncedAt": "2026-10-03T08:59:20.358Z"
+    "lastSyncedAt": "2026-10-04T09:30:37.324Z"
   },
   "https://github.com/zed-industries/zed": {
-    "stars": 91229,
-    "forks": 10885,
-    "issues": 3059,
+    "stars": 91259,
+    "forks": 10896,
+    "issues": 3078,
     "createdAt": "2021-02-20T03:01:06Z",
-    "pushedAt": "2026-10-03T08:57:23Z",
+    "pushedAt": "2026-10-03T18:58:19Z",
     "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-    "lastSyncedAt": "2026-10-03T08:59:20.569Z"
+    "lastSyncedAt": "2026-10-04T09:30:37.524Z"
   },
   "https://github.com/ollama/ollama": {
-    "stars": 182080,
-    "forks": 18086,
-    "issues": 4160,
+    "stars": 182150,
+    "forks": 18099,
+    "issues": 4165,
     "createdAt": "2023-06-26T19:39:32Z",
-    "pushedAt": "2026-10-03T04:09:34Z",
+    "pushedAt": "2026-10-04T05:57:08Z",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "lastSyncedAt": "2026-10-03T08:59:20.797Z"
+    "lastSyncedAt": "2026-10-04T09:30:37.732Z"
   },
   "https://github.com/open-webui/open-webui": {
-    "stars": 153849,
-    "forks": 22486,
-    "issues": 281,
+    "stars": 153913,
+    "forks": 22502,
+    "issues": 282,
     "createdAt": "2023-10-06T22:08:27Z",
-    "pushedAt": "2026-10-02T04:50:55Z",
+    "pushedAt": "2026-10-03T13:06:04Z",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "lastSyncedAt": "2026-10-03T08:59:21.010Z"
+    "lastSyncedAt": "2026-10-04T09:30:37.919Z"
   },
   "https://github.com/BerriAI/litellm": {
-    "stars": 60072,
-    "forks": 11986,
-    "issues": 5573,
+    "stars": 60113,
+    "forks": 12005,
+    "issues": 5164,
     "createdAt": "2023-07-27T00:09:52Z",
-    "pushedAt": "2026-10-03T08:53:03Z",
+    "pushedAt": "2026-10-04T09:30:27Z",
     "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-    "lastSyncedAt": "2026-10-03T08:59:21.264Z"
+    "lastSyncedAt": "2026-10-04T09:30:38.111Z"
   },
   "https://github.com/songquanpeng/one-api": {
-    "stars": 37067,
-    "forks": 6873,
+    "stars": 37073,
+    "forks": 6872,
     "issues": 1039,
     "createdAt": "2023-04-22T12:39:24Z",
     "pushedAt": "2026-01-09T03:26:43Z",
     "description": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
-    "lastSyncedAt": "2026-10-03T08:59:21.574Z"
+    "lastSyncedAt": "2026-10-04T09:30:38.339Z"
   },
   "https://github.com/ggml-org/llama.cpp": {
-    "stars": 130192,
-    "forks": 24015,
-    "issues": 2529,
+    "stars": 130265,
+    "forks": 24059,
+    "issues": 2535,
     "createdAt": "2023-03-10T18:58:00Z",
-    "pushedAt": "2026-10-03T06:44:45Z",
+    "pushedAt": "2026-10-04T09:28:41Z",
     "description": "LLM inference in C/C++",
-    "lastSyncedAt": "2026-10-03T08:59:21.785Z"
+    "lastSyncedAt": "2026-10-04T09:30:38.522Z"
   },
   "https://github.com/ItzCrazyKns/Perplexica": {
-    "stars": 36986,
+    "stars": 37003,
     "forks": 4101,
-    "issues": 356,
+    "issues": 355,
     "createdAt": "2024-04-09T10:51:32Z",
     "pushedAt": "2026-09-01T14:12:12Z",
     "description": "Vane is an AI-powered answering engine.",
-    "lastSyncedAt": "2026-10-03T08:59:22.161Z"
+    "lastSyncedAt": "2026-10-04T09:30:38.849Z"
   },
   "https://github.com/menloresearch/jan": {
-    "stars": 44767,
-    "forks": 3060,
+    "stars": 44783,
+    "forks": 3064,
     "issues": 541,
     "createdAt": "2023-08-17T02:17:10Z",
     "pushedAt": "2026-10-02T06:37:34Z",
     "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-    "lastSyncedAt": "2026-10-03T08:59:22.529Z"
+    "lastSyncedAt": "2026-10-04T09:30:39.259Z"
   },
   "https://github.com/vercel/ai-chatbot": {
-    "stars": 20984,
-    "forks": 6756,
+    "stars": 20987,
+    "forks": 6754,
     "issues": 28,
     "createdAt": "2023-05-19T16:36:23Z",
     "pushedAt": "2026-07-08T21:55:02Z",
     "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
-    "lastSyncedAt": "2026-10-03T08:59:22.892Z"
+    "lastSyncedAt": "2026-10-04T09:30:39.632Z"
   },
   "https://github.com/wandb/openui": {
-    "stars": 22573,
+    "stars": 22572,
     "forks": 2054,
     "issues": 88,
     "createdAt": "2024-03-17T23:46:16Z",
     "pushedAt": "2026-09-25T06:14:43Z",
     "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
-    "lastSyncedAt": "2026-10-03T08:59:17.067Z"
+    "lastSyncedAt": "2026-10-04T09:30:34.565Z"
   },
   "https://github.com/onlook-dev/onlook": {
-    "stars": 26849,
+    "stars": 26856,
     "forks": 2115,
     "issues": 381,
     "createdAt": "2024-06-25T19:16:02Z",
     "pushedAt": "2026-08-25T01:06:22Z",
     "description": "The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers to design with Real Code.",
-    "lastSyncedAt": "2026-10-03T08:59:17.280Z"
+    "lastSyncedAt": "2026-10-04T09:30:34.775Z"
   },
   "https://github.com/microsoft/playwright-mcp": {
-    "stars": 37776,
-    "forks": 3212,
-    "issues": 0,
+    "stars": 37803,
+    "forks": 3213,
+    "issues": 1,
     "createdAt": "2025-03-21T17:48:36Z",
     "pushedAt": "2026-09-28T23:19:44Z",
     "description": "Playwright MCP server",
-    "lastSyncedAt": "2026-10-03T08:59:17.501Z"
-  },
-  "https://github.com/vostride/agent-qa": {
-    "stars": 897,
-    "forks": 20,
-    "issues": 0,
-    "createdAt": "2026-05-07T20:17:57Z",
-    "pushedAt": "2026-08-03T18:44:59Z",
-    "lastSyncedAt": "2026-10-03T22:17:54.322Z"
+    "lastSyncedAt": "2026-10-04T09:30:34.997Z"
   }
 }
